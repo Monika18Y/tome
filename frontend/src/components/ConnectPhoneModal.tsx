@@ -15,6 +15,10 @@ import { t } from '@lingui/core/macro'
 
 interface Issued { code: string; poll_token: string; expires_at: string }
 
+/** Where the phone app lives while it is in beta. Empty string hides the hint,
+    so a build without a link shipped yet simply does not mention one. */
+const APP_BETA_URL = 'https://testflight.apple.com/join/JrHyntNU'
+
 /** Deep link the app understands. Server = the origin this page is served
     from, which is the address the phone can reach too. */
 function payloadFor(issued: Issued): string {
@@ -130,6 +134,19 @@ export function ConnectPhoneModal({ onClose }: { onClose: () => void }) {
           <p className="text-xs leading-relaxed text-muted-foreground">
             <Trans>Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window.</Trans>
           </p>
+          {APP_BETA_URL && (
+            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+              <Trans>Tome Reader is in free beta for iPhone until 31 December 2026.</Trans>{' '}
+              <a
+                href={APP_BETA_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary hover:underline"
+              >
+                <Trans>Join the beta</Trans>
+              </a>
+            </p>
+          )}
 
           {connected ? (
             <div className="flex flex-col items-center gap-2 py-8 text-sm text-success">

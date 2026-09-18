@@ -2599,6 +2599,10 @@ msgstr ""
 msgid "Docs"
 msgstr ""
 
+#: src/components/ConnectPhoneModal.tsx
+#~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
+#~ msgstr ""
+
 #: src/components/WordCount.tsx
 #: src/pages/DashboardPage.tsx
 #: src/pages/SettingsPage.tsx
@@ -3654,6 +3658,10 @@ msgstr ""
 
 #: src/components/InstanceBackup.tsx
 msgid "It applies at the next server restart."
+msgstr ""
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Join the beta"
 msgstr ""
 
 #: src/components/CommandPalette.tsx
@@ -6956,6 +6964,10 @@ msgstr ""
 #: src/pages/LoginPage.tsx
 #: src/pages/SetupPage.tsx
 msgid "Tome · Your personal library"
+msgstr ""
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
 msgstr ""
 
 #: src/pages/SettingsPage.tsx

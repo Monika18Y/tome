@@ -4,20 +4,20 @@ from fastapi.testclient import TestClient
 from backend.core.config import settings
 
 
-def test_native_app_off_by_default(client: TestClient):
+def test_native_app_on_by_default(client: TestClient):
     r = client.get("/api/meta/features")
     assert r.status_code == 200
-    assert r.json() == {"native_app": False}
+    assert r.json() == {"native_app": True}
 
 
-def test_native_app_flag_on(client: TestClient, monkeypatch):
-    monkeypatch.setattr(settings, "native_app", True)
-    assert client.get("/api/meta/features").json() == {"native_app": True}
+def test_native_app_flag_off(client: TestClient, monkeypatch):
+    monkeypatch.setattr(settings, "native_app", False)
+    assert client.get("/api/meta/features").json() == {"native_app": False}
 
 
-def test_pairing_and_devices_work_with_flag_off(client: TestClient):
+def test_pairing_and_devices_work_with_flag_off(client: TestClient, monkeypatch):
     # The flag only hides UI: the app keeps pairing against a server without it.
-    assert settings.native_app is False
+    monkeypatch.setattr(settings, "native_app", False)
     issued = client.post("/api/auth/quick-connect/issue")
     assert issued.status_code == 200
     body = {"code": issued.json()["code"], "poll_token": issued.json()["poll_token"],

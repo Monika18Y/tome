@@ -2599,6 +2599,10 @@ msgstr "Do you rate books you spend longer on higher?"
 msgid "Docs"
 msgstr "Docs"
 
+#: src/components/ConnectPhoneModal.tsx
+#~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
+#~ msgstr "Don't have it yet? Tome Reader is in open beta for iPhone."
+
 #: src/components/WordCount.tsx
 #: src/pages/DashboardPage.tsx
 #: src/pages/SettingsPage.tsx
@@ -3655,6 +3659,10 @@ msgstr "ISBN"
 #: src/components/InstanceBackup.tsx
 msgid "It applies at the next server restart."
 msgstr "It applies at the next server restart."
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Join the beta"
+msgstr "Join the beta"
 
 #: src/components/CommandPalette.tsx
 msgid "Jump to a book, series, author, or page…"
@@ -6957,6 +6965,10 @@ msgstr "Token name"
 #: src/pages/SetupPage.tsx
 msgid "Tome · Your personal library"
 msgstr "Tome · Your personal library"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
+msgstr "Tome Reader is in free beta for iPhone until 31 December 2026."
 
 #: src/pages/SettingsPage.tsx
 msgid "TomeSync and KOSync can both be active. TomeSync tracks full reading sessions; KOSync only stores your last position."
