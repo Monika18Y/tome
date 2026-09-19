@@ -46,6 +46,13 @@ All notable changes to Tome are documented here. Format loosely follows
   devices" no longer need `TOME_NATIVE_APP=true`, now that the iPhone app is
   in public beta. Set `TOME_NATIVE_APP=false` to hide them again; pairing and
   the device endpoints work either way.
+- Setting a finished book back to "reading" now starts it over: progress,
+  the resume position and the synced device position reset so the re-read
+  begins at page one. Before, the book reopened on its last page and the
+  next progress report finished it again immediately. Only the live
+  bookmark resets; reading sessions, position history and the completed
+  read on Hardcover are untouched. Applies to the web app and the KOReader
+  plugin's status write-back.
 
 ### Fixed
 - Library scans no longer fail when two byte-identical files are picked up
@@ -99,15 +106,11 @@ All notable changes to Tome are documented here. Format loosely follows
   instead of being rewritten or duplicated. Entries that already exist
   count as yours, since their origin cannot be recovered. Reported by
   @maichler (#227).
-
-### Changed
-- Setting a finished book back to "reading" now starts it over: progress,
-  the resume position and the synced device position reset so the re-read
-  begins at page one. Before, the book reopened on its last page and the
-  next progress report finished it again immediately. Only the live
-  bookmark resets; reading sessions, position history and the completed
-  read on Hardcover are untouched. Applies to the web app and the KOReader
-  plugin's status write-back.
+- The Hardcover page is reachable on a phone again, and from the collapsed
+  sidebar. The mobile drawer and the collapsed rail each keep their own copy
+  of the nav list and both omitted it, so below the `md` breakpoint - where
+  the expanded sidebar is hidden - the page could not be opened at all.
+  Contributed by @maichler (#230).
 
 ## [2.4.0] - 2026-09-03
 
