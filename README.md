@@ -77,6 +77,20 @@ Tome works as a PWA on mobile. Pin it to your home screen for a native app feel.
 |---|---|---|---|---|
 | ![Home](docs/screenshots/mobile-home.png) | ![Stats](docs/screenshots/mobile-stats.png) | ![Sidebar](docs/screenshots/mobile-sidebar.png) | ![Series](docs/screenshots/mobile-series.png) | ![Reader](docs/screenshots/mobile-reader.png) |
 
+### iPhone
+
+Tome Reader is a native iPhone app for your Tome: pair with a QR code from
+Settings → Quick Connect, browse the library and series, read EPUB and comics
+offline, and keep progress and stats in sync. It is in **free beta until
+31 December 2026** — [join it on TestFlight](https://testflight.apple.com/join/JrHyntNU).
+
+The app is closed source and entirely optional. Tome never requires it, and
+everything it does goes through the same public API any other client can use.
+
+| | | | | |
+|---|---|---|---|---|
+| ![Home](docs/screenshots/ios-home.png) | ![Library](docs/screenshots/ios-library.png) | ![Book](docs/screenshots/ios-book.png) | ![Reader](docs/screenshots/ios-reader.png) | ![Stats](docs/screenshots/ios-stats.png) |
+
 ## Quick Start
 
 ```bash

@@ -6,6 +6,8 @@ All notable changes to Tome are documented here. Format loosely follows
 
 ## [Unreleased]
 
+## [2.5.0] - 2026-09-19 - "Paperback"
+
 ### Added
 - TomeSync metadata sync (Tome -> KOReader), issue #210. Metadata edited in
   Tome - title, author, series and index, language, tags, description and
