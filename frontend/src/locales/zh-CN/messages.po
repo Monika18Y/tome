@@ -8,237 +8,237 @@ msgstr ""
 "Language: zh-CN\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-09-01 01:42+0800\n"
+"PO-Revision-Date: 2026-09-19 01:42+0800\n"
 "Last-Translator: Monika18Y\n"
 "Language-Team: \n"
 "Plural-Forms: \n"
 
 #: src/components/MetadataManager.tsx
 msgid " — {detected} chapter numbers detected"
-msgstr ""
+msgstr " — 检测到 {detected} 个章节编号"
 
 #: src/components/InstanceBackup.tsx
 msgid " — backup from {when} (v{v}, {users} users, {books} books)."
-msgstr ""
+msgstr " — {when} 的备份（v{v}，{users} 个用户，{books} 本图书）。"
 
 #: src/pages/BookDetailPage.tsx
 msgid " — click for sessions"
-msgstr ""
+msgstr " — 点击查看阅读会话"
 
 #: src/pages/AdminPage.tsx
 msgid " — MISSING"
-msgstr ""
+msgstr " — 缺失"
 
 #: src/pages/DashboardPage.tsx
 msgid " · {d} at your pace"
-msgstr ""
+msgstr " · 按你的阅读速度约需 {d}"
 
 #: src/pages/AdminPage.tsx
 msgid " · {dups} duplicates"
-msgstr ""
+msgstr " · {dups} 个重复项"
 
 #: src/pages/SharePage.tsx
 msgid " · {dur} read time"
-msgstr ""
+msgstr " · 阅读时间 {dur}"
 
 #: src/pages/AdminPage.tsx
 msgid " · {errs} error(s)"
-msgstr ""
+msgstr " · {errs} 个错误"
 
 #: src/components/home/FocusMode.tsx
 msgid " · {n} ahead in this series"
-msgstr ""
+msgstr " · 在此系列中领先 {n}"
 
 #: src/components/HardcoverSync.tsx
 msgid " · {n} errors"
-msgstr ""
+msgstr " · {n} 个错误"
 
 #: src/components/stats/SeriesCompletionGrid.tsx
 msgid " · {n} in progress"
-msgstr ""
+msgstr " · {n} 本进行中"
 
 #: src/pages/DashboardPage.tsx
 msgid " · {n} not estimated"
-msgstr ""
+msgstr " · {n} 本未估算"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid " · {n} not estimated yet"
-msgstr ""
+msgstr " · {n} 本尚未估算"
 
 #: src/components/HardcoverSync.tsx
 msgid " · {n} not matched"
-msgstr ""
+msgstr " · {n} 个未匹配"
 
 #: src/pages/SharePage.tsx
 msgid " · {n} read"
-msgstr ""
+msgstr " · 已读 {n} 本"
 
 #: src/components/stats/widgets/insights.tsx
 #: src/components/stats/widgets/library.tsx
 msgid " · {n} reading"
-msgstr ""
+msgstr " · {n} 本正在阅读"
 
 #: src/pages/WishlistPage.tsx
 msgid " · {n} volumes"
-msgstr ""
+msgstr " · {n} 卷"
 
 #: src/components/stats/widgets/insights.tsx
 msgid " · {n} want to read"
-msgstr ""
+msgstr " · 想读 {n} 本"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid " · {needsReview} needs review"
-msgstr ""
+msgstr " · {needsReview} 个需要审核"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid " · {noMatch} no match"
-msgstr ""
+msgstr " · {noMatch} 个无匹配"
 
 #: src/components/stats/widgets/overview.tsx
 msgid " · {pages} pages"
-msgstr ""
+msgstr " · {pages} 页"
 
 #: src/pages/BookDetailPage.tsx
 msgid " · {prog}% in"
-msgstr ""
+msgstr " · 已读 {prog}%"
 
 #: src/components/ReadingImport.tsx
 msgid " · {r} stars"
-msgstr ""
+msgstr " · {r} 星"
 
 #: src/components/stats/widgets/overview.tsx
 msgid " · avg {avg}"
-msgstr ""
+msgstr " · 平均 {avg}"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid " · books without a word count use your average for that type"
-msgstr ""
+msgstr " · 没有字数的书籍将使用你在该类型中的平均值"
 
 #: src/components/ReadingImport.tsx
 #: src/components/stats/TimelineRibbon.tsx
 #: src/pages/SharePage.tsx
 msgid " · finished {d}"
-msgstr ""
+msgstr " · {d} 已完成"
 
 #: src/pages/HardcoverPage.tsx
 msgid " · last synced {when}"
-msgstr ""
+msgstr " · 上次同步于 {when}"
 
 #: src/components/stats/widgets/wordstats.tsx
 msgid " · longest <0>{title}</0> ({words})"
-msgstr ""
+msgstr " · 最长 <0>{title}</0>（{words}）"
 
 #: src/components/ReadingImport.tsx
 msgid " · matched by {via}"
-msgstr ""
+msgstr " · 由 {via} 匹配"
 
 #: src/components/ReadingImport.tsx
 msgid " · nothing to fill (already tracked)"
-msgstr ""
+msgstr " · 无需填充（已记录）"
 
 #: src/pages/BinderyPage.tsx
 msgid " · reviewed"
-msgstr ""
+msgstr " · 已审核"
 
 #: src/components/ShareShelfModal.tsx
 msgid " · to change expiry, revoke and re-create"
-msgstr ""
+msgstr " · 如需更改过期时间，请撤销后重新创建"
 
 #: src/pages/WishlistPage.tsx
 msgid " · you have vol {v}"
-msgstr ""
+msgstr " · 你已有第 {v} 卷"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid " {n} had no confident match."
-msgstr ""
+msgstr " {n} 个没有可靠匹配。"
 
 #: src/components/LibraryHealth.tsx
 msgid " in {n} folders"
-msgstr ""
+msgstr "在 {n} 个文件夹中"
 
 #: src/components/stats/widgets/habits.tsx
 msgid " vs previous: <0>{prev}</0>"
-msgstr ""
+msgstr "与上一期相比：<0>{prev}</0>"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "— {n} books"
-msgstr ""
+msgstr "— {n} 本图书"
 
 #: src/pages/DashboardPage.tsx
 msgid "— keep existing —"
-msgstr ""
+msgstr "— 保留现有值 —"
 
 #: src/components/HardcoverSync.tsx
 msgid "— manage →"
-msgstr ""
+msgstr "— 管理 →"
 
 #: src/pages/BinderyPage.tsx
 msgid ", {errors} failed"
-msgstr ""
+msgstr ", {errors} 个失败"
 
 #: src/components/UploadModal.tsx
 msgid ", {failedN} failed"
-msgstr ""
+msgstr ", {failedN} 个失败"
 
 #: src/components/LibraryHealth.tsx
 msgid ", {n} errors"
-msgstr ""
+msgstr ", {n} 个错误"
 
 #: src/pages/AdminPage.tsx
 msgid ", {n} failed"
-msgstr ""
+msgstr ", {n} 个失败"
 
 #: src/pages/BookDetailPage.tsx
 msgid ", {pages} pages"
-msgstr ""
+msgstr ", {pages} 页"
 
 #: src/components/UploadModal.tsx
 msgid ", {skipped} already in library"
-msgstr ""
+msgstr ", {skipped} 个已在图书馆中"
 
 #: src/components/LibraryHealth.tsx
 msgid ", removed {n} empty folders"
-msgstr ""
+msgstr ", 已移除 {n} 个空文件夹"
 
 #: src/pages/DashboardPage.tsx
 msgid "…and {more} more not shown"
-msgstr ""
+msgstr "……以及另外 {more} 个未显示"
 
 #: src/pages/SettingsPage.tsx
 msgid "· {n} docs"
-msgstr ""
+msgstr "· {n} 个文档"
 
 #: src/pages/SharePage.tsx
 msgid "· a shared book"
-msgstr ""
+msgstr "· 一本共享图书"
 
 #: src/pages/SharePage.tsx
 msgid "· a shared series"
-msgstr ""
+msgstr "· 一个共享系列"
 
 #: src/pages/SharePage.tsx
 msgid "· a shared shelf"
-msgstr ""
+msgstr "· 一个共享书架"
 
 #: src/pages/BookDetailPage.tsx
 msgid "· p. {page} of {totalPages}"
-msgstr ""
+msgstr "· 第 {page}/{totalPages} 页"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "({a} vs {b} pages/min)"
-msgstr ""
+msgstr "（{a} 对比 {b} 页/分钟）"
 
 #: src/pages/SettingsPage.tsx
 msgid "(enables dark: variants)"
-msgstr ""
+msgstr "（启用 dark: 变体）"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "(exceeds 25 MB email limit)"
-msgstr ""
+msgstr "（超过 25 MB 的邮件限制）"
 
 #: src/pages/AdminPage.tsx
 msgid "(last 100)"
-msgstr ""
+msgstr "（最近 100 条）"
 
 #: src/pages/AdminPage.tsx
 msgid "(leave blank to keep)"
@@ -246,7 +246,7 @@ msgstr "（留空以保留）"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "(low confidence)"
-msgstr ""
+msgstr "（低置信度）"
 
 #: src/pages/AdminPage.tsx
 msgid "(not set)"
@@ -255,47 +255,47 @@ msgstr "（未设置）"
 #. placeholder {0}: tooltip.sessions
 #: src/components/stats/HourDowHeatmap.tsx
 msgid "{0, plural, one {{dur} · # session} other {{dur} · # sessions}}"
-msgstr ""
+msgstr "{0, plural, one {{dur} · # 个阅读会话} other {{dur} · # 个阅读会话}}"
 
 #. placeholder {0}: b.stats.reading_days
 #: src/pages/SharePage.tsx
 msgid "{0, plural, one {{dur} over # day} other {{dur} over # days}}"
-msgstr ""
+msgstr "{0, plural, one {{dur}，历时 # 天} other {{dur}，历时 # 天}}"
 
 #. placeholder {0}: a.book_count
 #: src/components/stats/AuthorAffinity.tsx
 msgid "{0, plural, one {{fin} finished · # book read} other {{fin} finished · # books read}}"
-msgstr ""
+msgstr "{0, plural, one {{fin} 已完成 · 已读 # 本图书} other {{fin} 已完成 · 已读 # 本图书}}"
 
 #. placeholder {0}: dayEntries.length
 #: src/components/stats/widgets/habits.tsx
 msgid "{0, plural, one {# active day in this window} other {# active days in this window}}"
-msgstr ""
+msgstr "{0, plural, one {此时间段有 # 个活跃日} other {此时间段有 # 个活跃日}}"
 
 #. placeholder {0}: res.errors.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {# book could not be deleted} other {# books could not be deleted}}"
-msgstr ""
+msgstr "{0, plural, one {无法删除 # 本图书} other {无法删除 # 本图书}}"
 
 #. placeholder {0}: missingResult.removed_books.length
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {# book entry removed} other {# book entries removed}}"
-msgstr ""
+msgstr "{0, plural, one {已移除 # 个图书条目} other {已移除 # 个图书条目}}"
 
 #. placeholder {0}: d.books_finished
 #: src/components/stats/widgets/habits.tsx
 msgid "{0, plural, one {# book finished} other {# books finished}}"
-msgstr ""
+msgstr "{0, plural, one {已完成 # 本图书} other {已完成 # 本图书}}"
 
 #. placeholder {0}: status.syncedDocuments
 #: src/components/SyncStatusBadge.tsx
 msgid "{0, plural, one {# book tracked} other {# books tracked}}"
-msgstr ""
+msgstr "{0, plural, one {已记录 # 本图书} other {已记录 # 本图书}}"
 
 #. placeholder {0}: data.books
 #: src/components/stats/BacklogEstimate.tsx
 msgid "{0, plural, one {# book, none estimated yet.} other {# books, none estimated yet.}}"
-msgstr ""
+msgstr "{0, plural, one {# 本图书，尚未估算} other {# 本图书，尚未估算}}"
 
 #. placeholder {0}: data.books
 #. placeholder {0}: data.totals.books
@@ -304,57 +304,57 @@ msgstr ""
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "{0, plural, one {# book} other {# books}}"
-msgstr ""
+msgstr "{0, plural, one {# 本图书} other {# 本图书}}"
 
 #. placeholder {0}: candidates.length
 #: src/components/MetadataManager.tsx
 msgid "{0, plural, one {# candidate — click to select} other {# candidates — click to select}}"
-msgstr ""
+msgstr "{0, plural, one {# 个候选项 — 点击选择} other {# 个候选项 — 点击选择}}"
 
 #. placeholder {0}: candidates.length
 #: src/components/CoverPickerModal.tsx
 msgid "{0, plural, one {# cover found — click to apply} other {# covers found — click to apply}}"
-msgstr ""
+msgstr "{0, plural, one {找到 # 个封面 — 点击应用} other {找到 # 个封面 — 点击应用}}"
 
 #. placeholder {0}: hover.b.days.length
 #: src/components/stats/TimelineRibbon.tsx
 msgid "{0, plural, one {# day} other {# days}}"
-msgstr ""
+msgstr "{0, plural, one {# 天} other {# 天}}"
 
 #. placeholder {0}: groups.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {# duplicate group found.} other {# duplicate groups found.}}"
-msgstr ""
+msgstr "{0, plural, one {找到 # 个重复组。} other {找到 # 个重复组。}}"
 
 #. placeholder {0}: healthData.missing_count
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {# entry is missing from disk} other {# entries are missing from disk}}"
-msgstr ""
+msgstr "{0, plural, one {磁盘中缺少 # 个条目} other {磁盘中缺少 # 个条目}}"
 
 #. placeholder {0}: missingResult.removed_file_rows
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {# file entry removed} other {# file entries removed}}"
-msgstr ""
+msgstr "{0, plural, one {已移除 # 个文件条目} other {已移除 # 个文件条目}}"
 
 #. placeholder {0}: healthData.missing.length
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {# file in the database but missing from disk} other {# files in the database but missing from disk}}"
-msgstr ""
+msgstr "{0, plural, one {数据库中有 # 个文件但磁盘中缺失} other {数据库中有 # 个文件但磁盘中缺失}}"
 
 #. placeholder {0}: items.length
 #: src/components/UploadModal.tsx
 msgid "{0, plural, one {# file selected} other {# files selected}}"
-msgstr ""
+msgstr "{0, plural, one {已选择 # 个文件} other {已选择 # 个文件}}"
 
 #. placeholder {0}: group.issues.length
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {# file} other {# files}}"
-msgstr ""
+msgstr "{0, plural, one {# 个文件} other {# 个文件}}"
 
 #. placeholder {0}: row.unestimated
 #: src/components/stats/BacklogEstimate.tsx
 msgid "{0, plural, one {# not estimated} other {# not estimated}}"
-msgstr ""
+msgstr "{0, plural, one {# 个未估算} other {# 个未估算}}"
 
 #. placeholder {0}: aggregate.distinct_readers
 #. placeholder {0}: c.users_count
@@ -362,214 +362,214 @@ msgstr ""
 #: src/pages/BookDetailPage.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "{0, plural, one {# reader} other {# readers}}"
-msgstr ""
+msgstr "{0, plural, one {# 位读者} other {# 位读者}}"
 
 #. placeholder {0}: aggregate.total_sessions
 #: src/pages/BookDetailPage.tsx
 msgid "{0, plural, one {# reading day} other {# reading days}}"
-msgstr ""
+msgstr "{0, plural, one {# 个阅读日} other {# 个阅读日}}"
 
 #. placeholder {0}: records.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {# record} other {# records}}"
-msgstr ""
+msgstr "{0, plural, one {# 条记录} other {# 条记录}}"
 
 #. placeholder {0}: candidates.length
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {# result — click to fill form} other {# results — click to fill form}}"
-msgstr ""
+msgstr "{0, plural, one {# 个结果 — 点击填充表单} other {# 个结果 — 点击填充表单}}"
 
 #. placeholder {0}: candidates.length
 #: src/components/MetadataFetchModal.tsx
 msgid "{0, plural, one {# result — pick one to review} other {# results — pick one to review}}"
-msgstr ""
+msgstr "{0, plural, one {# 个结果 — 选择一个进行审核} other {# 个结果 — 选择一个进行审核}}"
 
 #. placeholder {0}: follows.length
 #: src/pages/WishlistPage.tsx
 msgid "{0, plural, one {# series} other {# series}}"
-msgstr ""
+msgstr "{0, plural, one {# 个系列} other {# 个系列}}"
 
 #. placeholder {0}: f.sessions
 #: src/components/stats/PaceByFormat.tsx
 msgid "{0, plural, one {# session · {pages} pages} other {# sessions · {pages} pages}}"
-msgstr ""
+msgstr "{0, plural, one {# 个阅读会话 · {pages} 页} other {# 个阅读会话 · {pages} 页}}"
 
 #. placeholder {0}: aggregate.total_sessions
 #. placeholder {0}: d.sessions
 #: src/components/SeriesReadingStats.tsx
 #: src/components/stats/widgets/habits.tsx
 msgid "{0, plural, one {# session} other {# sessions}}"
-msgstr ""
+msgstr "{0, plural, one {# 个阅读会话} other {# 个阅读会话}}"
 
 #. placeholder {0}: data.reread_bins
 #: src/pages/BookDetailPage.tsx
 msgid "{0, plural, one {# stretch re-read} other {# stretches re-read}}"
-msgstr ""
+msgstr "{0, plural, one {# 次连续重读} other {# 次连续重读}}"
 
 #. placeholder {0}: wish.suggested_book_ids.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {# suggested match} other {# suggested matches}}"
-msgstr ""
+msgstr "{0, plural, one {# 个建议匹配} other {# 个建议匹配}}"
 
 #. placeholder {0}: users.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {# user} other {# users}}"
-msgstr ""
+msgstr "{0, plural, one {# 个用户} other {# 个用户}}"
 
 #. placeholder {0}: data.totals.books
 #: src/pages/SharePage.tsx
 msgid "{0, plural, one {# volume} other {# volumes}}"
-msgstr ""
+msgstr "{0, plural, one {# 卷} other {# 卷}}"
 
 #. placeholder {0}: est.estimated_days
 #: src/components/stats/widgets/habits.tsx
 msgid "{0, plural, one {~# day remaining} other {~# days remaining}}"
-msgstr ""
+msgstr "{0, plural, one {还剩 ~# 天} other {还剩 ~# 天}}"
 
 #. placeholder {0}: group.files.length
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {Accept # volume} other {Accept # volumes}}"
-msgstr ""
+msgstr "{0, plural, one {接受 # 卷} other {接受 # 卷}}"
 
 #. placeholder {0}: acceptedPaths.length
 #. placeholder {0}: result.accepted.length
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {Accepted # book} other {Accepted # books}}"
-msgstr ""
+msgstr "{0, plural, one {已接受 # 本图书} other {已接受 # 本图书}}"
 
 #. placeholder {0}: selected.size
 #: src/pages/DashboardPage.tsx
 msgid "{0, plural, one {Added # book to library} other {Added # books to library}}"
-msgstr ""
+msgstr "{0, plural, one {已将 # 本图书添加到图书馆} other {已将 # 本图书添加到图书馆}}"
 
 #. placeholder {0}: applyResult.applied
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {Applied # group} other {Applied # groups}}"
-msgstr ""
+msgstr "{0, plural, one {已应用 # 个组} other {已应用 # 个组}}"
 
 #. placeholder {0}: healthData.missing.length
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {Confirm — remove # entry} other {Confirm — remove # entries}}"
-msgstr ""
+msgstr "{0, plural, one {确认 — 移除 # 个条目} other {确认 — 移除 # 个条目}}"
 
 #. placeholder {0}: selectedIds.size
 #: src/pages/DashboardPage.tsx
 msgid "{0, plural, one {Delete # book} other {Delete # books}}"
-msgstr ""
+msgstr "{0, plural, one {删除 # 本图书} other {删除 # 本图书}}"
 
 #. placeholder {0}: selectedIds.size
 #: src/pages/DashboardPage.tsx
 msgid "{0, plural, one {Deleting # book...} other {Deleting # books...}}"
-msgstr ""
+msgstr "{0, plural, one {正在删除 # 本图书……} other {正在删除 # 本图书……}}"
 
 #. placeholder {0}: b.highlights.length
 #: src/pages/SharePage.tsx
 msgid "{0, plural, one {Description & # highlight} other {Description & # highlights}}"
-msgstr ""
+msgstr "{0, plural, one {描述和 # 个高亮} other {描述和 # 个高亮}}"
 
 #. placeholder {0}: selected.size
 #: src/pages/DashboardPage.tsx
 msgid "{0, plural, one {Edit Metadata for # Book} other {Edit Metadata for # Books}}"
-msgstr ""
+msgstr "{0, plural, one {编辑 # 本图书的元数据} other {编辑 # 本图书的元数据}}"
 
 #. placeholder {0}: group.library_match.volume_count
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {In library · # vol} other {In library · # vols}}"
-msgstr ""
+msgstr "{0, plural, one {在图书馆中 · # 卷} other {在图书馆中 · # 卷}}"
 
 #. placeholder {0}: status.syncedDocuments
 #: src/components/SyncStatusBadge.tsx
 msgid "{0, plural, one {Last sync from {lastDevice} · # book tracked} other {Last sync from {lastDevice} · # books tracked}}"
-msgstr ""
+msgstr "{0, plural, one {上次从 {lastDevice} 同步 · 已记录 # 本图书} other {上次从 {lastDevice} 同步 · 已记录 # 本图书}}"
 
 #. placeholder {0}: confirmReject?.length ?? 0
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {Permanently delete # file from the bindery? This cannot be undone.} other {Permanently delete # files from the bindery? This cannot be undone.}}"
-msgstr ""
+msgstr "{0, plural, one {从入库区永久删除 # 个文件？此操作无法撤销。} other {从入库区永久删除 # 个文件？此操作无法撤销。}}"
 
 #. placeholder {0}: result.rejected
 #: src/pages/BinderyPage.tsx
 msgid "{0, plural, one {Rejected # file} other {Rejected # files}}"
-msgstr ""
+msgstr "{0, plural, one {已拒绝 # 个文件} other {已拒绝 # 个文件}}"
 
 #. placeholder {0}: purgeResult.length
 #: src/components/LibraryHealth.tsx
 msgid "{0, plural, one {Removed # empty folder.} other {Removed # empty folders.}}"
-msgstr ""
+msgstr "{0, plural, one {已移除 # 个空文件夹。} other {已移除 # 个空文件夹。}}"
 
 #. placeholder {0}: books.length
 #: src/components/SendToDeviceModal.tsx
 msgid "{0, plural, one {Send # book} other {Send # books}}"
-msgstr ""
+msgstr "{0, plural, one {发送 # 本图书} other {发送 # 本图书}}"
 
 #. placeholder {0}: res.sent
 #: src/components/SendToDeviceModal.tsx
 msgid "{0, plural, one {Sent # book to device} other {Sent # books to device}}"
-msgstr ""
+msgstr "{0, plural, one {已将 # 本图书发送到设备} other {已将 # 本图书发送到设备}}"
 
 #. placeholder {0}: suggestedBooks.length
 #: src/pages/AdminPage.tsx
 msgid "{0, plural, one {Suggested match:} other {Suggested matches:}}"
-msgstr ""
+msgstr "{0, plural, one {建议匹配：} other {建议匹配：}}"
 
 #. placeholder {0}: selected.size
 #: src/pages/DashboardPage.tsx
 msgid "{0, plural, one {Updated metadata for # book} other {Updated metadata for # books}}"
-msgstr ""
+msgstr "{0, plural, one {已更新 # 本图书的元数据} other {已更新 # 本图书的元数据}}"
 
 #. placeholder {0}: data.books_counted
 #: src/components/stats/widgets/wordstats.tsx
 msgid "{0, plural, one {words read · # book} other {words read · # books}}"
-msgstr ""
+msgstr "{0, plural, one {已阅读字数 · # 本图书} other {已阅读字数 · # 本图书}}"
 
 #. placeholder {0}: data.books_counted
 #: src/components/stats/widgets/wordstats.tsx
 msgid "{0, plural, one {words/min · across # book} other {words/min · across # books}}"
-msgstr ""
+msgstr "{0, plural, one {字/分钟 · 共 # 本图书} other {字/分钟 · 共 # 本图书}}"
 
 #: src/pages/AdminPage.tsx
 msgid "{added} added · {skipped} skipped"
-msgstr ""
+msgstr "{added} 个已添加 · {skipped} 个已跳过"
 
 #: src/pages/HardcoverPage.tsx
 msgid "{base} · Vol. {idx}"
-msgstr ""
+msgstr "{base} · 第 {idx} 卷"
 
 #: src/lib/goals.ts
 msgid "{behind} behind pace"
-msgstr ""
+msgstr "落后阅读进度 {behind}"
 
 #: src/pages/HighlightsPage.tsx
 msgid "{books, plural, one {{total} from # book} other {{total} from # books}}"
-msgstr ""
+msgstr "{books, plural, one {{total} 来自 # 本图书} other {{total} 来自 # 本图书}}"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{bt} — {st} to {en} ({dur})"
-msgstr ""
+msgstr "{bt} — {st} 至 {en}（{dur}）"
 
 #: src/pages/AdminPage.tsx
 msgid "{clearResult} covers deleted."
-msgstr ""
+msgstr "已删除 {clearResult} 个封面"
 
 #: src/pages/HighlightsPage.tsx
 msgid "{color} highlight"
-msgstr ""
+msgstr "{color} 高亮"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{count} sittings · {from} – {to}"
-msgstr ""
+msgstr "{count} 次阅读 · {from} – {to}"
 
 #: src/components/home/FocusMode.tsx
 msgid "{d} days ago"
-msgstr ""
+msgstr "{d} 天前"
 
 #: src/pages/DashboardPage.tsx
 msgid "{d}d ago"
-msgstr ""
+msgstr "{d} 天前"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "{daily} finished · {count} total"
-msgstr ""
+msgstr "{daily} 已完成 · 共 {count} 个"
 
 #: src/components/NotificationBell.tsx
 #: src/components/SyncStatusBadge.tsx
@@ -577,92 +577,92 @@ msgstr ""
 #: src/pages/SettingsPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "{days}d ago"
-msgstr ""
+msgstr "{days} 天前"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{dayStr}: {mins}m"
-msgstr ""
+msgstr "{dayStr}：{mins} 分钟"
 
 #: src/pages/AdminPage.tsx
 msgid "{deleteBookCount, plural, one {delete # book (removes files)} other {delete # books (removes files)}}"
-msgstr ""
+msgstr "{deleteBookCount, plural, one {删除 # 本图书（同时删除文件）} other {删除 # 本图书（同时删除文件）}}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{deleted, plural, one {Deleted # book} other {Deleted # books}}"
-msgstr ""
+msgstr "{deleted, plural, one {已删除 # 本图书} other {已删除 # 本图书}}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{deltaStr}% vs last week"
-msgstr ""
+msgstr "{deltaStr}%，与上周相比"
 
 #: src/lib/goals.ts
 msgid "{diff} ahead of pace"
-msgstr ""
+msgstr "比阅读进度快 {diff}"
 
 #: src/pages/BinderyPage.tsx
 msgid "{diffDays}d ago"
-msgstr ""
+msgstr "{diffDays} 天前"
 
 #: src/pages/BinderyPage.tsx
 msgid "{diffHrs}h ago"
-msgstr ""
+msgstr "{diffHrs} 小时前"
 
 #: src/pages/BinderyPage.tsx
 msgid "{diffMins}m ago"
-msgstr ""
+msgstr "{diffMins} 分钟前"
 
 #: src/pages/AdminPage.tsx
 msgid "{dismissCount, plural, one {dismiss # group} other {dismiss # groups}}"
-msgstr ""
+msgstr "{dismissCount, plural, one {忽略 # 个组} other {忽略 # 个组}}"
 
 #: src/components/stats/widgets/insights.tsx
 msgid "{dur} · {books} books — your only language"
-msgstr ""
+msgstr "{dur} · {books} 本图书 — 你唯一的语言"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{dur} across {n} chapters"
-msgstr ""
+msgstr "{dur}，共 {n} 个章节"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{dur} on device"
-msgstr ""
+msgstr "设备上阅读 {dur}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{failed, plural, one {# book could not be deleted} other {# books could not be deleted}}"
-msgstr ""
+msgstr "{failed, plural, one {无法删除 # 本图书} other {无法删除 # 本图书}}"
 
 #: src/components/UploadModal.tsx
 msgid "{failed, plural, one {Upload failed for # file} other {Upload failed for # files}}"
-msgstr ""
+msgstr "{failed, plural, one {# 个文件上传失败} other {# 个文件上传失败}}"
 
 #: src/pages/BinderyPage.tsx
 msgid "{failedN} of {totalN} failed — {firstErr}"
-msgstr ""
+msgstr "{failedN}/{totalN} 个失败 — {firstErr}"
 
 #: src/components/stats/CompletionByType.tsx
 msgid "{fin} of {st} finished"
-msgstr ""
+msgstr "{fin}/{st} 已完成"
 
 #: src/pages/StatsPage.tsx
 msgid "{fin} of {st} started"
-msgstr ""
+msgstr "{fin}/{st} 已开始"
 
 #: src/components/stats/CompletionRateCard.tsx
 msgid "{fin} of {st} started · all time"
-msgstr ""
+msgstr "{fin}/{st} 已开始 · 累计"
 
 #: src/components/CoverAudit.tsx
 msgid "{flagged} of {scanned} books flagged (low-res = narrower than {minW}px)."
-msgstr ""
+msgstr "{flagged}/{scanned} 本图书被标记（低分辨率 = 宽度小于 {minW}px）。"
 
 #: src/components/home/FocusMode.tsx
 msgid "{h} hours ago"
-msgstr ""
+msgstr "{h} 小时前"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "{h}h"
-msgstr ""
+msgstr "{h} 小时"
 
 #: src/components/stats/AuthorAffinity.tsx
 #: src/components/stats/HourDowHeatmap.tsx
@@ -670,302 +670,302 @@ msgstr ""
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "{h}h {m}m"
-msgstr ""
+msgstr "{h} 小时 {m} 分钟"
 
 #: src/components/WordCount.tsx
 msgid "{h}h {mm}m"
-msgstr ""
+msgstr "{h} 小时 {mm} 分钟"
 
 #: src/components/PositionHistoryModal.tsx
 msgid "{h}h ago"
-msgstr ""
+msgstr "{h} 小时前"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{h}h reading"
-msgstr ""
+msgstr "{h} 小时阅读"
 
 #: src/lib/goals.ts
 msgid "{hit}/7 days this week"
-msgstr ""
+msgstr "本周 7 天中有 {hit} 天"
 
 #: src/pages/SettingsPage.tsx
 msgid "{hours}h ago"
-msgstr ""
+msgstr "{hours} 小时前"
 
 #: src/components/NotificationBell.tsx
 #: src/components/SyncStatusBadge.tsx
 #: src/pages/AdminPage.tsx
 msgid "{hrs}h ago"
-msgstr ""
+msgstr "{hrs} 小时前"
 
 #: src/pages/BinderyPage.tsx
 msgid "{imp} imported + {inc} incoming"
-msgstr ""
+msgstr "{imp} 个已导入 + {inc} 个待入库"
 
 #: src/pages/BinderyPage.tsx
 msgid "{inc, plural, one {# file waiting for review} other {# files waiting for review}}"
-msgstr ""
+msgstr "{inc, plural, one {# 个文件等待审核} other {# 个文件等待审核}}"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "{label} only"
-msgstr ""
+msgstr "仅 {label}"
 
 #: src/components/home/FocusMode.tsx
 #: src/components/PositionHistoryModal.tsx
 msgid "{m} min ago"
-msgstr ""
+msgstr "{m} 分钟前"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "{m}m"
-msgstr ""
+msgstr "{m} 分钟"
 
 #: src/components/WordCount.tsx
 msgid "{m}m {rem}s"
-msgstr ""
+msgstr "{m} 分钟 {rem} 秒"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "{matched} matched"
-msgstr ""
+msgstr "{matched} 个已匹配"
 
 #: src/pages/AdminPage.tsx
 msgid "{mergeCount, plural, one {merge # group} other {merge # groups}}"
-msgstr ""
+msgstr "{mergeCount, plural, one {合并 # 个组} other {合并 # 个组}}"
 
 #: src/components/NotificationBell.tsx
 #: src/components/SyncStatusBadge.tsx
 #: src/pages/AdminPage.tsx
 msgid "{mins}m ago"
-msgstr ""
+msgstr "{mins} 分钟前"
 
 #: src/pages/SettingsPage.tsx
 msgid "{minutes}m ago"
-msgstr ""
+msgstr "{minutes} 分钟前"
 
 #: src/components/LibraryHealth.tsx
 msgid "{misplaced} of {total} files need reorganization"
-msgstr ""
+msgstr "{misplaced}/{total} 个文件需要重新整理"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "{months}mo ago"
-msgstr ""
+msgstr "{months} 个月前"
 
 #: src/pages/AdminPage.tsx
 msgid "{n, plural, one {# matching volume currently in the library.} other {# matching volumes currently in the library.}}"
-msgstr ""
+msgstr "{n, plural, one {图书馆中当前有 # 个匹配卷。} other {图书馆中当前有 # 个匹配卷。}}"
 
 #: src/pages/BinderyPage.tsx
 msgid "{n, plural, one {Accepted # volume of {seriesName}} other {Accepted # volumes of {seriesName}}}"
-msgstr ""
+msgstr "{n, plural, one {已接受 {seriesName} 的 # 卷} other {已接受 {seriesName} 的 # 卷}}"
 
 #: src/pages/BinderyPage.tsx
 msgid "{n, plural, one {Accepted # volume} other {Accepted # volumes}}"
-msgstr ""
+msgstr "{n, plural, one {已接受 # 卷} other {已接受 # 卷}}"
 
 #: src/pages/AdminPage.tsx
 msgid "{n, plural, one {Confirm — apply # decision} other {Confirm — apply # decisions}}"
-msgstr ""
+msgstr "{n, plural, one {确认 — 应用 # 个决定} other {确认 — 应用 # 个决定}}"
 
 #: src/components/AppShell.tsx
 #: src/components/MetadataManager.tsx
 #: src/pages/DashboardPage.tsx
 msgid "{n, plural, one {This upload satisfies # wish — review in Admin > Wishlist} other {This upload satisfies # wishes — review in Admin > Wishlist}}"
-msgstr ""
+msgstr "{n, plural, one {此次上传满足 # 个愿望 — 请在管理 > 愿望单中审核} other {此次上传满足 # 个愿望 — 请在管理 > 愿望单中审核}}"
 
 #: src/components/MetadataManager.tsx
 msgid "{n} chapters uploaded"
-msgstr ""
+msgstr "已上传 {n} 个章节"
 
 #: src/components/MetadataManager.tsx
 msgid "{n} of {total} books would change"
-msgstr ""
+msgstr "{total} 本图书中有 {n} 本将发生变化"
 
 #: src/components/MetadataManager.tsx
 #: src/pages/DashboardPage.tsx
 msgid "{n} selected"
-msgstr ""
+msgstr "已选择 {n} 项"
 
 #: src/pages/BinderyPage.tsx
 msgid "{n} selected — Clear"
-msgstr ""
+msgstr "已选择 {n} 项 — 清除"
 
 #: src/components/LibraryHealth.tsx
 msgid "{n} skipped (file exists on disk)"
-msgstr ""
+msgstr "已跳过 {n} 个（文件已存在于磁盘）"
 
 #: src/components/HardcoverSync.tsx
 msgid "{n} synced"
-msgstr ""
+msgstr "已同步 {n} 项"
 
 #: src/components/stats/TimelineRibbon.tsx
 msgid "{n} vols · "
-msgstr ""
+msgstr "{n} 卷 · "
 
 #: src/components/WishlistModal.tsx
 msgid "{n} volumes"
-msgstr ""
+msgstr "{n} 卷"
 
 #: src/pages/DashboardPage.tsx
 msgid "{name} · Vol. {start_index}–{end_index}"
-msgstr ""
+msgstr "{name} · 第 {start_index}–{end_index} 卷"
 
 #: src/pages/StatsPage.tsx
 msgid "{name} copy"
-msgstr ""
+msgstr "{name} 副本"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "{name} errored"
-msgstr ""
+msgstr "{name} 出错"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "{name} is rate-limited — try again in a minute"
-msgstr ""
+msgstr "{name} 受到速率限制 — 请一分钟后重试"
 
 #: src/components/ThemeToggle.tsx
 msgid "{name} theme"
-msgstr ""
+msgstr "{name} 主题"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "{name} timed out"
-msgstr ""
+msgstr "{name} 超时"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "{ok} of {total} approved"
-msgstr ""
+msgstr "{ok}/{total} 已批准"
 
 #: src/components/UploadModal.tsx
 msgid "{ok} uploaded"
-msgstr ""
+msgstr "已上传 {ok} 项"
 
 #: src/pages/AdminPage.tsx
 msgid "{othersCount, plural, one {Delete # other} other {Delete # others}}"
-msgstr ""
+msgstr "{othersCount, plural, one {删除 # 个其他项} other {删除 # 个其他项}}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{pacePerMin} pg/min"
-msgstr ""
+msgstr "{pacePerMin} 页/分钟"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{pages} pages in {dur}"
-msgstr ""
+msgstr "{dur} 阅读了 {pages} 页"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{pct}% less reading this period"
-msgstr ""
+msgstr "本期阅读量减少 {pct}%"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{pct}% more reading this period"
-msgstr ""
+msgstr "本期阅读量增加 {pct}%"
 
 #: src/components/WordCount.tsx
 msgid "{pending, plural, one {Count # EPUB} other {Count # EPUBs}}"
-msgstr ""
+msgstr "{pending, plural, one {统计 # 个 EPUB} other {统计 # 个 EPUB}}"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "{ppm} pages/min"
-msgstr ""
+msgstr "{ppm} 页/分钟"
 
 #: src/components/stats/widgets/insights.tsx
 msgid "{read} of {owned} owned read"
-msgstr ""
+msgstr "已读 {owned} 本中的 {read} 本"
 
 #: src/components/stats/widgets/library.tsx
 msgid "{read} of {total} read"
-msgstr ""
+msgstr "已读 {total} 本中的 {read} 本"
 
 #: src/pages/DashboardPage.tsx
 msgid "{readCount} read · {readingCount} reading · {unreadCount} unread"
-msgstr ""
+msgstr "已读 {readCount} · 正在阅读 {readingCount} · 未读 {unreadCount}"
 
 #: src/pages/SharePage.tsx
 msgid "{readN} read · {unreadN} unread"
-msgstr ""
+msgstr "已读 {readN} · 未读 {unreadN}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{recent} in the last 7 days vs {prior} the week before"
-msgstr ""
+msgstr "过去 7 天 {recent}，前一周为 {prior}"
 
 #: src/components/WordCount.tsx
 msgid "{s}s"
-msgstr ""
+msgstr "{s} 秒"
 
 #: src/pages/DashboardPage.tsx
 msgid "{seconds}s"
-msgstr ""
+msgstr "{seconds} 秒"
 
 #: src/components/MetadataManager.tsx
 msgid "{seriesName} Chapter {num}"
-msgstr ""
+msgstr "{seriesName} 第 {num} 章"
 
 #: src/pages/DashboardPage.tsx
 msgid "{sessions} sessions · {time}"
-msgstr ""
+msgstr "{sessions} 个阅读会话 · {time}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{shown, plural, one {# book} other {# books}}"
-msgstr ""
+msgstr "{shown, plural, one {# 本图书} other {# 本图书}}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{shown, plural, one {# title} other {# titles}}"
-msgstr ""
+msgstr "{shown, plural, one {# 个标题} other {# 个标题}}"
 
 #: src/components/UploadModal.tsx
 msgid "{skipped, plural, one {Nothing to upload — # file is already in your library} other {Nothing to upload — # files are already in your library}}"
-msgstr ""
+msgstr "{skipped, plural, one {无需上传 — # 个文件已在你的图书馆中} other {无需上传 — # 个文件已在你的图书馆中}}"
 
 #: src/components/UploadModal.tsx
 msgid "{success, plural, one {# book uploaded} other {# books uploaded}}"
-msgstr ""
+msgstr "{success, plural, one {已上传 # 本图书} other {已上传 # 本图书}}"
 
 #: src/components/UploadModal.tsx
 msgid "{success} uploaded, {failed} failed"
-msgstr ""
+msgstr "已上传 {success} 项，{failed} 项失败"
 
 #: src/components/Sidebar.tsx
 msgid "{themeName} theme"
-msgstr ""
+msgstr "{themeName} 主题"
 
 #: src/components/stats/TimelineRibbon.tsx
 msgid "{title} — {dur} between {from} and {to}"
-msgstr ""
+msgstr "{title} — {from} 至 {to}，阅读 {dur}"
 
 #: src/lib/goals.ts
 msgid "{toGo} to go"
-msgstr ""
+msgstr "还剩 {toGo}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{total, plural, one {# volume} other {# volumes}}"
-msgstr ""
+msgstr "{total, plural, one {# 卷} other {# 卷}}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{totalCount, plural, one {{shown} of # book} other {{shown} of # books}}"
-msgstr ""
+msgstr "{totalCount, plural, one {{shown}/# 本图书} other {{shown}/# 本图书}}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{totalCount, plural, one {{shown} of # title} other {{shown} of # titles}}"
-msgstr ""
+msgstr "{totalCount, plural, one {{shown}/# 个标题} other {{shown}/# 个标题}}"
 
 #: src/pages/DashboardPage.tsx
 msgid "{totalCount, plural, one {# result for \"{search}\"} other {# results for \"{search}\"}}"
-msgstr ""
+msgstr "{totalCount, plural, one {关于“{search}”的 # 个结果} other {关于“{search}”的 # 个结果}}"
 
 #: src/components/stats/widgets/library.tsx
 msgid "{v}m"
-msgstr ""
+msgstr "{v} 分钟"
 
 #: src/pages/BookDetailPage.tsx
 msgid "{words} words"
-msgstr ""
+msgstr "{words} 字"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "{y} Challenge"
-msgstr ""
+msgstr "{y} 挑战"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "{years}y ago"
-msgstr ""
+msgstr "{years} 年前"
 
 #: src/components/home/FocusMode.tsx
 msgid "← Back to current"
@@ -981,107 +981,107 @@ msgstr "← 返回结果"
 
 #: src/pages/DashboardPage.tsx
 msgid "<0>{dur}</0> left in this series"
-msgstr ""
+msgstr "此系列还剩 <0>{dur}</0>"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "<0>Device name</0> (e.g. Kindle) — recorded live by the KOReader plugin. <1>web</1> / <2>manual</2> — the web reader, or logged by hand."
-msgstr ""
+msgstr "<0>设备名称</0>（例如 Kindle）— 由 KOReader 插件实时记录。<1>网页</1> / <2>手动</2> — 网页阅读器记录，或手动记录。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "<0>imported</0> — from KOReader's synced reading history. Delete only: KOReader already caps idle time, so there is nothing to trim."
-msgstr ""
+msgstr "<0>已导入</0> — 来自 KOReader 同步的阅读历史。仅删除：KOReader 已限制空闲时间，因此无需修剪。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "<0>not counted</0> — a live device session whose sitting is also described by imported history. Listed for completeness, excluded from the totals so nothing is counted twice."
-msgstr ""
+msgstr "<0>不计入</0> — 一个实时设备会话，其阅读记录也已由导入历史描述。为完整起见列出，但不计入总数，以避免重复计算。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "~{at}% in · {dur}"
-msgstr ""
+msgstr "已读约 ~{at}% · {dur}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "~{at}% in · not read"
-msgstr ""
+msgstr "已读约 ~{at}% · 未阅读"
 
 #: src/lib/backlog.ts
 msgid "~{d} days"
-msgstr ""
+msgstr "~{d} 天"
 
 #: src/lib/backlog.ts
 msgid "~{h} h"
-msgstr ""
+msgstr "~{h} 小时"
 
 #: src/lib/backlog.ts
 msgid "~{m} min"
-msgstr ""
+msgstr "~{m} 分钟"
 
 #: src/pages/ReaderPage.tsx
 msgid "~{m} min left"
-msgstr ""
+msgstr "还剩 ~{m} 分钟"
 
 #: src/lib/backlog.ts
 msgid "~{mo} months"
-msgstr ""
+msgstr "~{mo} 个月"
 
 #: src/lib/backlog.ts
 msgid "~{w} weeks"
-msgstr ""
+msgstr "~{w} 周"
 
 #: src/lib/backlog.ts
 msgid "~1 day"
-msgstr ""
+msgstr "约 1 天"
 
 #: src/components/ShareShelfModal.tsx
 msgid "1 day"
-msgstr ""
+msgstr "1 天"
 
 #: src/components/home/FocusMode.tsx
 msgid "1 hour ago"
-msgstr ""
+msgstr "1 小时前"
 
 #: src/pages/StatsPage.tsx
 msgid "12 mo"
-msgstr ""
+msgstr "12 个月"
 
 #: src/pages/StatsPage.tsx
 msgid "14d"
-msgstr ""
+msgstr "14 天"
 
 #: src/pages/StatsPage.tsx
 msgid "1y"
-msgstr ""
+msgstr "1 年"
 
 #: src/pages/StatsPage.tsx
 msgid "24 mo"
-msgstr ""
+msgstr "24 个月"
 
 #: src/components/ShareShelfModal.tsx
 msgid "30 days"
-msgstr ""
+msgstr "30 天"
 
 #: src/pages/StatsPage.tsx
 msgid "30d"
-msgstr ""
+msgstr "30 天"
 
 #: src/pages/StatsPage.tsx
 msgid "365 d"
-msgstr ""
+msgstr "365 天"
 
 #: src/components/ShareShelfModal.tsx
 msgid "7 days"
-msgstr ""
+msgstr "7 天"
 
 #: src/pages/StatsPage.tsx
 msgid "7d"
-msgstr ""
+msgstr "7 天"
 
 #: src/pages/StatsPage.tsx
 msgid "90d"
-msgstr ""
+msgstr "90 天"
 
 #: src/pages/StatsPage.tsx
 msgid "A 24-hour radial of when you read"
-msgstr ""
+msgstr "24 小时阅读时间分布"
 
 #: src/pages/StatsPage.tsx
 msgid "A bit"
@@ -1097,28 +1097,28 @@ msgstr "有新版本可用——链接会打开发布说明。请拉取新镜像
 
 #: src/components/ShareShelfModal.tsx
 msgid "A share link is a read-only page anyone with the link can open — no account needed. It shows covers, titles, tags, descriptions, and your ratings and highlights for the books in this series. It never exposes files: no downloads, no reading, no way in. Revoke it any time and the link dies instantly."
-msgstr ""
+msgstr "共享链接是一个只读页面，任何拥有链接的人都可以打开，无需账户。它会显示此系列图书的封面、标题、标签、描述，以及你的评分和高亮内容。它绝不会暴露文件：不能下载、不能阅读，也无法进入图书内容。你可以随时撤销，链接会立即失效。"
 
 #: src/components/ShareShelfModal.tsx
 msgid "A share link is a read-only page anyone with the link can open — no account needed. It shows covers, titles, tags, descriptions, and your ratings and highlights for the books on this shelf. It never exposes files: no downloads, no reading, no way in. Revoke it any time and the link dies instantly."
-msgstr ""
+msgstr "共享链接是一个只读页面，任何拥有链接的人都可以打开，无需账户。它会显示此书架上的图书封面、标题、标签、描述，以及你的评分和高亮内容。它绝不会暴露文件：不能下载、不能阅读，也无法进入图书内容。你可以随时撤销，链接会立即失效。"
 
 #: src/components/ShareShelfModal.tsx
 msgid "A share link is a read-only page anyone with the link can open — no account needed. It shows covers, titles, tags, descriptions, and your ratings and highlights for this book. It never exposes files: no downloads, no reading, no way in. Revoke it any time and the link dies instantly."
-msgstr ""
+msgstr "共享链接是一个只读页面，任何拥有链接的人都可以打开，无需账户。它会显示此图书的封面、标题、标签、描述，以及你的评分和高亮内容。它绝不会暴露文件：不能下载、不能阅读，也无法进入图书内容。你可以随时撤销，链接会立即失效。"
 
 #: src/components/HardcoverSync.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "A sync is already running"
-msgstr ""
+msgstr "同步已经在运行"
 
 #: src/pages/DashboardPage.tsx
 msgid "A while ago"
-msgstr ""
+msgstr "不久前"
 
 #: src/pages/StatsPage.tsx
 msgid "A year of reading, heatmap"
-msgstr ""
+msgstr "一年的阅读热力图"
 
 #: src/pages/SettingsPage.tsx
 msgid "About"
@@ -1126,27 +1126,27 @@ msgstr "关于"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "about <0>{d}</0> at your pace"
-msgstr ""
+msgstr "按你的阅读速度约需 <0>{d}</0>"
 
 #: src/pages/BinderyPage.tsx
 msgid "Accept"
-msgstr ""
+msgstr "接受"
 
 #: src/pages/BinderyPage.tsx
 msgid "Accept All"
-msgstr ""
+msgstr "全部接受"
 
 #: src/pages/BinderyPage.tsx
 msgid "Accept failed"
-msgstr ""
+msgstr "接受失败"
 
 #: src/pages/BinderyPage.tsx
 msgid "Accepted: {title}"
-msgstr ""
+msgstr "已接受：{title}"
 
 #: src/components/NotificationChannels.tsx
 msgid "Access token (only for protected topics)"
-msgstr ""
+msgstr "访问令牌（仅用于受保护主题）"
 
 #: src/pages/SettingsPage.tsx
 msgid "Account & Security"
@@ -1212,7 +1212,7 @@ msgstr "添加面板"
 
 #: src/pages/WishlistPage.tsx
 msgid "Add books you'd like to see in the library."
-msgstr ""
+msgstr "添加你希望在图书馆中看到的图书。"
 
 #: src/components/NotificationChannels.tsx
 msgid "Add channel"
@@ -1245,7 +1245,7 @@ msgstr "添加标签"
 
 #: src/pages/SettingsPage.tsx
 msgid "Add Theme"
-msgstr ""
+msgstr "添加主题"
 
 #: src/pages/StatsPage.tsx
 msgid "Add tile"
@@ -1277,9 +1277,10 @@ msgstr "添加你的电子阅读器或个人邮箱。图书会以附件形式发
 
 #: src/pages/SettingsPage.tsx
 msgid "Add your SMTP sender address to Amazon's <0>Approved Personal Document E-mail List</0>, or emails will be silently dropped."
-msgstr ""
+msgstr "请将你的 SMTP 发件地址添加到亚马逊（Amazon）的 <0>已批准的个人文档电子邮件列表</0>，否则邮件会被静默丢弃。"
 
 #: src/pages/AdminPage.tsx
+#: src/pages/SettingsPage.tsx
 msgid "Added"
 msgstr "已添加"
 
@@ -1314,15 +1315,15 @@ msgstr "全部"
 
 #: src/pages/DashboardPage.tsx
 msgid "All {loadedCount} books loaded"
-msgstr ""
+msgstr "已加载全部 {loadedCount} 本图书"
 
 #: src/components/CoverAudit.tsx
 msgid "All {scanned} covers look healthy."
-msgstr ""
+msgstr "全部 {scanned} 个封面状态正常。"
 
 #: src/components/LibraryHealth.tsx
 msgid "All {total} files are correctly placed."
-msgstr ""
+msgstr "全部 {total} 个文件均已正确放置。"
 
 #: src/pages/DashboardPage.tsx
 msgid "All →"
@@ -1344,7 +1345,7 @@ msgstr "所有图书"
 
 #: src/pages/StatsPage.tsx
 msgid "All Books by Reading Time"
-msgstr ""
+msgstr "按阅读时间排序的全部图书"
 
 #: src/pages/AdminPage.tsx
 msgid "All Devices"
@@ -1352,15 +1353,15 @@ msgstr "所有设备"
 
 #: src/components/LibraryHealth.tsx
 msgid "All files are correctly placed."
-msgstr ""
+msgstr "所有文件均已正确放置。"
 
 #: src/pages/BinderyPage.tsx
 msgid "All imported books accepted"
-msgstr ""
+msgstr "所有导入的图书均已接受"
 
 #: src/pages/BinderyPage.tsx
 msgid "All items must have a title"
-msgstr ""
+msgstr "所有项目都必须有标题"
 
 #: src/components/MetadataManager.tsx
 msgid "All libraries"
@@ -1389,7 +1390,7 @@ msgstr "所有用户"
 
 #: src/pages/StatsPage.tsx
 msgid "All your reading goals — rings fill as you read, managed in place"
-msgstr ""
+msgstr "你的所有阅读目标——阅读时圆环会逐渐填充，可直接管理"
 
 #: src/pages/StatsPage.tsx
 msgid "All-time hours, pages, books, streak"
@@ -1401,11 +1402,11 @@ msgstr "已计数"
 
 #: src/components/SendButton.tsx
 msgid "Already in your KOReader inbox"
-msgstr ""
+msgstr "已在 KOReader 收件箱中"
 
 #: src/components/UploadModal.tsx
 msgid "Already in your library — will be skipped."
-msgstr ""
+msgstr "已在图书馆中——将跳过。"
 
 #: src/components/Sidebar.tsx
 #: src/components/ThemeToggle.tsx
@@ -1426,7 +1427,7 @@ msgstr "API 令牌"
 
 #: src/pages/SettingsPage.tsx
 msgid "App-specific PINs"
-msgstr ""
+msgstr "应用专用 PIN"
 
 #: src/pages/SettingsPage.tsx
 msgid "Appearance"
@@ -1434,19 +1435,19 @@ msgstr "外观"
 
 #: src/components/NotificationChannels.tsx
 msgid "Application token (required)"
-msgstr "应用令牌（必需）"
+msgstr "应用令牌（必填）"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Applied metadata to {n} books."
-msgstr ""
+msgstr "已将元数据应用到 {n} 本图书。"
 
 #: src/components/SeriesRating.tsx
 msgid "Applied to volumes you haven’t rated"
-msgstr ""
+msgstr "应用于尚未评分的卷"
 
 #: src/components/ReadingImport.tsx
 msgid "Applied: {statuses} statuses, {ratings} ratings, {finishes} finish dates, {reviews} reviews."
-msgstr ""
+msgstr "已应用：{statuses} 个状态、{ratings} 个评分、{finishes} 个完成日期、{reviews} 条评价。"
 
 #: src/components/CoverPickerModal.tsx
 #: src/pages/StatsPage.tsx
@@ -1491,11 +1492,11 @@ msgstr "应用所选项"
 
 #: src/components/CoverAudit.tsx
 msgid "Apply the first cover-search candidate"
-msgstr ""
+msgstr "应用第一个封面搜索候选项"
 
 #: src/components/MetadataManager.tsx
 msgid "Apply to {n} Chapters"
-msgstr ""
+msgstr "应用到 {n} 个章节"
 
 #: src/pages/BinderyPage.tsx
 msgid "Apply to all"
@@ -1513,23 +1514,23 @@ msgstr "正在应用 {done}/{total}…"
 
 #: src/components/ReadingImport.tsx
 msgid "Applying failed — nothing was changed."
-msgstr ""
+msgstr "应用失败——没有任何更改。"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Arc name"
-msgstr ""
+msgstr "篇章名称"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Arcs"
-msgstr ""
+msgstr "篇章"
 
 #: src/pages/StatsPage.tsx
 msgid "Are you getting faster?"
-msgstr ""
+msgstr "你是否读得更快了？"
 
 #: src/pages/SettingsPage.tsx
 msgid "Ask your server admin if you don't manage the Tome installation yourself."
-msgstr ""
+msgstr "如果你不是 Tome 安装的管理员，请询问服务器管理员。"
 
 #: src/components/MetadataManager.tsx
 msgid "Assign Chapter Metadata"
@@ -1541,7 +1542,7 @@ msgstr "为新图书分配类型"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Attach progress synced from a KOReader-compatible app to this book"
-msgstr ""
+msgstr "将 KOReader 兼容应用同步的阅读进度附加到此图书"
 
 #: src/pages/AdminPage.tsx
 msgid "Audit Log"
@@ -1580,15 +1581,15 @@ msgstr "作者：{name}"
 
 #: src/pages/SettingsPage.tsx
 msgid "Authorize"
-msgstr ""
+msgstr "授权"
 
 #: src/pages/LoginPage.tsx
 msgid "Authorize this code from another device"
-msgstr ""
+msgstr "在另一台设备上授权此验证码"
 
 #: src/pages/SettingsPage.tsx
 msgid "Authorizing..."
-msgstr ""
+msgstr "正在授权……"
 
 #: src/components/CommandPalette.tsx
 msgid "Authors"
@@ -1600,15 +1601,15 @@ msgstr "自动"
 
 #: src/components/MetadataManager.tsx
 msgid "Auto-filled from series"
-msgstr ""
+msgstr "从系列自动填充"
 
 #: src/pages/StatsPage.tsx
 msgid "Auto-fit height"
-msgstr ""
+msgstr "自动适配高度"
 
 #: src/components/CoverAudit.tsx
 msgid "Auto-fix {missingCount} missing"
-msgstr ""
+msgstr "自动修复 {missingCount} 个缺失项"
 
 #: src/pages/StatsPage.tsx
 msgid "average pace"
@@ -1620,31 +1621,31 @@ msgstr "各图书类型平均评分"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "avg {a} pages/min"
-msgstr ""
+msgstr "平均 {a} 页/分钟"
 
 #: src/pages/StatsPage.tsx
 msgid "avg {avg}"
-msgstr ""
+msgstr "平均 {avg}"
 
 #: src/components/SeriesReadingStats.tsx
 msgid "avg / volume"
-msgstr ""
+msgstr "平均每卷"
 
 #: src/components/stats/widgets/wordstats.tsx
 msgid "avg <0>{avg}</0> · median {median}"
-msgstr ""
+msgstr "平均 <0>{avg}</0> · 中位数 {median}"
 
 #: src/components/stats/widgets/wordstats.tsx
 msgid "avg <0>{avg}</0> words per book"
-msgstr ""
+msgstr "平均每本图书 <0>{avg}</0> 字"
 
 #: src/pages/BookDetailPage.tsx
 msgid "avg session"
-msgstr ""
+msgstr "平均每次会话"
 
 #: src/pages/StatsPage.tsx
 msgid "Avg Session"
-msgstr ""
+msgstr "平均阅读会话"
 
 #: src/pages/BinderyPage.tsx
 msgid "Back to list"
@@ -1676,11 +1677,11 @@ msgstr "备份失败"
 
 #: src/pages/ReaderPage.tsx
 msgid "Based on a default pace (no reading history yet)"
-msgstr ""
+msgstr "基于默认阅读速度（尚无阅读历史）"
 
 #: src/pages/ReaderPage.tsx
 msgid "Based on your measured reading pace"
-msgstr ""
+msgstr "基于你测得的阅读速度"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Batch complete"
@@ -1704,7 +1705,7 @@ msgstr "最佳匹配"
 
 #: src/pages/BinderyPage.tsx
 msgid "Best match applied to {matched} of {totalN} files — no match for the rest"
-msgstr ""
+msgstr "已将最佳匹配应用到 {matched}/{totalN} 个文件——其余文件没有匹配项"
 
 #: src/pages/BinderyPage.tsx
 msgid "Best match applied to all {matched} files"
@@ -1712,7 +1713,7 @@ msgstr "已将最佳匹配应用到全部 {matched} 个文件"
 
 #: src/pages/StatsPage.tsx
 msgid "Best-Rated Series"
-msgstr ""
+msgstr "评分最高的系列"
 
 #: src/components/SendButton.tsx
 msgid "Beta"
@@ -1729,7 +1730,7 @@ msgstr "入库区"
 
 #: src/pages/BinderyPage.tsx
 msgid "Bindery flow explained — open docs"
-msgstr ""
+msgstr "解释入库流程——打开文档"
 
 #: src/components/Sidebar.tsx
 #: src/components/ThemeToggle.tsx
@@ -1754,7 +1755,7 @@ msgstr "图书"
 
 #: src/components/MetadataManager.tsx
 msgid "Book {at} of {total}"
-msgstr ""
+msgstr "第 {at}/{total} 本图书"
 
 #: src/pages/BinderyPage.tsx
 msgid "Book accepted"
@@ -1770,11 +1771,11 @@ msgstr "图书详情"
 
 #: src/components/LibraryHealth.tsx
 msgid "book entry will be removed"
-msgstr ""
+msgstr "图书条目将被移除"
 
 #: src/pages/StatsPage.tsx
 msgid "Book Length"
-msgstr "图书长度"
+msgstr "图书篇幅"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Book not found"
@@ -1823,7 +1824,7 @@ msgstr "已完成的图书"
 
 #: src/pages/SettingsPage.tsx
 msgid "Books downloaded through the OPDS catalog are automatically mapped to their Tome book ID. Open one and TomeSync will start tracking your session immediately."
-msgstr ""
+msgstr "通过 OPDS 目录下载的图书会自动映射到对应的 Tome 图书 ID。打开其中一本后，TomeSync 会立即开始记录你的阅读会话。"
 
 #: src/components/stats/widgets/insights.tsx
 #: src/components/stats/widgets/library.tsx
@@ -1857,7 +1858,7 @@ msgstr "无系列的图书"
 
 #: src/components/ReadingImport.tsx
 msgid "Bring your reading history from Goodreads or StoryGraph: upload their CSV export, review what matches your library, apply. Importing only fills gaps — it never overwrites a status, rating, review, or finish date you already have. \"To read\" shelves are skipped (that's what the wishlist is for)."
-msgstr ""
+msgstr "从 Goodreads 或 StoryGraph 导入你的阅读历史：上传它们导出的 CSV，检查与图书馆的匹配结果，然后应用。导入只会填补缺失信息——不会覆盖你已有的状态、评分、评价或完成日期。“想读”书架会被跳过（这正是愿望单的用途）。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Browse and download your library from KOReader or any OPDS client."
@@ -1873,7 +1874,7 @@ msgstr "浏览你的图书馆"
 
 #: src/components/WishlistModal.tsx
 msgid "Can't find it? Add manually"
-msgstr ""
+msgstr "找不到？手动添加"
 
 #: src/components/BulkMetadataReviewModal.tsx
 #: src/components/EntityModal.tsx
@@ -1913,15 +1914,15 @@ msgstr "全年分类构成"
 
 #: src/pages/BookDetailPage.tsx
 msgid "ch. {n}"
-msgstr ""
+msgstr "第 {n} 章"
 
 #: src/components/MetadataManager.tsx
 msgid "Ch. {num}"
-msgstr ""
+msgstr "第 {num} 章"
 
 #: src/pages/BookDetailPage.tsx
 msgid "ch. 1"
-msgstr ""
+msgstr "第 1 章"
 
 #: src/components/CoverPickerModal.tsx
 msgid "Change Cover"
@@ -1933,24 +1934,24 @@ msgstr "修改密码"
 
 #: src/pages/BinderyPage.tsx
 msgid "chapter"
-msgstr ""
+msgstr "章节"
 
 #: src/pages/BinderyPage.tsx
 #: src/pages/BookDetailPage.tsx
 msgid "Chapter"
-msgstr ""
+msgstr "章节"
 
 #: src/pages/DashboardPage.tsx
 msgid "Chapters"
-msgstr ""
+msgstr "章节"
 
 #: src/pages/StatsPage.tsx
 msgid "Chart type"
-msgstr ""
+msgstr "图表类型"
 
 #: src/components/WishlistModal.tsx
 msgid "Choose a different book"
-msgstr ""
+msgstr "选择其他图书"
 
 #: src/components/WishlistModal.tsx
 msgid "Choose a different series"
@@ -1985,11 +1986,11 @@ msgstr "清除所有筛选条件"
 
 #: src/pages/AdminPage.tsx
 msgid "Clear cover cache"
-msgstr ""
+msgstr "清除封面缓存"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Clear imported history — remove this book's KOReader page data"
-msgstr ""
+msgstr "清除导入的历史——移除此图书的 KOReader 页面数据"
 
 #: src/components/AppHeader.tsx
 #: src/components/KeyboardShortcutsModal.tsx
@@ -2003,21 +2004,22 @@ msgstr "清除选择 / 取消搜索焦点"
 
 #: src/components/MetadataManager.tsx
 msgid "cleared"
-msgstr ""
+msgstr "已清除"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Clearing…"
-msgstr ""
+msgstr "正在清除……"
 
 #: src/pages/SettingsPage.tsx
 msgid "Click \"Download plugin ZIP\" above. An API key is automatically created and baked into the plugin — no manual configuration needed."
-msgstr ""
+msgstr "点击上方的“下载插件 ZIP”。系统会自动创建 API 密钥并写入插件，无需手动配置。"
 
 #: src/pages/BinderyPage.tsx
 msgid "Click for details"
-msgstr ""
+msgstr "点击查看详情"
 
 #: src/components/BulkMetadataReviewModal.tsx
+#: src/components/ConnectPhoneModal.tsx
 #: src/components/ManageSeriesModal.tsx
 #: src/components/PositionHistoryModal.tsx
 #: src/components/ShareShelfModal.tsx
@@ -2036,27 +2038,27 @@ msgstr "关闭导航"
 
 #: src/pages/LoginPage.tsx
 msgid "Code expired. Try again."
-msgstr ""
+msgstr "验证码已过期。请重试。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Code from new device"
-msgstr ""
+msgstr "来自新设备的验证码"
 
 #: src/pages/SettingsPage.tsx
 msgid "Code has expired. Ask the other device to generate a new one."
-msgstr ""
+msgstr "验证码已过期。请让另一台设备生成新验证码。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Code must be 6 characters"
-msgstr ""
+msgstr "验证码必须为 6 个字符"
 
 #: src/pages/SettingsPage.tsx
 msgid "Code not found. Check the code and try again."
-msgstr ""
+msgstr "未找到验证码。请检查验证码后重试。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Code was already authorized."
-msgstr ""
+msgstr "验证码已授权。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Collapse"
@@ -2064,7 +2066,7 @@ msgstr "折叠"
 
 #: src/components/KeyboardShortcutsModal.tsx
 msgid "Collapse / expand all books"
-msgstr ""
+msgstr "折叠/展开所有图书"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Collapse all"
@@ -2133,6 +2135,15 @@ msgstr "确认新密码"
 msgid "Confirm password"
 msgstr "确认密码"
 
+#: src/components/ConnectPhoneModal.tsx
+#: src/pages/SettingsPage.tsx
+msgid "Connect a phone"
+msgstr "连接手机"
+
+#: src/pages/SettingsPage.tsx
+msgid "Connected devices"
+msgstr "已连接的设备"
+
 #: src/pages/BookDetailPage.tsx
 msgid "Content"
 msgstr "内容"
@@ -2155,11 +2166,11 @@ msgstr "继续阅读"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Copied {n} from “{title}”"
-msgstr ""
+msgstr "已从“{title}”复制 {n} 项"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Copied {n} highlights as Markdown"
-msgstr ""
+msgstr "已将 {n} 个高亮复制为 Markdown"
 
 #: src/pages/HighlightsPage.tsx
 #: src/pages/SettingsPage.tsx
@@ -2168,7 +2179,7 @@ msgstr "复制"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Copy all as Markdown"
-msgstr ""
+msgstr "全部复制为 Markdown"
 
 #: src/components/ShareLinksOverview.tsx
 #: src/components/ShareShelfModal.tsx
@@ -2177,7 +2188,7 @@ msgstr "复制链接"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Copy this book’s highlights as Markdown"
-msgstr ""
+msgstr "将此图书的高亮复制为 Markdown"
 
 #: src/pages/SettingsPage.tsx
 msgid "Copy to KOReader"
@@ -2191,66 +2202,70 @@ msgstr "复制令牌"
 msgid "Core"
 msgstr "核心"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Could not create a code"
+msgstr "无法生成验证码"
+
 #: src/components/stats/GoalWidget.tsx
 msgid "Could not create the goal — it may already exist."
-msgstr ""
+msgstr "无法创建目标——它可能已经存在。"
 
 #: src/components/HardcoverSync.tsx
 msgid "Could not link Hardcover account"
-msgstr ""
+msgstr "无法关联 Hardcover 账户"
 
 #: src/pages/SettingsPage.tsx
 msgid "Could not link SSO. Please try again."
-msgstr ""
+msgstr "无法关联 SSO。请重试。"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "Could not load this scope."
-msgstr ""
+msgstr "无法加载此范围。"
 
 #: src/components/WordCount.tsx
 msgid "Could not parse ({n})"
-msgstr ""
+msgstr "无法解析（{n}）"
 
 #: src/components/ReadingImport.tsx
 msgid "Could not read that file"
-msgstr ""
+msgstr "无法读取该文件"
 
 #: src/components/SeriesFollowButton.tsx
 msgid "Could not resolve this series on Hardcover"
-msgstr ""
+msgstr "无法在 Hardcover 中解析此系列"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Could not set match"
-msgstr ""
+msgstr "无法设置匹配"
 
 #: src/pages/SettingsPage.tsx
 msgid "Could not start SSO linking."
-msgstr ""
+msgstr "无法开始 SSO 关联。"
 
 #: src/components/HardcoverSync.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "Could not start sync"
-msgstr ""
+msgstr "无法开始同步"
 
 #: src/components/HardcoverSync.tsx
 msgid "Could not unlink"
-msgstr ""
+msgstr "无法取消关联"
 
 #: src/components/HardcoverSync.tsx
 msgid "Could not update sync setting"
-msgstr ""
+msgstr "无法更新同步设置"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Could not update the goal."
-msgstr ""
+msgstr "无法更新目标。"
 
 #: src/pages/StatsPage.tsx
 msgid "Couldn’t load stats."
-msgstr ""
+msgstr "无法加载统计数据。"
 
 #: src/components/stats/TimelineRibbon.tsx
 msgid "Couldn't load the timeline."
-msgstr ""
+msgstr "无法加载时间线。"
 
 #: src/components/WordCount.tsx
 msgid "Counted"
@@ -2293,15 +2308,15 @@ msgstr "创建"
 
 #: src/pages/SetupPage.tsx
 msgid "Create admin account"
-msgstr ""
+msgstr "创建管理员账户"
 
 #: src/components/ShareShelfModal.tsx
 msgid "Create share link"
-msgstr ""
+msgstr "创建共享链接"
 
 #: src/pages/SetupPage.tsx
 msgid "Create your admin account to get started"
-msgstr ""
+msgstr "创建管理员账户以开始使用"
 
 #: src/pages/SettingsPage.tsx
 msgid "Created"
@@ -2313,11 +2328,11 @@ msgstr "正在创建…"
 
 #: src/pages/StatsPage.tsx
 msgid "Cumulative Books Added — Last 24 Months"
-msgstr ""
+msgstr "过去 24 个月新增图书累计数"
 
 #: src/pages/StatsPage.tsx
 msgid "Cumulative finishes over time"
-msgstr ""
+msgstr "随时间变化的累计完成数"
 
 #: src/components/PositionHistoryModal.tsx
 #: src/pages/StatsPage.tsx
@@ -2331,7 +2346,7 @@ msgstr "当前"
 
 #: src/pages/StatsPage.tsx
 msgid "Current & longest daily streak"
-msgstr ""
+msgstr "当前和最长连续阅读天数"
 
 #: src/pages/SettingsPage.tsx
 msgid "Current password"
@@ -2339,7 +2354,7 @@ msgstr "当前密码"
 
 #: src/components/WordCount.tsx
 msgid "Current:"
-msgstr ""
+msgstr "当前："
 
 #: src/components/home/FocusMode.tsx
 msgid "Currently reading"
@@ -2355,11 +2370,11 @@ msgstr "自定义"
 
 #: src/pages/StatsPage.tsx
 msgid "Custom Stat"
-msgstr ""
+msgstr "自定义统计"
 
 #: src/components/CoverPickerModal.tsx
 msgid "Custom URL"
-msgstr ""
+msgstr "自定义 URL"
 
 #: src/lib/goals.ts
 msgid "Daily minutes"
@@ -2371,11 +2386,11 @@ msgstr "每日页数"
 
 #: src/pages/StatsPage.tsx
 msgid "Daily sessions on a 24h track"
-msgstr ""
+msgstr "24 小时轨迹中的每日会话"
 
 #: src/pages/AdminPage.tsx
 msgid "Danger Zone"
-msgstr ""
+msgstr "危险区域"
 
 #: src/components/Sidebar.tsx
 #: src/components/ThemeToggle.tsx
@@ -2414,11 +2429,11 @@ msgstr "连续阅读天数"
 
 #: src/lib/backlog.ts
 msgid "days at ~{mpd} min a day (last {win} days)"
-msgstr ""
+msgstr "过去 {win} 天每天约 {mpd} 分钟"
 
 #: src/components/LibraryHealth.tsx
 msgid "Dead entries removed"
-msgstr ""
+msgstr "已移除失效条目"
 
 #: src/pages/ReaderPage.tsx
 msgid "Default"
@@ -2436,15 +2451,15 @@ msgstr "删除"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Delete \"{title}\"?"
-msgstr ""
+msgstr "删除“{title}”？"
 
 #: src/pages/StatsPage.tsx
 msgid "Delete {name}"
-msgstr ""
+msgstr "删除 {name}"
 
 #: src/pages/AdminPage.tsx
 msgid "Delete all {count} cached cover files ({mb} MB). Covers will be re-extracted on next access."
-msgstr ""
+msgstr "删除全部 {count} 个缓存封面文件（{mb} MB）。下次访问时会重新提取封面。"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Delete arc"
@@ -2478,7 +2493,7 @@ msgstr "删除主题"
 
 #: src/pages/BinderyPage.tsx
 msgid "Delete this book from the library? The file will be removed and this cannot be undone."
-msgstr ""
+msgstr "要从图书馆删除此图书吗？文件也会被删除，此操作无法撤销。"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Delete this goal"
@@ -2491,11 +2506,11 @@ msgstr "删除此高亮"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Delete this imported sitting"
-msgstr ""
+msgstr "删除此导入的阅读记录"
 
 #: src/pages/StatsPage.tsx
 msgid "Deleted board “{name}”"
-msgstr ""
+msgstr "已删除面板“{name}”"
 
 #: src/pages/BinderyPage.tsx
 #~ msgid "Deleting..."
@@ -2508,7 +2523,7 @@ msgstr "正在删除…"
 
 #: src/components/MetadataManager.tsx
 msgid "Desc"
-msgstr ""
+msgstr "描述"
 
 #: src/components/ManageSeriesModal.tsx
 #: src/components/MetadataFetchModal.tsx
@@ -2535,12 +2550,13 @@ msgstr "详情："
 #: src/components/SendToDeviceModal.tsx
 #: src/components/stats/widgets/overview.tsx
 #: src/pages/AdminPage.tsx
+#: src/pages/SettingsPage.tsx
 msgid "Device"
 msgstr "设备"
 
 #: src/pages/SettingsPage.tsx
 msgid "Device authorized — the new device is now signed in."
-msgstr ""
+msgstr "设备已授权——新设备现在已登录。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Device name"
@@ -2548,7 +2564,7 @@ msgstr "设备名称"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Device reading time mapped into the book's chapters. Hover the line for a chapter's time; a flat stretch hasn't been read on a synced device."
-msgstr ""
+msgstr "设备阅读时间已映射到图书章节。将鼠标悬停在线条上可查看某章节的阅读时间；平坦的部分表示该章节尚未在已同步设备上阅读。"
 
 #: src/pages/AdminPage.tsx
 msgid "Directories"
@@ -2561,27 +2577,31 @@ msgstr "目录"
 #: src/pages/DashboardPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Dismiss"
-msgstr ""
+msgstr "忽略"
 
 #: src/pages/AdminPage.tsx
 msgid "Dismiss failed"
-msgstr ""
+msgstr "忽略失败"
 
 #: src/pages/AdminPage.tsx
 msgid "Dismiss wish"
-msgstr ""
+msgstr "忽略愿望"
 
 #: src/pages/AdminPage.tsx
 msgid "Dismissed"
-msgstr ""
+msgstr "已忽略"
 
 #: src/pages/StatsPage.tsx
 msgid "Do you rate books you spend longer on higher?"
-msgstr ""
+msgstr "你是否会给阅读时间更长的图书更高评分？"
 
 #: src/components/Sidebar.tsx
 msgid "Docs"
 msgstr "文档"
+
+#: src/components/ConnectPhoneModal.tsx
+#~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
+#~ msgstr "还没获取吗？Tome Reader 的 iPhone 版现已开放测试"
 
 #: src/components/WordCount.tsx
 #: src/pages/DashboardPage.tsx
@@ -2592,7 +2612,7 @@ msgstr "完成"
 
 #: src/pages/SettingsPage.tsx
 msgid "Download a JSON snapshot of <0>your personal data</0>: reading status, every reading session, sync positions, shelves, and your local preferences. Book files themselves are not included — Tome only references them on disk. API tokens and KOReader keys are also excluded so the file isn't a credential."
-msgstr ""
+msgstr "下载一份 <0>你的个人数据</0> JSON 快照：阅读状态、所有阅读会话、同步位置、书架和本地偏好设置。图书文件本身不会包含在内——Tome 只引用它们在磁盘上的位置。API 令牌和 KOReader 密钥也会排除在外，因此该文件不会成为凭据。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Download as Markdown file"
@@ -2609,263 +2629,263 @@ msgstr "下载失败"
 
 #: src/pages/AdminPage.tsx
 msgid "Download limit must be a number of 0 or more"
-msgstr ""
+msgstr "下载限制必须是 0 或更大的数字"
 
 #: src/components/KeyboardShortcutsModal.tsx
 msgid "Download Markdown export"
-msgstr ""
+msgstr "下载 Markdown 导出"
 
 #: src/pages/SettingsPage.tsx
 msgid "Download my data"
-msgstr ""
+msgstr "下载 my 数据"
 
 #: src/pages/SettingsPage.tsx
 msgid "Download plugin ZIP"
-msgstr ""
+msgstr "下载插件 ZIP"
 
 #: src/pages/SettingsPage.tsx
 msgid "Download the plugin"
-msgstr ""
+msgstr "下载插件"
 
 #: src/pages/StatsPage.tsx
 msgid "Download the plugin from Settings"
-msgstr ""
+msgstr "从设置中下载插件"
 
 #: src/pages/SettingsPage.tsx
 msgid "Download your entire library catalog — all titles, authors, series, tags and formats."
-msgstr ""
+msgstr "下载你的整个图书馆目录——全部标题、作者、系列、标签和格式。"
 
 #: src/pages/DashboardPage.tsx
 msgid "Download ZIP"
-msgstr ""
+msgstr "下载 ZIP"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Downloaded {n} highlights"
-msgstr ""
+msgstr "已下载 {n} 条高亮内容"
 
 #: src/pages/AdminPage.tsx
 msgid "Downloads per day"
-msgstr ""
+msgstr "每日下载量"
 
 #: src/components/UploadModal.tsx
 msgid "Drop books here or <0>click to browse</0>"
-msgstr ""
+msgstr "将图书拖放到此处，或<0>点击浏览</0>"
 
 #: src/pages/BinderyPage.tsx
 msgid "Drop files in the incoming folder to get started"
-msgstr ""
+msgstr "将文件拖放到“待入库”文件夹即可开始"
 
 #: src/components/LibraryHealth.tsx
 msgid "Dry Run All"
-msgstr ""
+msgstr "试运行全部"
 
 #: src/components/LibraryHealth.tsx
 msgid "Dry Run Preview — {n} files would be moved"
-msgstr ""
+msgstr "试运行预览——将移动 {n} 个文件"
 
 #: src/pages/StatsPage.tsx
 msgid "Duplicate “{name}”"
-msgstr ""
+msgstr "重复 “{name}”"
 
 #: src/pages/StatsPage.tsx
 msgid "Duplicate {title}"
-msgstr ""
+msgstr "重复 {title}"
 
 #: src/pages/AdminPage.tsx
 msgid "Duplicate Detection"
-msgstr ""
+msgstr "重复检测"
 
 #: src/pages/StatsPage.tsx
 msgid "Duplicate tile"
-msgstr ""
+msgstr "重复磁贴"
 
 #: src/pages/AdminPage.tsx
 msgid "Duplicates"
-msgstr ""
+msgstr "重复项"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Duration"
-msgstr ""
+msgstr "时长"
 
 #: src/pages/SettingsPage.tsx
 msgid "E-Reader Devices"
-msgstr ""
+msgstr "电子阅读器设备"
 
 #: src/pages/BinderyPage.tsx
 msgid "e.g. 1"
-msgstr ""
+msgstr "例如 1"
 
 #: src/pages/BinderyPage.tsx
 msgid "e.g. 2023"
-msgstr ""
+msgstr "例如 2023"
 
 #: src/pages/AdminPage.tsx
 msgid "e.g. adult, mature"
-msgstr ""
+msgstr "例如 adult、mature"
 
 #: src/pages/BinderyPage.tsx
 msgid "e.g. en"
-msgstr ""
+msgstr "例如 en"
 
 #: src/pages/AdminPage.tsx
 msgid "e.g. Novel"
-msgstr ""
+msgstr "例如 Novel"
 
 #: src/pages/SettingsPage.tsx
 msgid "e.g. scribe-laptop"
-msgstr ""
+msgstr "例如 scribe-laptop"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Each row is one reading session."
-msgstr ""
+msgstr "每一行是一个阅读会话。"
 
 #: src/components/Sidebar.tsx
 #: src/pages/AdminPage.tsx
 #: src/pages/BookDetailPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Edit goal"
-msgstr ""
+msgstr "编辑目标"
 
 #: src/components/Sidebar.tsx
 msgid "Edit Library"
-msgstr ""
+msgstr "编辑图书馆"
 
 #: src/pages/DashboardPage.tsx
 msgid "Edit Metadata"
-msgstr ""
+msgstr "编辑元数据"
 
 #: src/pages/BookDetailPage.tsx
 #: src/pages/HighlightsPage.tsx
 #: src/pages/ReaderPage.tsx
 msgid "Edit note"
-msgstr ""
+msgstr "编辑笔记"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Edit review"
-msgstr ""
+msgstr "编辑书评"
 
 #: src/components/Sidebar.tsx
 msgid "Edit Shelf"
-msgstr ""
+msgstr "编辑书架"
 
 #: src/pages/AdminPage.tsx
 msgid "Edit User"
-msgstr ""
+msgstr "编辑用户"
 
 #: src/components/WordCount.tsx
 msgid "Elapsed {el} · ~{eta} left"
-msgstr ""
+msgstr "已用 {el} · ~{eta} 剩余"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/SettingsPage.tsx
 #: src/pages/SetupPage.tsx
 msgid "Email"
-msgstr ""
+msgstr "邮件"
 
 #: src/pages/SettingsPage.tsx
 msgid "Email address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "Email delivery is not set up yet"
-msgstr ""
+msgstr "尚未设置邮件投递"
 
 #: src/pages/SettingsPage.tsx
 msgid "Email delivery is not set up yet."
-msgstr ""
+msgstr "尚未设置邮件投递。"
 
 #: src/components/Sidebar.tsx
 #: src/components/ThemeToggle.tsx
 msgid "Ember"
-msgstr ""
+msgstr "Ember"
 
 #: src/pages/StatsPage.tsx
 msgid "Empty board"
-msgstr ""
+msgstr "空面板"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "End"
-msgstr ""
+msgstr "结束"
 
 #: src/pages/ReaderPage.tsx
 msgid "EPUB failed to open: {msg2}"
-msgstr ""
+msgstr "EPUB 打开失败：{msg2}"
 
 #: src/pages/StatsPage.tsx
 msgid "EPUB vs CBZ time split"
-msgstr ""
+msgstr "EPUB 与 CBZ 阅读时间分布"
 
 #: src/components/WordCount.tsx
 msgid "EPUBs"
-msgstr ""
+msgstr "EPUB"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Errors"
-msgstr ""
+msgstr "错误"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Est. read time"
-msgstr ""
+msgstr "预计阅读时间"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Est. remaining"
-msgstr ""
+msgstr "Est. 剩余"
 
 #: src/components/WordCount.tsx
 msgid "Every EPUB is counted"
-msgstr ""
+msgstr "每个 EPUB 均已计入"
 
 #: src/components/ShareLinksOverview.tsx
 msgid "Every public link you've shared — shelves, series, and books. Links show metadata, your ratings, highlights, and reading stats; never files. Revoking kills a link instantly."
-msgstr ""
+msgstr "你分享过的所有公开链接——书架、系列和图书。链接会显示元数据、你的评分、高亮和阅读统计，但绝不会显示文件。撤销后链接会立即失效。"
 
 #: src/pages/StatsPage.tsx
 msgid "Every session — paginated, deletable"
-msgstr ""
+msgstr "每个阅读会话——支持分页和删除"
 
 #: src/pages/StatsPage.tsx
 msgid "Every widget is already on this board."
-msgstr ""
+msgstr "每个小组件都已在此面板上。"
 
 #: src/components/InstanceBackup.tsx
 msgid "Everything Tome knows in one archive: the database (all users, statuses, sessions, highlights, settings) plus the cover cache. Book files are not included — they live on disk and belong to your own backups. Restoring stages the archive and applies it at the next server restart; the current database is kept alongside as a safety copy."
-msgstr ""
+msgstr "将 Tome 的全部数据保存到一个归档中：数据库（所有用户、状态、会话、高亮和设置）以及封面缓存。图书文件不包含在内——它们位于磁盘上，应由你自行备份。恢复时会准备该归档，并在服务器下次重启时应用；当前数据库会同时保留一份作为安全副本。"
 
 #: src/components/KeyboardShortcutsModal.tsx
 msgid "Everywhere"
-msgstr ""
+msgstr "所有位置"
 
 #: src/pages/AdminPage.tsx
 msgid "Exact Match"
-msgstr ""
+msgstr "精确匹配"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Exclude"
-msgstr ""
+msgstr "排除"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Excluded"
-msgstr ""
+msgstr "已排除"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Excluded from Hardcover sync"
-msgstr ""
+msgstr "已从 Hardcover 同步中排除"
 
 #: src/components/ImpersonationBanner.tsx
 msgid "Exit impersonation"
-msgstr ""
+msgstr "Exit 模拟身份"
 
 #: src/pages/DashboardPage.tsx
 msgid "Exit selection mode"
-msgstr ""
+msgstr "退出选择模式"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Expand"
@@ -2873,376 +2893,376 @@ msgstr "展开"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Expand all"
-msgstr ""
+msgstr "全部展开"
 
 #: src/components/Sidebar.tsx
 msgid "Expand sidebar"
-msgstr ""
+msgstr "展开侧边栏"
 
 #: src/components/ShareLinksOverview.tsx
 msgid "expired"
-msgstr ""
+msgstr "已过期"
 
 #: src/components/ShareLinksOverview.tsx
 msgid "expires {d}"
-msgstr ""
+msgstr "过期 {d}"
 
 #: src/components/ShareShelfModal.tsx
 msgid "Expires {d}"
-msgstr ""
+msgstr "过期于 {d}"
 
 #: src/pages/LoginPage.tsx
 msgid "Expires in {timeLeft}"
-msgstr ""
+msgstr "将于 {timeLeft} 后过期"
 
 #: src/pages/HighlightsPage.tsx
 #: src/pages/SettingsPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: src/pages/SettingsPage.tsx
 msgid "Export {label}"
-msgstr ""
+msgstr "导出 {label}"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Export failed"
-msgstr ""
+msgstr "导出失败"
 
 #: src/pages/StatsPage.tsx
 msgid "Export this board as a JSON file (share or back up)"
-msgstr ""
+msgstr "将此面板导出为 JSON 文件（分享或备份）"
 
 #: src/pages/SettingsPage.tsx
 msgid "Exporting..."
-msgstr ""
+msgstr "正在导出…"
 
 #: src/components/NotificationChannels.tsx
 msgid "failed"
-msgstr ""
+msgstr "失败"
 
 #: src/components/WordCount.tsx
 #: src/pages/AdminPage.tsx
 #: src/pages/BinderyPage.tsx
 #: src/pages/DashboardPage.tsx
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 #: src/pages/SettingsPage.tsx
 msgid "Failed to add device"
-msgstr ""
+msgstr "无法添加设备"
 
 #: src/components/WishlistModal.tsx
 msgid "Failed to add wish"
-msgstr ""
+msgstr "无法添加愿望"
 
 #: src/components/CoverPickerModal.tsx
 msgid "Failed to apply cover"
-msgstr ""
+msgstr "无法应用封面"
 
 #: src/components/MetadataManager.tsx
 msgid "Failed to apply metadata."
-msgstr ""
+msgstr "无法应用元数据。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Failed to authorize"
-msgstr ""
+msgstr "授权失败"
 
 #: src/pages/SettingsPage.tsx
 msgid "Failed to change password"
-msgstr ""
+msgstr "无法更改密码"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to clear covers"
-msgstr ""
+msgstr "无法清除封面"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to complete series"
-msgstr ""
+msgstr "无法完成系列"
 
 #: src/pages/SettingsPage.tsx
 msgid "Failed to create token"
-msgstr ""
+msgstr "无法创建令牌"
 
 #: src/pages/BookDetailPage.tsx
 #: src/pages/HighlightsPage.tsx
 msgid "Failed to delete highlight"
-msgstr ""
+msgstr "无法删除高亮"
 
 #: src/components/CoverPickerModal.tsx
 msgid "Failed to fetch candidates"
-msgstr ""
+msgstr "无法获取候选项"
 
 #: src/components/MetadataManager.tsx
 msgid "Failed to fetch candidates."
-msgstr ""
+msgstr "无法获取候选项。"
 
 #: src/pages/LoginPage.tsx
 msgid "Failed to generate code. Try again."
-msgstr ""
+msgstr "无法生成验证码，请重试。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to link sync document"
-msgstr ""
+msgstr "无法关联同步文档"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Failed to load"
-msgstr ""
+msgstr "加载失败"
 
 #: src/pages/BinderyPage.tsx
 msgid "Failed to load bindery"
-msgstr ""
+msgstr "无法加载入库区"
 
 #: src/pages/DashboardPage.tsx
 msgid "Failed to load books"
-msgstr ""
+msgstr "无法加载图书"
 
 #: src/pages/ReaderPage.tsx
 msgid "Failed to load comic pages: {msg2}"
-msgstr ""
+msgstr "无法加载漫画页面：{msg2}"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to load duplicates"
-msgstr ""
+msgstr "无法加载重复项"
 
 #: src/pages/ReaderPage.tsx
 msgid "Failed to load EPUB: {msg2}"
-msgstr ""
+msgstr "无法加载 EPUB：{msg2}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to load facets"
-msgstr ""
+msgstr "无法加载筛选条件"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to load libraries"
-msgstr ""
+msgstr "无法加载图书馆"
 
 #: src/components/MetadataManager.tsx
 msgid "Failed to load metadata audit data."
-msgstr ""
+msgstr "无法加载元数据审计数据。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Failed to load more"
-msgstr ""
+msgstr "无法加载更多"
 
 #: src/pages/ReaderPage.tsx
 msgid "Failed to load PDF: {msg2}"
-msgstr ""
+msgstr "无法加载 PDF：{msg2}"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to load server stats"
-msgstr ""
+msgstr "无法加载服务器统计信息"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to load sync status"
-msgstr ""
+msgstr "无法加载同步状态"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to load users"
-msgstr ""
+msgstr "无法加载用户"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "Failed to load wishlist"
-msgstr ""
+msgstr "无法加载愿望单"
 
 #: src/components/WordCount.tsx
 msgid "Failed to load word-count status"
-msgstr ""
+msgstr "无法加载字数统计状态"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to log session"
-msgstr ""
+msgstr "无法记录阅读会话"
 
 #: src/components/SendButton.tsx
 msgid "Failed to queue for KOReader"
-msgstr ""
+msgstr "无法加入 KOReader 队列"
 
 #: src/pages/SettingsPage.tsx
 msgid "Failed to register"
-msgstr ""
+msgstr "注册失败"
 
 #: src/pages/WishlistPage.tsx
 msgid "Failed to remove wish"
-msgstr ""
+msgstr "无法移除愿望"
 
 #: src/components/EntityModal.tsx
 #: src/components/Sidebar.tsx
 #: src/pages/AdminPage.tsx
 #: src/pages/SettingsPage.tsx
 msgid "Failed to save"
-msgstr ""
+msgstr "保存失败"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to save note"
-msgstr ""
+msgstr "无法保存笔记"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to save rating"
-msgstr ""
+msgstr "无法保存评分"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to save restrictions"
-msgstr ""
+msgstr "无法保存限制条件"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to save review"
-msgstr ""
+msgstr "无法保存书评"
 
 #: src/pages/AdminPage.tsx
 msgid "Failed to save role"
-msgstr ""
+msgstr "无法保存角色"
 
 #: src/components/SeriesRating.tsx
 msgid "Failed to save series rating"
-msgstr ""
+msgstr "无法保存系列评分"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "Failed to send"
-msgstr ""
+msgstr "发送失败"
 
 #: src/components/WordCount.tsx
 msgid "Failed to start"
-msgstr ""
+msgstr "启动失败"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to undo"
-msgstr ""
+msgstr "无法撤销"
 
 #: src/pages/DashboardPage.tsx
 msgid "Failed to update metadata"
-msgstr ""
+msgstr "无法更新元数据"
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Failed to update password."
-msgstr ""
+msgstr "无法更新密码。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Failed to update reading status"
-msgstr ""
+msgstr "无法更新阅读状态"
 
 #: src/components/Sidebar.tsx
 msgid "Failed to update sharing"
-msgstr ""
+msgstr "无法更新共享设置"
 
 #: src/components/CoverPickerModal.tsx
 msgid "Failed to upload cover"
-msgstr ""
+msgstr "无法上传封面"
 
 #: src/pages/BinderyPage.tsx
 msgid "fantasy, action, romance"
-msgstr ""
+msgstr "奇幻, 动作, 言情"
 
 #: src/components/stats/widgets/wordstats.tsx
 msgid "Fastest"
-msgstr ""
+msgstr "最快"
 
 #: src/components/MetadataManager.tsx
 msgid "Fetch"
-msgstr ""
+msgstr "获取"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Fetch failed"
-msgstr ""
+msgstr "获取失败"
 
 #: src/components/BulkMetadataReviewModal.tsx
 #: src/components/MetadataFetchModal.tsx
 #: src/pages/BookDetailPage.tsx
 msgid "Fetch Metadata"
-msgstr ""
+msgstr "获取元数据"
 
 #: src/pages/BinderyPage.tsx
 msgid "Fetching metadata..."
-msgstr ""
+msgstr "正在获取元数据…"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/components/MetadataManager.tsx
 msgid "Field"
-msgstr ""
+msgstr "字段"
 
 #: src/components/MetadataManager.tsx
 msgid "Field diff"
-msgstr ""
+msgstr "字段差异"
 
 #: src/components/LibraryHealth.tsx
 msgid "File {id}: {err}"
-msgstr ""
+msgstr "文件 {id}: {err}"
 
 #: src/components/LibraryHealth.tsx
 msgid "file entry only"
-msgstr ""
+msgstr "仅文件条目"
 
 #: src/pages/AdminPage.tsx
 msgid "File is missing from disk"
-msgstr ""
+msgstr "文件已从磁盘缺失"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "File size: {size}"
-msgstr ""
+msgstr "文件大小：{size}"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Fill missing fields only"
-msgstr ""
+msgstr "仅填写缺失字段"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Filter…"
-msgstr ""
+msgstr "筛选…"
 
 #: src/pages/DashboardPage.tsx
 msgid "Filters"
-msgstr ""
+msgstr "筛选"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "Finish a couple of books of each type so Tome can measure your pace."
-msgstr ""
+msgstr "完成每种类型的一两本图书，Tome 才能测算你的阅读速度。"
 
 #: src/pages/StatsPage.tsx
 msgid "Finish rate by book type"
-msgstr ""
+msgstr "按图书类型统计的完成比率"
 
 #: src/pages/StatsPage.tsx
 msgid "Finish Rate per Book Category"
-msgstr ""
+msgstr "各类图书的完成比率"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "finished"
-msgstr ""
+msgstr "已完成"
 
 #: src/components/ManageSeriesModal.tsx
 #: src/pages/BookDetailPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Finished"
-msgstr ""
+msgstr "完成"
 
 #: src/pages/DashboardPage.tsx
 msgid "Finished · 30d"
-msgstr ""
+msgstr "完成 · 30d"
 
 #: src/components/SeriesReadingStats.tsx
 #: src/pages/BookDetailPage.tsx
 msgid "First read"
-msgstr ""
+msgstr "首次阅读"
 
 #: src/pages/ReaderPage.tsx
 msgid "Fit page height (W)"
-msgstr ""
+msgstr "适应页面高度（W）"
 
 #: src/pages/ReaderPage.tsx
 msgid "Fit page width (W)"
-msgstr ""
+msgstr "适应页面宽度（W）"
 
 #: src/components/CoverAudit.tsx
 msgid "Fixed"
-msgstr ""
+msgstr "固定"
 
 #: src/pages/DashboardPage.tsx
 msgid "Focus"
-msgstr ""
+msgstr "聚焦"
 
 #: src/components/KeyboardShortcutsModal.tsx
 msgid "Focus search"
-msgstr ""
+msgstr "聚焦搜索"
 
 #: src/components/SeriesFollowButton.tsx
 msgid "Follow"
@@ -3250,205 +3270,205 @@ msgstr "关注"
 
 #: src/pages/WishlistPage.tsx
 msgid "Follow a series — search Hardcover…"
-msgstr ""
+msgstr "关注一个系列——搜索 Hardcover…"
 
 #: src/components/SeriesFollowButton.tsx
 #: src/pages/WishlistPage.tsx
 msgid "Following"
-msgstr ""
+msgstr "关注中"
 
 #: src/components/SeriesFollowButton.tsx
 msgid "Following \"{seriesName}\" — you'll hear when a new volume is out"
-msgstr ""
+msgstr "正在关注\"{seriesName}\"——新卷册发布时会通知你。"
 
 #: src/pages/ReaderPage.tsx
 msgid "FONT SIZE"
-msgstr ""
+msgstr "字体大小"
 
 #: src/pages/BinderyPage.tsx
 msgid "for {targetLabel} — click a file to switch"
-msgstr ""
+msgstr "用于 {targetLabel}——点击文件即可切换"
 
 #: src/components/WishlistModal.tsx
 msgid "For precise series tracking, use the <0>Series</0> tab instead."
-msgstr ""
+msgstr "如需精确追踪系列，请改用<0>系列</0>标签页。"
 
 #: src/components/SendToDeviceModal.tsx
 #: src/pages/BinderyPage.tsx
 #: src/pages/BookDetailPage.tsx
 #: src/pages/DashboardPage.tsx
 msgid "Format"
-msgstr ""
+msgstr "格式"
 
 #: src/pages/DashboardPage.tsx
 msgid "Format: {filterFormatUpper}"
-msgstr ""
+msgstr "格式: {filterFormatUpper}"
 
 #: src/pages/StatsPage.tsx
 msgid "Fr"
-msgstr ""
+msgstr "周五"
 
 #: src/components/stats/HourDowHeatmap.tsx
 #: src/components/stats/widgets/habits.tsx
 msgid "Fri"
-msgstr ""
+msgstr "周五"
 
 #: src/pages/AdminPage.tsx
 msgid "From"
-msgstr ""
+msgstr "从"
 
 #: src/pages/DashboardPage.tsx
 msgid "From your highlights"
-msgstr ""
+msgstr "来自你的高亮"
 
 #: src/pages/AdminPage.tsx
 msgid "Fulfill"
-msgstr ""
+msgstr "满足"
 
 #: src/pages/AdminPage.tsx
 msgid "Fulfill failed"
-msgstr ""
+msgstr "完成愿望失败"
 
 #: src/pages/AdminPage.tsx
 msgid "Fulfill: {title}"
-msgstr ""
+msgstr "满足: {title}"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "Fulfilled"
-msgstr ""
+msgstr "已满足"
 
 #: src/pages/SettingsPage.tsx
 msgid "Full access"
-msgstr ""
+msgstr "完整访问权限"
 
 #: src/components/stats/ReadingDNACard.tsx
 msgid "Full breakdown →"
-msgstr ""
+msgstr "完整 breakdown →"
 
 #: src/components/ReadingImport.tsx
 msgid "fuzzy"
-msgstr ""
+msgstr "模糊"
 
 #: src/pages/SettingsPage.tsx
 msgid "Generate PIN"
-msgstr ""
+msgstr "生成 PIN"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Genres"
-msgstr ""
+msgstr "类型"
 
 #: src/components/SeriesFollowButton.tsx
 msgid "Get notified when a new volume is released"
-msgstr ""
+msgstr "新卷册发布时通知我"
 
 #: src/pages/WishlistPage.tsx
 msgid "Get notified when a new volume of a followed series is released."
-msgstr ""
+msgstr "所关注系列的新卷册发布时通知我。"
 
 #: src/components/HardcoverSync.tsx
 msgid "Get token"
-msgstr ""
+msgstr "获取令牌"
 
 #: src/components/KeyboardShortcutsModal.tsx
 #: src/pages/AdminPage.tsx
 #: src/pages/ReaderPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "Go back"
-msgstr ""
+msgstr "返回"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "Go to Settings"
-msgstr ""
+msgstr "前往设置"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Goal"
-msgstr ""
+msgstr "目标"
 
 #: src/lib/goals.ts
 msgid "Goal reached"
-msgstr ""
+msgstr "目标已达成"
 
 #: src/lib/goals.ts
 msgid "Goal reached today"
-msgstr ""
+msgstr "今日目标已达成"
 
 #: src/components/WhatsNewPanel.tsx
 msgid "Got it"
-msgstr ""
+msgstr "了解"
 
 #: src/pages/DashboardPage.tsx
 msgid "Grid view"
-msgstr ""
+msgstr "网格视图"
 
 #: src/pages/DashboardPage.tsx
 msgid "Group by series"
-msgstr ""
+msgstr "按系列分组"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "Group series"
-msgstr ""
+msgstr "系列分组"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "Group volumes by series"
-msgstr ""
+msgstr "按系列分组卷册"
 
 #: src/pages/AdminPage.tsx
 msgid "Guest"
-msgstr ""
+msgstr "访客"
 
 #: src/pages/StatsPage.tsx
 msgid "Habits"
-msgstr ""
+msgstr "习惯"
 
 #: src/components/Sidebar.tsx
 msgid "Hardcover"
-msgstr ""
+msgstr "Hardcover"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Hardcover sync is disabled on this server."
-msgstr ""
+msgstr "此服务器已禁用 Hardcover 同步。"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/components/MetadataManager.tsx
 msgid "Has cover"
-msgstr ""
+msgstr "有封面"
 
 #: src/pages/StatsPage.tsx
 msgid "Height auto-fits the content — only width is resizable"
-msgstr ""
+msgstr "高度自动适应内容——仅宽度可调整"
 
 #. placeholder {0}: user?.username
 #: src/components/ForcePasswordChange.tsx
 #~ msgid "Hi <0>{0}</0> — your account was created by an admin. Please set a personal password before continuing."
-#~ msgstr ""
+#~ msgstr "你好 <0>{0}</0> — 你的账号由管理员创建，请先设置个人密码再继续。"
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Hi <0>{username}</0> — your account was created by an admin. Please set a personal password before continuing."
-msgstr ""
+msgstr "你好，<0>{username}</0>——你的账户由管理员创建。请先设置个人密码再继续。"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
 msgid "hiatus"
-msgstr ""
+msgstr "间歇期"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Hiatus"
-msgstr ""
+msgstr "间歇期"
 
 #: src/pages/AdminPage.tsx
 msgid "Hidden tags — books carrying any of these tags are invisible to this user (comma-separated)"
-msgstr ""
+msgstr "隐藏标签——带有任一此类标签的图书对此用户不可见（以逗号分隔）"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Hide details"
-msgstr ""
+msgstr "隐藏详情"
 
 #: src/components/stats/widgets/library.tsx
 msgid "Hide sessions"
-msgstr ""
+msgstr "隐藏阅读会话"
 
 #: src/components/stats/widgets/taste.tsx
 msgid "Highest"
@@ -3469,11 +3489,11 @@ msgstr "高亮已删除"
 
 #: src/pages/ReaderPage.tsx
 msgid "Highlight in {c}"
-msgstr ""
+msgstr "以 {c} 高亮"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Highlighted {when}"
-msgstr ""
+msgstr "已高亮于 {when}"
 
 #: src/components/CommandPalette.tsx
 #: src/components/KeyboardShortcutsModal.tsx
@@ -3488,15 +3508,15 @@ msgstr "高亮与笔记"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Highlights and notes you make in KOReader sync here automatically. Highlight a passage on your device, then sync — it’ll show up in this commonplace book."
-msgstr ""
+msgstr "你在 KOReader 中创建的高亮和笔记会自动同步到这里。在设备上高亮一段内容，然后进行同步——它就会显示在这本摘录集中。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Highlights you made on this day in past years"
-msgstr ""
+msgstr "你在往年同一天创建的高亮"
 
 #: src/pages/StatsPage.tsx
 msgid "Hit Edit, then Add tile."
-msgstr ""
+msgstr "点击“编辑”，然后“添加磁贴”。"
 
 #: src/components/CommandPalette.tsx
 #: src/components/Sidebar.tsx
@@ -3510,53 +3530,53 @@ msgstr "主机"
 
 #: src/pages/StatsPage.tsx
 msgid "Hours & finishes, last 12 months"
-msgstr ""
+msgstr "时长与完成数，最近 12 个月"
 
 #: src/pages/StatsPage.tsx
 msgid "How far through each series"
-msgstr ""
+msgstr "每个系列的阅读进度"
 
 #: src/pages/BookDetailPage.tsx
 msgid "How far through the book you'd read by each date."
-msgstr ""
+msgstr "截至每个日期你读到了图书的什么位置。"
 
 #: src/pages/StatsPage.tsx
 msgid "How long the books you finish are"
-msgstr ""
+msgstr "你读完的图书有多长"
 
 #: src/pages/StatsPage.tsx
 msgid "How long your unread pile would take"
-msgstr ""
+msgstr "读完你的待读图书需要多久"
 
 #: src/pages/StatsPage.tsx
 msgid "How much of what you own you’ve read"
-msgstr ""
+msgstr "你所拥有的图书已读了多少"
 
 #: src/pages/LoginPage.tsx
 msgid "How to authorize"
-msgstr ""
+msgstr "如何授权"
 
 #: src/pages/SettingsPage.tsx
 msgid "How to set it up"
-msgstr ""
+msgstr "如何设置"
 
 #: src/pages/StatsPage.tsx
 msgid "How you spread your 1–5 stars"
-msgstr ""
+msgstr "你的 1–5 星评分分布"
 
 #: src/components/EntityModal.tsx
 #: src/components/Sidebar.tsx
 #: src/pages/AdminPage.tsx
 msgid "Icon"
-msgstr ""
+msgstr "图标"
 
 #: src/pages/AdminPage.tsx
 msgid "Impersonation failed"
-msgstr ""
+msgstr "身份模拟失败"
 
 #: src/pages/StatsPage.tsx
 msgid "Import board…"
-msgstr ""
+msgstr "导入面板…"
 
 #: src/pages/AdminPage.tsx
 msgid "Import complete"
@@ -3580,28 +3600,28 @@ msgstr "已导入面板"
 
 #: src/pages/BinderyPage.tsx
 #~ msgid "Importing..."
-#~ msgstr ""
+#~ msgstr "导入中..."
 
 #: src/pages/AdminPage.tsx
 #: src/pages/BinderyPage.tsx
 msgid "Importing…"
-msgstr "正在导入…"
+msgstr "导入中…"
 
 #: src/pages/SettingsPage.tsx
 msgid "In KOReader: main menu -> TomeSync -> \"Test connection\" to confirm the plugin can reach your Tome server."
-msgstr ""
+msgstr "在 KOReader 中：主菜单 -> TomeSync -> “测试连接”，确认插件可以连接到你的 Tome 服务器。"
 
 #: src/pages/SettingsPage.tsx
 msgid "In KOReader: Search → OPDS catalog → add catalog with the URL above."
-msgstr ""
+msgstr "在 KOReader 中：搜索 → OPDS 目录 → 使用上方 URL 添加目录。"
 
 #: src/pages/SettingsPage.tsx
 msgid "In KOReader: Settings > Device > Restart KOReader. The plugin loads automatically."
-msgstr ""
+msgstr "在 KOReader 中：设置 > 设备 > 重启 KOReader。插件会自动加载。"
 
 #: src/pages/SettingsPage.tsx
 msgid "In KOReader: Tools → Progress sync → Custom sync server."
-msgstr ""
+msgstr "在 KOReader 中：工具 → 进度同步 → 自定义同步服务器。"
 
 #: src/pages/AdminPage.tsx
 msgid "Inactive"
@@ -3609,7 +3629,7 @@ msgstr "非活跃"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Include"
-msgstr ""
+msgstr "包含"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/components/MetadataManager.tsx
@@ -3619,7 +3639,7 @@ msgstr "待入库"
 
 #: src/components/MetadataManager.tsx
 msgid "Index"
-msgstr ""
+msgstr "索引"
 
 #: src/components/InstanceBackup.tsx
 msgid "Instance backup"
@@ -3638,11 +3658,15 @@ msgstr "ISBN"
 
 #: src/components/InstanceBackup.tsx
 msgid "It applies at the next server restart."
-msgstr ""
+msgstr "将在下次服务器重启时生效。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Join the beta"
+msgstr "加入测试版"
 
 #: src/components/CommandPalette.tsx
 msgid "Jump to a book, series, author, or page…"
-msgstr ""
+msgstr "跳转到图书、系列、作者或页面…"
 
 #: src/components/home/FocusMode.tsx
 #: src/components/NotificationBell.tsx
@@ -3670,7 +3694,7 @@ msgstr "刚更新"
 
 #: src/pages/AdminPage.tsx
 msgid "Keep this one"
-msgstr ""
+msgstr "保留此本"
 
 #: src/pages/SettingsPage.tsx
 msgid "Key created — copy it now, it won't be shown again."
@@ -3690,15 +3714,15 @@ msgstr "KOReader 同步"
 
 #: src/pages/BookDetailPage.tsx
 msgid "KOReader sync linked"
-msgstr ""
+msgstr "已关联 KOReader 同步"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "KOReader sync: {label}. {tooltip}"
-msgstr ""
+msgstr "KOReader 同步: {label}. {tooltip}"
 
 #: src/pages/SettingsPage.tsx
 msgid "KOSync registered successfully"
-msgstr ""
+msgstr "KOSync 注册成功"
 
 #: src/pages/AdminPage.tsx
 msgid "Label"
@@ -3728,7 +3752,11 @@ msgstr "语言：{filterLanguageLabel}"
 #: src/components/SeriesReadingStats.tsx
 #: src/pages/BookDetailPage.tsx
 msgid "Last read"
-msgstr ""
+msgstr "上次阅读"
+
+#: src/pages/SettingsPage.tsx
+msgid "Last seen"
+msgstr "上次在线"
 
 #: src/pages/SettingsPage.tsx
 msgid "Last sync: {d}"
@@ -3740,11 +3768,11 @@ msgstr "上次同步"
 
 #: src/components/HardcoverSync.tsx
 msgid "last synced {when}"
-msgstr ""
+msgstr "上次同步于 {when}"
 
 #: src/pages/SettingsPage.tsx
 msgid "Last used"
-msgstr ""
+msgstr "上次使用"
 
 #: src/pages/StatsPage.tsx
 msgid "Latest finishes, newest first"
@@ -3772,7 +3800,7 @@ msgstr "更少"
 
 #: src/pages/SetupPage.tsx
 msgid "librarian"
-msgstr ""
+msgstr "图书管理员"
 
 #: src/components/Sidebar.tsx
 #: src/pages/AdminPage.tsx
@@ -3831,7 +3859,7 @@ msgstr "浅色"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Link"
-msgstr ""
+msgstr "关联"
 
 #: src/components/HardcoverSync.tsx
 msgid "Link account"
@@ -3839,7 +3867,7 @@ msgstr "关联账户"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Link KOReader sync…"
-msgstr ""
+msgstr "关联 KOReader 同步…"
 
 #: src/pages/SettingsPage.tsx
 msgid "Link SSO"
@@ -3847,15 +3875,15 @@ msgstr "关联 SSO"
 
 #: src/pages/SettingsPage.tsx
 msgid "Link your identity provider to this account so you can sign in with SSO. Your existing login and password keep working."
-msgstr ""
+msgstr "将身份提供商关联到此账户，以便使用 SSO 登录。现有的登录方式和密码仍可继续使用。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Link your identity provider to this account so you can sign in with SSO. Your existing login keeps working."
-msgstr ""
+msgstr "将身份提供商关联到此账户，以便使用 SSO 登录。现有登录方式仍可继续使用。"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Link your personal API token in <0>Settings → Hardcover</0> — syncing starts right after."
-msgstr ""
+msgstr "在<0>设置 → Hardcover</0>中关联你的个人 API 令牌——随后即可开始同步。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Linked"
@@ -3863,11 +3891,11 @@ msgstr "已关联"
 
 #: src/components/HardcoverSync.tsx
 msgid "Linked as @{username} — initial sync started"
-msgstr ""
+msgstr "已关联为 @{username}——初始同步已开始"
 
 #: src/components/HardcoverSync.tsx
 msgid "Linked as <0>@{username}</0>"
-msgstr ""
+msgstr "已关联为 <0>@{username}</0>"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Linking…"
@@ -3875,7 +3903,7 @@ msgstr "正在关联…"
 
 #: src/pages/DashboardPage.tsx
 msgid "List view"
-msgstr ""
+msgstr "列表视图"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Load more ({left} left)"
@@ -3887,13 +3915,14 @@ msgstr "正在加载图书…"
 
 #: src/components/stats/TimelineRibbon.tsx
 msgid "Loading your reading life…"
-msgstr ""
+msgstr "正在加载你的阅读生活…"
 
 #: src/pages/BinderyPage.tsx
 #: src/pages/SettingsPage.tsx
 #~ msgid "Loading..."
-#~ msgstr ""
+#~ msgstr "正在加载..."
 
+#: src/components/ConnectPhoneModal.tsx
 #: src/components/HardcoverSync.tsx
 #: src/components/PositionHistoryModal.tsx
 #: src/components/ShareLinksOverview.tsx
@@ -3918,7 +3947,7 @@ msgstr "退出登录"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Log session"
-msgstr ""
+msgstr "记录阅读会话"
 
 #: src/pages/LoginPage.tsx
 msgid "Login failed"
@@ -3926,7 +3955,7 @@ msgstr "登录失败"
 
 #: src/pages/SettingsPage.tsx
 msgid "Long-lived tokens for scripts and tools (e.g. Scribe). Each token is shown once on creation."
-msgstr ""
+msgstr "供脚本和工具（如 Scribe）使用的长期令牌。每个令牌仅在创建时显示一次。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Longest first"
@@ -3942,7 +3971,7 @@ msgstr "最长会话"
 
 #: src/pages/StatsPage.tsx
 msgid "Longest session, biggest day, most pages"
-msgstr ""
+msgstr "最长阅读会话、单日最多、页数最多"
 
 #: src/components/stats/widgets/insights.tsx
 #: src/components/stats/widgets/library.tsx
@@ -3968,7 +3997,7 @@ msgstr "最低"
 
 #: src/pages/ReaderPage.tsx
 msgid "Made on the web — syncs to KOReader"
-msgstr ""
+msgstr "在网页端创建——同步到 KOReader"
 
 #: src/pages/DashboardPage.tsx
 msgid "Manage"
@@ -3997,7 +4026,7 @@ msgstr "标记为完成"
 
 #: src/pages/AdminPage.tsx
 msgid "Mark it complete when you consider the series fully available; the requester will be notified."
-msgstr ""
+msgstr "当你认为该系列已全部可用时将其标记为完成；请求人将会收到通知。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Marked as read"
@@ -4013,7 +4042,7 @@ msgstr "已标记为未读——阅读进度已清除"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Match “{title}” to…"
-msgstr ""
+msgstr "匹配 “{title}” 到…"
 
 #: src/pages/BinderyPage.tsx
 msgid "Match all"
@@ -4029,7 +4058,7 @@ msgstr "已匹配到“{title}”"
 
 #: src/pages/BinderyPage.tsx
 msgid "Matches \"{name}\" already in your library — name, author, type and libraries adopted from it"
-msgstr ""
+msgstr "\"{name}\"的匹配项已在你的图书馆中——名称、作者、类型和图书馆信息均已采用该匹配。"
 
 #: src/pages/BinderyPage.tsx
 msgid "Matching {matchingAll}/{total}…"
@@ -4066,27 +4095,27 @@ msgstr "指标"
 #: src/components/stats/widgets/overview.tsx
 #: src/lib/goals.ts
 msgid "min"
-msgstr ""
+msgstr "分钟"
 
 #: src/pages/SetupPage.tsx
 msgid "Minimum 8 characters"
-msgstr ""
+msgstr "最小 8 字符"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Minutes"
-msgstr ""
+msgstr "分钟"
 
 #: src/lib/goals.ts
 msgid "Minutes per day"
-msgstr ""
+msgstr "每天分钟数"
 
 #: src/lib/goals.ts
 msgid "Minutes per week"
-msgstr ""
+msgstr "每周分钟数"
 
 #: src/pages/StatsPage.tsx
 msgid "Minutes read per day"
-msgstr ""
+msgstr "每天阅读分钟数"
 
 #: src/components/MetadataManager.tsx
 #: src/pages/DashboardPage.tsx
@@ -4137,7 +4166,7 @@ msgstr "阅读最多的作者"
 
 #: src/pages/StatsPage.tsx
 msgid "Most-read books by time"
-msgstr ""
+msgstr "按时间排行的最多阅读图书"
 
 #: src/components/LibraryHealth.tsx
 msgid "Moved {n} files"
@@ -4145,7 +4174,7 @@ msgstr "已移动 {n} 个文件"
 
 #: src/pages/SettingsPage.tsx
 msgid "Must be exactly 10 comma-separated hex values (e.g. #1E1E2E)"
-msgstr ""
+msgstr "必须是恰好 10 个以逗号分隔的十六进制值（例如 #1E1E2E）"
 
 #: src/pages/DashboardPage.tsx
 msgid "My Books"
@@ -4153,7 +4182,7 @@ msgstr "我的图书"
 
 #: src/pages/SettingsPage.tsx
 msgid "My Kindle"
-msgstr ""
+msgstr "我的 Kindle"
 
 #: src/pages/DashboardPage.tsx
 msgid "My Rating"
@@ -4161,7 +4190,7 @@ msgstr "我的评分"
 
 #: src/pages/SettingsPage.tsx
 msgid "My Theme"
-msgstr ""
+msgstr "我的主题"
 
 #: src/components/ManageSeriesModal.tsx
 #: src/pages/SettingsPage.tsx
@@ -4175,7 +4204,7 @@ msgstr "名称…"
 
 #: src/pages/SettingsPage.tsx
 msgid "Native KOReader plugin — tracks reading sessions and syncs by book ID. More reliable than KOSync."
-msgstr ""
+msgstr "原生 KOReader 插件——跟踪阅读会话并按图书 ID 同步，比 KOSync 更可靠。"
 
 #: src/components/SyncStatusBadge.tsx
 #: src/pages/SettingsPage.tsx
@@ -4191,8 +4220,12 @@ msgid "Never expires"
 msgstr "永不过期"
 
 #: src/pages/HardcoverPage.tsx
-msgid "Never sync this book"
-msgstr "永不同步此图书"
+#~ msgid "Never sync this book"
+#~ msgstr "永不同步此图书"
+
+#: src/pages/HardcoverPage.tsx
+msgid "Never sync this book. Nothing is removed from Hardcover."
+msgstr "永不同步这本图书。不会从 Hardcover 移除任何内容。"
 
 #: src/pages/SettingsPage.tsx
 msgid "never used"
@@ -4201,6 +4234,10 @@ msgstr "从未使用"
 #: src/pages/StatsPage.tsx
 msgid "New board"
 msgstr "新建面板"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "New code"
+msgstr "新验证码"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "New cover"
@@ -4237,7 +4274,7 @@ msgstr "新建系列"
 
 #: src/pages/BookDetailPage.tsx
 msgid "new this week"
-msgstr ""
+msgstr "本周新增"
 
 #: src/pages/SettingsPage.tsx
 msgid "New Token"
@@ -4293,11 +4330,11 @@ msgstr "暂无 API 令牌。创建一个后即可让 Scribe 或脚本调用 Tome
 
 #: src/components/ManageSeriesModal.tsx
 msgid "No arcs defined yet. Click “Add arc” to create one."
-msgstr ""
+msgstr "尚未定义篇章。点击“添加篇章”来创建一个。"
 
 #: src/pages/AdminPage.tsx
 msgid "No audit entries yet."
-msgstr ""
+msgstr "尚无审计条目。"
 
 #: src/components/MetadataManager.tsx
 msgid "No author"
@@ -4309,7 +4346,7 @@ msgstr "没有作者数据。"
 
 #: src/pages/AdminPage.tsx
 msgid "No book types yet."
-msgstr ""
+msgstr "尚无图书类型。"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "No books currently in progress."
@@ -4321,7 +4358,7 @@ msgstr "未找到图书。请先上传图书，然后完成愿望。"
 
 #: src/pages/AdminPage.tsx
 msgid "No books have been sent yet."
-msgstr ""
+msgstr "尚未发送任何图书。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "No books in progress"
@@ -4341,15 +4378,15 @@ msgstr "未找到候选项"
 
 #: src/components/stats/widgets/library.tsx
 msgid "No category data."
-msgstr ""
+msgstr "没有分类数据."
 
 #: src/pages/StatsPage.tsx
 msgid "No comparison data."
-msgstr ""
+msgstr "没有对比数据."
 
 #: src/components/stats/CompletionByType.tsx
 msgid "No completion data by type."
-msgstr ""
+msgstr "没有完成数据由类型."
 
 #: src/components/CoverAudit.tsx
 #: src/components/MetadataFetchModal.tsx
@@ -4386,6 +4423,10 @@ msgid "No devices configured"
 msgstr "尚未配置设备"
 
 #: src/pages/SettingsPage.tsx
+msgid "No devices connected yet. Use \"Connect a phone\" above to sign the Tome app in."
+msgstr "尚未连接任何设备。请使用上面的“连接手机”登录 Tome 应用。"
+
+#: src/pages/SettingsPage.tsx
 msgid "No devices yet. Add one to start sending books."
 msgstr "暂无设备。添加设备以开始发送图书。"
 
@@ -4411,19 +4452,19 @@ msgstr "没有已满足的愿望。"
 
 #: src/pages/HardcoverPage.tsx
 msgid "No Hardcover account linked yet."
-msgstr ""
+msgstr "尚未关联 Hardcover 账户。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "No highlights match your search."
-msgstr ""
+msgstr "没有与你的搜索匹配的高亮。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "No highlights yet"
-msgstr ""
+msgstr "尚无高亮"
 
 #: src/pages/HardcoverPage.tsx
 msgid "no ISBN"
-msgstr ""
+msgstr "无 ISBN"
 
 #: src/pages/BinderyPage.tsx
 msgid "No libraries"
@@ -4431,7 +4472,7 @@ msgstr "没有图书馆"
 
 #: src/components/stats/LibraryGrowthChart.tsx
 msgid "No library growth data."
-msgstr ""
+msgstr "没有图书馆增长数据."
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "No match found"
@@ -4447,7 +4488,7 @@ msgstr "没有匹配项。"
 
 #: src/pages/AdminPage.tsx
 msgid "No matching volumes in the library yet."
-msgstr ""
+msgstr "图书馆中尚无匹配卷册。"
 
 #: src/pages/BinderyPage.tsx
 msgid "No metadata found"
@@ -4471,27 +4512,27 @@ msgstr "没有其他可分享的用户。"
 
 #: src/components/stats/PaceByFormat.tsx
 msgid "No pace data by format."
-msgstr ""
+msgstr "没有阅读速度数据由格式."
 
 #: src/components/stats/widgets/habits.tsx
 msgid "No paced sessions."
-msgstr ""
+msgstr "没有按阅读速度记录的会话。"
 
 #: src/pages/SettingsPage.tsx
 msgid "No PINs yet. Generate one to use with OPDS clients."
-msgstr ""
+msgstr "尚无 PIN。生成一个以供 OPDS 客户端使用。"
 
 #: src/components/PositionHistoryModal.tsx
 msgid "No position changes recorded yet — history starts with the next sync."
-msgstr ""
+msgstr "尚未记录位置变化——历史记录将从下次同步开始。"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "No previous data to compare"
-msgstr ""
+msgstr "没有可比较的历史数据"
 
 #: src/components/stats/widgets/taste.tsx
 msgid "No rated books with reading time yet."
-msgstr ""
+msgstr "尚无带有阅读时间的已评分图书。"
 
 #: src/components/stats/widgets/taste.tsx
 msgid "No rated books yet."
@@ -4535,11 +4576,11 @@ msgstr "暂无阅读历史——会话和导入的 KOReader 历史记录会显�
 
 #: src/pages/BookDetailPage.tsx
 msgid "No reading logged yet. Track time by hand — handy for a paper copy or a device that isn't synced."
-msgstr ""
+msgstr "尚未记录阅读。手动记录时间——适用于纸质书或未同步的设备。"
 
 #: src/pages/StatsPage.tsx
 msgid "No reading sessions in this range — session-based tiles will be empty."
-msgstr ""
+msgstr "此范围内没有阅读会话——基于会话的磁贴将为空。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "No reading sessions recorded."
@@ -4551,16 +4592,16 @@ msgstr "暂无阅读记录"
 
 #: src/components/stats/widgets/insights.tsx
 msgid "No reading-time data yet."
-msgstr ""
+msgstr "尚无阅读时间数据。"
 
 #: src/components/stats/BacklogEstimate.tsx
 #: src/lib/backlog.ts
 msgid "no recent reading, so no day estimate"
-msgstr ""
+msgstr "近期没有阅读记录，因此无法估算日均"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "No results — but some sources were unavailable (see below); retrying may help."
-msgstr ""
+msgstr "没有结果——但部分来源不可用（见下文）；重试可能会有所帮助。"
 
 #: src/pages/HardcoverPage.tsx
 msgid "No results — try a different query."
@@ -4605,11 +4646,11 @@ msgstr "还没有任何系列的阅读进度。"
 #: src/components/stats/HourDowHeatmap.tsx
 #: src/components/stats/widgets/habits.tsx
 msgid "No session data."
-msgstr ""
+msgstr "没有阅读会话数据。"
 
 #: src/components/stats/widgets/insights.tsx
 msgid "No session-time data yet."
-msgstr ""
+msgstr "尚无会话时间数据。"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "No sessions recorded."
@@ -4617,7 +4658,7 @@ msgstr "没有记录会话。"
 
 #: src/pages/StatsPage.tsx
 msgid "no sessions yet"
-msgstr ""
+msgstr "尚无阅读会话"
 
 #: src/pages/AdminPage.tsx
 msgid "No suggested match yet — search for the book to link, or upload it first."
@@ -4629,15 +4670,15 @@ msgstr "没有可用的目录。"
 
 #: src/components/stats/widgets/wordstats.tsx
 msgid "No timed reading with word counts yet."
-msgstr ""
+msgstr "尚无带字数的计时阅读。"
 
 #: src/components/MetadataManager.tsx
 msgid "No titles need standardizing."
-msgstr ""
+msgstr "没有标题需要 standardizing."
 
 #: src/pages/LoginPage.tsx
 msgid "No Tome account is linked to this identity, and self-signup is disabled."
-msgstr ""
+msgstr "此身份未关联 Tome 账户，且已禁用自助注册。"
 
 #: src/components/UploadModal.tsx
 #: src/pages/BinderyPage.tsx
@@ -4651,11 +4692,11 @@ msgstr "无类型（仅暂存区 / 管理员）"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "No unstarted books in this scope."
-msgstr ""
+msgstr "此范围内没有尚未开始的图书。"
 
 #: src/pages/AdminPage.tsx
 msgid "No users have added devices yet."
-msgstr ""
+msgstr "尚无用户添加设备。"
 
 #: src/pages/StatsPage.tsx
 msgid "No widgets match “{q}”."
@@ -4690,7 +4731,7 @@ msgstr "阅读历史还不够。"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "Not enough sessions yet."
-msgstr ""
+msgstr "会话数量尚不足."
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "not estimated yet"
@@ -4702,7 +4743,7 @@ msgstr "未找到"
 
 #: src/components/ReadingImport.tsx
 msgid "Not in your library ({n})"
-msgstr ""
+msgstr "不在你的图书馆中（{n}）"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Not matched"
@@ -4726,7 +4767,7 @@ msgstr "尚未同步"
 
 #: src/pages/HardcoverPage.tsx
 msgid "not syncing"
-msgstr ""
+msgstr "未同步"
 
 #: src/components/NotificationChannels.tsx
 msgid "Not used"
@@ -4738,7 +4779,7 @@ msgstr "笔记"
 
 #: src/pages/SettingsPage.tsx
 msgid "Note on KOSync coexistence"
-msgstr ""
+msgstr "关于 KOSync 共存的说明"
 
 #: src/pages/BookDetailPage.tsx
 #: src/pages/HighlightsPage.tsx
@@ -4752,11 +4793,11 @@ msgstr "笔记已保存——会同步到你的设备"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Note: {note}"
-msgstr ""
+msgstr "笔记: {note}"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Nothing finished in this range."
-msgstr ""
+msgstr "此范围内没有任何阅读完成。"
 
 #: src/pages/SharePage.tsx
 msgid "Nothing here yet."
@@ -4764,7 +4805,7 @@ msgstr "这里还没有内容。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Nothing highlighted on this day — yet."
-msgstr ""
+msgstr "这一天还没有高亮——目前。"
 
 #: src/components/home/FocusMode.tsx
 #: src/pages/DashboardPage.tsx
@@ -4773,11 +4814,11 @@ msgstr "没有正在进行的内容"
 
 #: src/pages/DashboardPage.tsx
 msgid "Nothing matched “{search}”"
-msgstr ""
+msgstr "没有与“{search}”匹配的内容"
 
 #: src/components/ShareLinksOverview.tsx
 msgid "Nothing shared yet. Use the share icon on a shelf, a series page, or a book page."
-msgstr ""
+msgstr "尚未共享任何内容。请使用书架、系列页或图书页上的分享图标。"
 
 #: src/components/LibraryHealth.tsx
 msgid "Nothing to remove."
@@ -4790,11 +4831,11 @@ msgstr "通知"
 
 #: src/pages/StatsPage.tsx
 msgid "Number of reading sessions"
-msgstr ""
+msgstr "阅读会话数量"
 
 #: src/pages/BookDetailPage.tsx
 msgid "of {totalPages} pages"
-msgstr ""
+msgstr "的 {totalPages} 页"
 
 #: src/pages/ReaderPage.tsx
 msgid "Off"
@@ -4802,7 +4843,7 @@ msgstr "关闭"
 
 #: src/pages/LoginPage.tsx
 msgid "On a device where you're already signed in, go to <0>Settings → Security → Quick Connect</0> and enter this code."
-msgstr ""
+msgstr "在已登录的设备上，进入 <0>设置 → 安全 → 快速连接</0>，然后输入此验证码。"
 
 #: src/pages/StatsPage.tsx
 msgid "on board"
@@ -4823,7 +4864,7 @@ msgstr "在这一天"
 
 #: src/pages/StatsPage.tsx
 msgid "One series front and center — you pick which"
-msgstr ""
+msgstr "将某个系列置于最显眼的位置——由你选择"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
@@ -4836,15 +4877,15 @@ msgstr "进行中"
 
 #: src/pages/DashboardPage.tsx
 msgid "Only filled fields will be updated. Leave blank to keep existing values."
-msgstr ""
+msgstr "仅更新已填写的字段。留空则保留现有值。"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Only highlights that carry one of your notes"
-msgstr ""
+msgstr "仅显示带有你的笔记的高亮"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Only notes"
-msgstr ""
+msgstr "仅笔记"
 
 #: src/pages/SettingsPage.tsx
 msgid "OPDS Catalog"
@@ -4863,6 +4904,10 @@ msgstr "打开通过 OPDS 下载的图书"
 #: src/components/CoverAudit.tsx
 msgid "Open book (pick a cover by eye)"
 msgstr "打开图书（选择封面）"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Open in the Tome app"
+msgstr "在 Tome 应用中打开"
 
 #: src/components/AppHeader.tsx
 msgid "Open navigation"
@@ -4886,7 +4931,7 @@ msgstr "可选备注（例如“新的那本”）"
 
 #: src/components/CoverPickerModal.tsx
 msgid "or use a custom source"
-msgstr ""
+msgstr "或使用自定义来源"
 
 #: src/pages/SettingsPage.tsx
 msgid "Order: background, foreground, card, primary, primary-foreground, muted, muted-foreground, accent, border, destructive"
@@ -4914,15 +4959,15 @@ msgstr "其他卷册"
 
 #: src/pages/StatsPage.tsx
 msgid "over {days} days"
-msgstr ""
+msgstr "超过 {days} 天"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "Override search query (optional)…"
-msgstr ""
+msgstr "覆盖搜索查询（可选）…"
 
 #: src/components/MetadataManager.tsx
 msgid "Override search query…"
-msgstr ""
+msgstr "覆盖搜索查询…"
 
 #: src/pages/StatsPage.tsx
 msgid "Overview"
@@ -4938,11 +4983,11 @@ msgstr "阅读节奏"
 
 #: src/pages/StatsPage.tsx
 msgid "Pace by Format"
-msgstr ""
+msgstr "速度由格式"
 
 #: src/pages/StatsPage.tsx
 msgid "Padding"
-msgstr ""
+msgstr "内边距"
 
 #: src/pages/ReaderPage.tsx
 msgid "Page {n}"
@@ -4965,7 +5010,7 @@ msgstr "页数"
 
 #: src/pages/DashboardPage.tsx
 msgid "Pages · 30d"
-msgstr ""
+msgstr "页 · 30d"
 
 #: src/pages/StatsPage.tsx
 msgid "Pages / Day"
@@ -4989,15 +5034,15 @@ msgstr "每周页数"
 
 #: src/pages/StatsPage.tsx
 msgid "Pages Turned"
-msgstr ""
+msgstr "页 Turned"
 
 #: src/components/WordCount.tsx
 msgid "Parse each EPUB to store its word count. New uploads get this automatically — this backfills books added before the feature. It only reads the files and writes one number per book; nothing on disk is modified. Word counts power words-read and reading-speed stats. PDF and CBZ are skipped."
-msgstr ""
+msgstr "解析每个 EPUB 并保存其字数。新上传的图书会自动执行此操作——同时也会为功能上线前添加的图书补充字数。它只读取文件并为每本图书写入一个数字，不会修改磁盘上的文件。字数用于计算已读字数和阅读速度统计。PDF 和 CBZ 会跳过。"
 
 #: src/pages/AdminPage.tsx
 msgid "password"
-msgstr ""
+msgstr "密码"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/LoginPage.tsx
@@ -5013,7 +5058,7 @@ msgstr "密码至少需要 8 个字符"
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Password must be at least 8 characters."
-msgstr ""
+msgstr "密码至少需要 8 个字符。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Password updated successfully"
@@ -5026,7 +5071,7 @@ msgstr "密码不匹配"
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Passwords do not match."
-msgstr ""
+msgstr "两次输入的密码不一致。"
 
 #: src/components/HardcoverSync.tsx
 msgid "Paste your Hardcover API token"
@@ -5038,19 +5083,27 @@ msgstr "暂停"
 
 #: src/components/stats/widgets/insights.tsx
 msgid "Peak hour: <0>{peak}:00–{peakEnd}:00</0> · {dur} total"
-msgstr ""
+msgstr "Peak 小时: <0>{peak}:00–{peakEnd}:00</0> · {dur} 总计"
 
 #: src/pages/BinderyPage.tsx
 msgid "Per-file details"
-msgstr ""
+msgstr "每个文件的详情"
 
 #: src/pages/StatsPage.tsx
 msgid "Period Comparison"
-msgstr ""
+msgstr "周期对比"
 
 #: src/pages/StatsPage.tsx
 msgid "Personal Records"
-msgstr ""
+msgstr "个人记录"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Phone connected"
+msgstr "手机已连接"
+
+#: src/pages/SettingsPage.tsx
+msgid "Phones signed in with the Tome app. Revoking a device signs it out immediately; it can connect again with a new code."
+msgstr "已用 Tome 应用登录的手机。撤销设备后它会立即退出登录，之后可用新验证码重新连接。"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Pick"
@@ -5058,11 +5111,11 @@ msgstr "选择"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Pick a rhythm — progress counts automatically."
-msgstr ""
+msgstr "选择一种节奏——进度会自动统计。"
 
 #: src/pages/StatsPage.tsx
 msgid "Pick a start & end"
-msgstr ""
+msgstr "选择开始和结束"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Pick different candidate"
@@ -5078,15 +5131,15 @@ msgstr "选择要保留的图书，并为每组选择操作——合并、删除
 
 #: src/pages/StatsPage.tsx
 msgid "Pick your own metric — avg session, pages/day, best day…"
-msgstr ""
+msgstr "选择你自己的指标——平均会话时长、每日页数、最佳一天…"
 
 #: src/pages/SettingsPage.tsx
 msgid "PIN created — copy it now, it won't be shown again."
-msgstr ""
+msgstr "PIN 已创建——请立即复制，之后不会再次显示。"
 
 #: src/components/WishlistModal.tsx
 msgid "Please pick a result or use the manual form."
-msgstr ""
+msgstr "请选择一个结果或使用手动表单。"
 
 #: src/pages/AdminPage.tsx
 msgid "Port"
@@ -5111,7 +5164,7 @@ msgstr "前缀"
 #: src/components/InstanceBackup.tsx
 #: src/pages/SettingsPage.tsx
 msgid "Preparing…"
-msgstr ""
+msgstr "准备中…"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/pages/SettingsPage.tsx
@@ -5153,11 +5206,11 @@ msgstr "问题"
 
 #: src/pages/AdminPage.tsx
 msgid "Process files dropped into the <0>incoming/</0> directory and move them into the library."
-msgstr ""
+msgstr "处理拖放到<0>incoming/</0>目录的文件，并将其移入图书馆。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Profile updated"
-msgstr ""
+msgstr "个人资料已更新"
 
 #: src/components/home/FocusMode.tsx
 #: src/pages/AdminPage.tsx
@@ -5167,7 +5220,7 @@ msgstr "进度"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Progress % <0>(optional)</0>"
-msgstr ""
+msgstr "进度 % <0>(可选)</0>"
 
 #: src/pages/SettingsPage.tsx
 msgid "Progress Sync"
@@ -5179,7 +5232,7 @@ msgstr "公开图书馆"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Publication status"
-msgstr ""
+msgstr "出版状态"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/components/MetadataManager.tsx
@@ -5202,27 +5255,27 @@ msgstr "正在清理…"
 
 #: src/components/NotificationChannels.tsx
 msgid "Push Tome's notifications (wish fulfilled, new volume detected, reading goals) to ntfy, Gotify, or any webhook the moment they happen — the bell above only rings when you visit. Each channel can be tested, paused, or removed; tokens are stored server-side and never shown again."
-msgstr ""
+msgstr "将 Tome 的通知（愿望达成、检测到新卷、阅读目标）在发生的瞬间推送到 ntfy、Gotify 或任意 webhook —— 上方的铃铛仅在您访问时才会响起。每个频道都可以测试、暂停或删除；令牌存储在服务器端，且不会再次显示。"
 
 #: src/components/HardcoverSync.tsx
 msgid "Push your ratings and reading progress to your Hardcover profile — nothing is ever deleted there. Your Hardcover Want to Read shelf syncs both ways. Needs your personal API token (separate from the server's metadata token)."
-msgstr ""
+msgstr "将你的评分和阅读进度推送到你的 Hardcover 个人资料——那里永远不会删除任何内容。你的 Hardcover “想读”书架支持双向同步。需要你个人的 API 令牌（与服务器的元数据令牌不同）。"
 
 #: src/pages/AdminPage.tsx
 msgid "Queue: fold the other copies into the kept book"
-msgstr ""
+msgstr "队列：将其他副本合并到所保留的图书中"
 
 #: src/pages/AdminPage.tsx
 msgid "Queue: keep the selected book and delete the others — their files are removed from disk"
-msgstr ""
+msgstr "队列：保留选中的图书并删除其他图书——它们的文件将从磁盘移除"
 
 #: src/pages/AdminPage.tsx
 msgid "Queue: not a duplicate — never show this group again"
-msgstr ""
+msgstr "队列：不是重复项——不再显示此组"
 
 #: src/components/SendButton.tsx
 msgid "Queued {n} to KOReader — arrives next time KOReader syncs"
-msgstr ""
+msgstr "已将 {n} 项加入 KOReader 队列——将在 KOReader 下次同步时送达"
 
 #: src/pages/BinderyPage.tsx
 msgid "Quick Accept"
@@ -5247,19 +5300,19 @@ msgstr "范围"
 
 #: src/pages/StatsPage.tsx
 msgid "Range follows the page's range picker; days show the newest slice of it."
-msgstr ""
+msgstr "范围沿用页面的范围选择器；按天显示其中最新的一段。"
 
 #: src/components/stats/widgets/taste.tsx
 msgid "Rate a few books to see a trend."
-msgstr ""
+msgstr "给几本书评分即可查看趋势。"
 
 #: src/components/SeriesRating.tsx
 msgid "Rate the whole series"
-msgstr ""
+msgstr "为整个系列评分"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Rate this book"
-msgstr ""
+msgstr "为这本书评分"
 
 #: src/pages/DashboardPage.tsx
 msgid "Rated"
@@ -5267,15 +5320,15 @@ msgstr "已评分"
 
 #: src/components/BookCard.tsx
 msgid "Rated {rating} of 5"
-msgstr ""
+msgstr "已评分 {rating} 的 5"
 
 #: src/components/StarRating.tsx
 msgid "Rated {value} of 5"
-msgstr ""
+msgstr "已评分 {value} 的 5"
 
 #: src/pages/DashboardPage.tsx
 msgid "Rated: {filterMinRating}+ stars"
-msgstr ""
+msgstr "已评分: {filterMinRating}+ 星"
 
 #: src/pages/DashboardPage.tsx
 msgid "Rated: 5 stars"
@@ -5295,11 +5348,11 @@ msgstr "评分趋势"
 
 #: src/pages/StatsPage.tsx
 msgid "Rating vs Time Spent"
-msgstr ""
+msgstr "评分与耗时对比"
 
 #: src/components/HardcoverSync.tsx
 msgid "Ratings push shortly after you change them; progress goes out in batches."
-msgstr ""
+msgstr "评分更改后会很快推送；进度则分批发送。"
 
 #: src/components/HardcoverSync.tsx
 msgid "Re-link"
@@ -5331,19 +5384,19 @@ msgstr "已读 · 30 天"
 
 #: src/pages/BookDetailPage.tsx
 msgid "read {a}"
-msgstr ""
+msgstr "已读 {a}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "read {a} – {b}"
-msgstr ""
+msgstr "已读 {a} – {b}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "read {d}, {from} – {to}"
-msgstr ""
+msgstr "已读 {d}, {from} – {to}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "read {span}"
-msgstr ""
+msgstr "已读 {span}"
 
 #: src/components/BookCard.tsx
 msgid "Read book"
@@ -5402,7 +5455,7 @@ msgstr "阅读天数"
 #: src/components/stats/ReadingDNACard.tsx
 #: src/pages/StatsPage.tsx
 msgid "Reading DNA"
-msgstr ""
+msgstr "阅读 DNA"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading Goals"
@@ -5410,15 +5463,15 @@ msgstr "阅读目标"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading Hours & Books Finished — Last 12 Months"
-msgstr ""
+msgstr "阅读时长与完成图书——最近 12 个月"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Reading intensity"
-msgstr ""
+msgstr "阅读强度"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading Intensity by Hour and Day"
-msgstr ""
+msgstr "按小时和日期统计的阅读强度"
 
 #: src/pages/DashboardPage.tsx
 msgid "Reading Log"
@@ -5434,11 +5487,11 @@ msgstr "阅读速度"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "Reading speed down {down}%"
-msgstr ""
+msgstr "阅读速度下降 {down}%"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "Reading speed steady"
-msgstr ""
+msgstr "阅读速度稳定"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading Speed Trend"
@@ -5446,7 +5499,7 @@ msgstr "阅读速度趋势"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "Reading speed up {up}%"
-msgstr ""
+msgstr "阅读速度提升 {up}%"
 
 #: src/components/CommandPalette.tsx
 #: src/components/SeriesReadingStats.tsx
@@ -5458,7 +5511,7 @@ msgstr "阅读统计"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading stats appear once sessions arrive — synced from the TomeSync KOReader plugin, logged by hand on a book page, or imported from a KOReader statistics file."
-msgstr ""
+msgstr "阅读统计会在有阅读会话后显示——数据可以来自 TomeSync KOReader 插件同步、在图书页面手动记录，或从 KOReader 统计文件导入。"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading Time"
@@ -5470,7 +5523,7 @@ msgstr "每日阅读时间"
 
 #: src/pages/StatsPage.tsx
 msgid "Reading time split by language"
-msgstr ""
+msgstr "按语言分布的阅读时间"
 
 #: src/components/stats/TimelineRibbon.tsx
 #: src/pages/StatsPage.tsx
@@ -5483,20 +5536,20 @@ msgstr "最近的阅读会话"
 
 #: src/pages/DashboardPage.tsx
 msgid "Recently Added"
-msgstr ""
+msgstr "最近添加"
 
 #: src/pages/DashboardPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Recently Finished"
-msgstr ""
+msgstr "最近完成"
 
 #: src/pages/BinderyPage.tsx
 msgid "Recently Imported"
-msgstr ""
+msgstr "最近导入"
 
 #: src/components/ReadingImport.tsx
 msgid "Recognized a <0>{dialect}</0> export: {matched} matched, {unmatched} not in your library, {skipped} to-read rows skipped."
-msgstr ""
+msgstr "识别到 <0>{dialect}</0> 导出文件：匹配 {matched} 项，{unmatched} 项不在你的图书馆中，跳过 {skipped} 条想读记录。"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/BinderyPage.tsx
@@ -5517,7 +5570,7 @@ msgstr "全部拒绝"
 
 #: src/pages/BinderyPage.tsx
 msgid "Reject failed"
-msgstr ""
+msgstr "拒绝失败"
 
 #: src/pages/BinderyPage.tsx
 msgid "Reject files"
@@ -5525,7 +5578,7 @@ msgstr "拒绝文件"
 
 #: src/pages/BinderyPage.tsx
 msgid "Reject imported book"
-msgstr ""
+msgstr "拒绝导入的图书"
 
 #: src/components/UploadModal.tsx
 msgid "Remove"
@@ -5533,11 +5586,11 @@ msgstr "移除"
 
 #: src/pages/StatsPage.tsx
 msgid "Remove {title}"
-msgstr ""
+msgstr "移除 {title}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Remove all of this book's imported KOReader history? Web and manual sessions stay. Reading it on the device again will re-import from there on."
-msgstr ""
+msgstr "移除这本图书导入的全部 KOReader 历史记录？网页和手动记录的会话会保留。之后再次在设备上阅读时，会从设备重新导入记录。"
 
 #: src/components/NotificationChannels.tsx
 msgid "Remove channel"
@@ -5553,15 +5606,19 @@ msgstr "移除设备"
 
 #: src/components/LibraryHealth.tsx
 msgid "Remove folders that contain only hidden files (.DS_Store, etc.)"
-msgstr ""
+msgstr "移除仅包含隐藏文件的文件夹（.DS_Store 等）"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Remove from library"
 msgstr "从图书馆移除"
 
 #: src/pages/HardcoverPage.tsx
-msgid "Remove our entry from Hardcover and re-match automatically"
-msgstr ""
+#~ msgid "Remove our entry from Hardcover and re-match automatically"
+#~ msgstr "移除我们在 Hardcover 上的条目并自动重新匹配"
+
+#: src/pages/HardcoverPage.tsx
+msgid "Remove the entry Tome created on Hardcover and re-match automatically. An entry that was already on your profile is kept."
+msgstr "移除 Tome 在 Hardcover 上创建的条目并自动重新匹配。已存在于你个人资料中的条目会被保留。"
 
 #: src/pages/WishlistPage.tsx
 msgid "Remove wish"
@@ -5569,23 +5626,23 @@ msgstr "移除愿望"
 
 #: src/pages/StatsPage.tsx
 msgid "Removed “{title}”"
-msgstr ""
+msgstr "已移除“{title}”"
 
 #: src/pages/StatsPage.tsx
 msgid "Removed a tile? Add it back — or add another copy."
-msgstr ""
+msgstr "移除了磁贴？可以重新添加——或再添加一个副本。"
 
 #: src/components/LibraryHealth.tsx
 msgid "Removes the database entries only — no files are touched"
-msgstr ""
+msgstr "仅移除数据库条目——不会改动任何文件"
 
 #: src/components/LibraryHealth.tsx
 msgid "Removing dead entries failed"
-msgstr ""
+msgstr "移除失效条目失败"
 
 #: src/components/LibraryHealth.tsx
 msgid "Removing..."
-msgstr ""
+msgstr "正在移除……"
 
 #: src/pages/StatsPage.tsx
 msgid "Rename {name}"
@@ -5613,7 +5670,7 @@ msgstr "重新整理所选项（{n}）"
 
 #: src/components/NotificationChannels.tsx
 msgid "request failed"
-msgstr ""
+msgstr "请求失败"
 
 #: src/components/CoverAudit.tsx
 msgid "Rescan"
@@ -5649,7 +5706,7 @@ msgstr "已暂存恢复"
 
 #: src/components/PositionHistoryModal.tsx
 msgid "Restoring sets the live position (and read status) back to that point; devices pick it up on their next sync. Restoring below 100% un-finishes a falsely completed book."
-msgstr ""
+msgstr "恢复会将当前阅读位置（以及阅读状态）还原到该位置；设备会在下次同步时获取它。恢复到低于 100% 的位置会将误标记为已完成的图书重新变为未完成。"
 
 #: src/components/NotificationChannels.tsx
 msgid "Resume"
@@ -5657,7 +5714,7 @@ msgstr "继续"
 
 #: src/pages/DashboardPage.tsx
 msgid "Resume {volLabel}"
-msgstr ""
+msgstr "继续 {volLabel}"
 
 #: src/components/home/FocusMode.tsx
 msgid "Resume reading"
@@ -5665,7 +5722,7 @@ msgstr "继续阅读"
 
 #: src/components/WordCount.tsx
 msgid "Retry {n} failed"
-msgstr ""
+msgstr "重试 {n} 失败"
 
 #: src/pages/BinderyPage.tsx
 msgid "Review"
@@ -5677,7 +5734,7 @@ msgstr "审核 {n} 个不确定项"
 
 #: src/pages/BinderyPage.tsx
 msgid "Review all failed"
-msgstr ""
+msgstr "审核所有失败项"
 
 #: src/components/MetadataManager.tsx
 msgid "Review All Filtered ({n})"
@@ -5693,15 +5750,24 @@ msgstr "审核所选项"
 
 #: src/components/MetadataManager.tsx
 msgid "Reviewed {total} books — applied changes to {applied}, skipped {skipped}."
-msgstr ""
+msgstr "已审核 {total} 本图书——对 {applied} 本应用了更改，跳过了 {skipped} 本。"
 
 #: src/pages/BinderyPage.tsx
 msgid "Reviewing {n} files"
-msgstr ""
+msgstr "正在审核 {n} 个文件"
 
 #: src/pages/SettingsPage.tsx
 msgid "Revoke"
 msgstr "撤销"
+
+#. placeholder {0}: d.name
+#: src/pages/SettingsPage.tsx
+#~ msgid "Revoke \"{0}\"? It is signed out immediately and has to connect again."
+#~ msgstr ""
+
+#: src/pages/SettingsPage.tsx
+msgid "Revoke \"{name}\"? It is signed out immediately and has to connect again."
+msgstr "撤销“{name}”？它会立即退出登录，之后需要重新连接。"
 
 #: src/components/ShareLinksOverview.tsx
 #: src/components/ShareShelfModal.tsx
@@ -5710,7 +5776,7 @@ msgstr "撤销链接"
 
 #: src/pages/SettingsPage.tsx
 msgid "Revoke this token? Any scripts or tools using it will stop working immediately."
-msgstr ""
+msgstr "撤销此令牌？任何使用它的脚本或工具将立即失效。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Revoke token"
@@ -5734,7 +5800,7 @@ msgstr "周六"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "Same as previous period"
-msgstr ""
+msgstr "与上一周期相同"
 
 #: src/pages/AdminPage.tsx
 msgid "Same ISBN"
@@ -5746,7 +5812,7 @@ msgstr "同系列卷册"
 
 #: src/pages/ReaderPage.tsx
 msgid "Sans"
-msgstr ""
+msgstr "无衬线"
 
 #: src/components/stats/HourDowHeatmap.tsx
 #: src/components/stats/widgets/habits.tsx
@@ -5792,11 +5858,11 @@ msgstr "保存笔记"
 
 #: src/pages/AdminPage.tsx
 msgid "Save restrictions"
-msgstr ""
+msgstr "保存 restrictions"
 
 #: src/components/Sidebar.tsx
 msgid "Save the library first, then reopen it to share with users."
-msgstr ""
+msgstr "请先保存图书馆，再重新打开以与用户共享。"
 
 #: src/pages/StatsPage.tsx
 msgid "Save this board as an image"
@@ -5840,13 +5906,17 @@ msgstr "扫描图书馆"
 msgid "Scan Now"
 msgstr "立即扫描"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window."
+msgstr "用 Tome 应用扫描此二维码即可将手机登录为你的身份。验证码只能使用一次，五分钟后失效，关闭此窗口后立即失效。"
+
 #: src/pages/AdminPage.tsx
 msgid "Scanner"
 msgstr "扫描器"
 
 #: src/components/CoverAudit.tsx
 msgid "Scanning covers…"
-msgstr ""
+msgstr "正在扫描封面…"
 
 #: src/components/LibraryHealth.tsx
 #~ msgid "Scanning..."
@@ -5860,7 +5930,7 @@ msgstr "正在扫描…"
 #: src/pages/SettingsPage.tsx
 #: src/pages/StatsPage.tsx
 msgid "Scope"
-msgstr ""
+msgstr "范围"
 
 #: src/components/MetadataManager.tsx
 msgid "Score"
@@ -5868,11 +5938,11 @@ msgstr "分数"
 
 #: src/components/HScrollRow.tsx
 msgid "Scroll left"
-msgstr ""
+msgstr "向左滚动"
 
 #: src/components/HScrollRow.tsx
 msgid "Scroll right"
-msgstr ""
+msgstr "向右滚动"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/pages/HardcoverPage.tsx
@@ -5910,7 +5980,7 @@ msgstr "搜索系列…"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Search Hardcover and pick the record yourself"
-msgstr ""
+msgstr "搜索 Hardcover 并自行选择记录"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Search Hardcover…"
@@ -5918,7 +5988,7 @@ msgstr "搜索 Hardcover…"
 
 #: src/components/Sidebar.tsx
 msgid "Search icons…"
-msgstr ""
+msgstr "搜索图标…"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Search manually"
@@ -5926,7 +5996,7 @@ msgstr "手动搜索"
 
 #: src/pages/BinderyPage.tsx
 msgid "Search query..."
-msgstr ""
+msgstr "搜索查询…"
 
 #: src/components/MetadataManager.tsx
 msgid "Search title, author…"
@@ -5934,15 +6004,15 @@ msgstr "搜索标题、作者…"
 
 #: src/components/Sidebar.tsx
 msgid "Search to find more icons"
-msgstr ""
+msgstr "搜索以查找更多图标"
 
 #: src/pages/StatsPage.tsx
 msgid "Search widgets…"
-msgstr ""
+msgstr "搜索小组件…"
 
 #: src/pages/HighlightsPage.tsx
 msgid "Search your highlights…"
-msgstr ""
+msgstr "搜索你的高亮…"
 
 #: src/components/BulkMetadataReviewModal.tsx
 msgid "Searching {n} books…"
@@ -5950,7 +6020,7 @@ msgstr "正在搜索 {n} 本图书…"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "Searching for: <0>{title}</0>"
-msgstr ""
+msgstr "正在搜索：<0>{title}</0>"
 
 #: src/components/MetadataFetchModal.tsx
 #: src/pages/HardcoverPage.tsx
@@ -5959,15 +6029,15 @@ msgstr "正在搜索…"
 
 #: src/components/home/FocusMode.tsx
 msgid "See all in-progress books"
-msgstr ""
+msgstr "查看所有进行中的图书"
 
 #: src/components/AppShell.tsx
 msgid "See all results for \"{searchQuery}\""
-msgstr ""
+msgstr "查看\"{searchQuery}\"的全部结果"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "See Settings for setup instructions."
-msgstr ""
+msgstr "请参阅设置中的配置说明。"
 
 #: src/pages/DashboardPage.tsx
 msgid "Select"
@@ -5975,7 +6045,7 @@ msgstr "选择"
 
 #: src/components/stats/widgets/library.tsx
 msgid "Select <0>1y</0> or <1>All</1> to see your year in review."
-msgstr ""
+msgstr "选择<0>1y</0>或<1>全部</1>查看你的年度回顾。"
 
 #: src/pages/AdminPage.tsx
 msgid "Select a book first."
@@ -6008,7 +6078,7 @@ msgstr "发送失败"
 
 #: src/pages/AdminPage.tsx
 msgid "Send History"
-msgstr ""
+msgstr "发送历史记录"
 
 #: src/pages/AdminPage.tsx
 msgid "Send test email"
@@ -6035,7 +6105,7 @@ msgstr "正在发送"
 #: src/components/SendToDeviceModal.tsx
 #: src/pages/AdminPage.tsx
 #~ msgid "Sending..."
-#~ msgstr ""
+#~ msgstr "正在发送..."
 
 #: src/components/SendToDeviceModal.tsx
 #: src/pages/AdminPage.tsx
@@ -6048,11 +6118,11 @@ msgstr "已发送"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "Sent \"{title}\" to device"
-msgstr ""
+msgstr "已发送 \"{title}\" 到设备"
 
 #: src/components/SendToDeviceModal.tsx
 msgid "Sent {sent}/{total}. {failedN} failed."
-msgstr ""
+msgstr "已发送 {sent}/{total}. {failedN} 失败."
 
 #: src/pages/ReaderPage.tsx
 msgid "Sepia"
@@ -6097,11 +6167,11 @@ msgstr "系列名称"
 
 #: src/components/WishlistModal.tsx
 msgid "Series name — fill this alone to wish for the whole series"
-msgstr ""
+msgstr "系列名称——仅填写此项即可收藏整个系列"
 
 #: src/components/WishlistModal.tsx
 msgid "Series name is required."
-msgstr ""
+msgstr "系列名称为必填项。"
 
 #: src/pages/DashboardPage.tsx
 msgid "Series Progress"
@@ -6109,7 +6179,7 @@ msgstr "系列进度"
 
 #: src/pages/StatsPage.tsx
 msgid "Series ranked by your rating"
-msgstr ""
+msgstr "按你的评分排名的系列"
 
 #: src/pages/BinderyPage.tsx
 msgid "Series review"
@@ -6129,11 +6199,11 @@ msgstr "系列：{name}"
 
 #: src/pages/ReaderPage.tsx
 msgid "Serif"
-msgstr ""
+msgstr "衬线"
 
 #: src/pages/AdminPage.tsx
 msgid "Server"
-msgstr ""
+msgstr "服务器"
 
 #: src/pages/StatsPage.tsx
 msgid "Session Timeline"
@@ -6152,15 +6222,15 @@ msgstr "阅读会话"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Sessions · {d}"
-msgstr ""
+msgstr "阅读会话 · {d}"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Sessions ({n})"
-msgstr ""
+msgstr "阅读会话 ({n})"
 
 #: src/pages/SettingsPage.tsx
 msgid "Set <0>TOME_SMTP_HOST</0>, <1>TOME_SMTP_PORT</1>, <2>TOME_SMTP_USER</2>, and <3>TOME_SMTP_PASSWORD</3>."
-msgstr ""
+msgstr "设置 <0>TOME_SMTP_HOST</0>、<1>TOME_SMTP_PORT</1>、<2>TOME_SMTP_USER</2> 和 <3>TOME_SMTP_PASSWORD</3>。"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Set a goal"
@@ -6172,11 +6242,11 @@ msgstr "设置阅读目标"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Set a target and watch the ring fill as you read."
-msgstr ""
+msgstr "设定目标，阅读时即可看到进度环逐渐填满。"
 
 #: src/components/UploadModal.tsx
 msgid "Set all to"
-msgstr ""
+msgstr "全部设置为"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Set goal"
@@ -6188,11 +6258,11 @@ msgstr "设置密码并继续"
 
 #: src/pages/SettingsPage.tsx
 msgid "Set sync password"
-msgstr ""
+msgstr "设置同步密码"
 
 #: src/pages/AdminPage.tsx
 msgid "Set the following environment variables to enable Send to Device:"
-msgstr ""
+msgstr "设置以下环境变量以启用“发送到设备”："
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Set your password"
@@ -6220,7 +6290,7 @@ msgstr "分享"
 
 #: src/components/ShareShelfModal.tsx
 msgid "Share \"{title}\""
-msgstr ""
+msgstr "分享 \"{title}\""
 
 #: src/pages/SettingsPage.tsx
 msgid "Share links"
@@ -6228,11 +6298,11 @@ msgstr "分享链接"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Share this book — a public metadata-only page"
-msgstr ""
+msgstr "分享这本书——一个仅含元数据的公开页面"
 
 #: src/pages/DashboardPage.tsx
 msgid "Share this series — a public metadata-only page"
-msgstr ""
+msgstr "分享这个系列——一个仅含元数据的公开页面"
 
 #: src/components/Sidebar.tsx
 msgid "Share with users"
@@ -6240,11 +6310,11 @@ msgstr "与用户分享"
 
 #: src/pages/BinderyPage.tsx
 msgid "Shared fields — applies to all {n} items"
-msgstr ""
+msgstr "共享字段——应用于全部 {n} 个项目"
 
 #: src/pages/SharePage.tsx
 msgid "Shared from a self-hosted Tome library"
-msgstr ""
+msgstr "来自自托管 Tome 图书馆的分享"
 
 #: src/pages/DashboardPage.tsx
 msgid "Shared Library"
@@ -6261,20 +6331,20 @@ msgstr "已搁置"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Shelved — kept your progress"
-msgstr ""
+msgstr "已搁置——保留了你的进度"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Shelved — set aside, keeps your progress"
-msgstr ""
+msgstr "已搁置——暂且放下，保留你的进度"
 
 #: src/components/Sidebar.tsx
 #: src/pages/StatsPage.tsx
 msgid "Shelves"
-msgstr ""
+msgstr "书架"
 
 #: src/pages/SettingsPage.tsx
 msgid "Short app-specific passwords for OPDS — easier to type on an e-reader than your full password."
-msgstr ""
+msgstr "用于 OPDS 的短应用专用密码——比完整密码更容易在电子阅读器上输入。"
 
 #: src/components/stats/widgets/library.tsx
 msgid "Show all ({n} books)"
@@ -6291,7 +6361,7 @@ msgstr "显示详情"
 #: src/pages/DashboardPage.tsx
 #: src/pages/HardcoverPage.tsx
 msgid "Show individual volumes"
-msgstr ""
+msgstr "显示各个卷册"
 
 #: src/components/stats/widgets/library.tsx
 #: src/pages/BookDetailPage.tsx
@@ -6306,7 +6376,7 @@ msgstr "显示更多"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Show more ({left} remaining)"
-msgstr ""
+msgstr "显示更多（剩余 {left} 个）"
 
 #: src/components/stats/widgets/library.tsx
 msgid "Show sessions"
@@ -6318,7 +6388,7 @@ msgstr "显示帮助"
 
 #: src/pages/StatsPage.tsx
 msgid "Shrink/grow this tile to fit its content. Off: set the height yourself (content scrolls)."
-msgstr ""
+msgstr "缩小/放大此磁贴以适应其内容。关闭时：自行设置高度（内容可滚动）。"
 
 #: src/pages/LoginPage.tsx
 msgid "Sign in"
@@ -6326,7 +6396,11 @@ msgstr "登录"
 
 #: src/pages/SettingsPage.tsx
 msgid "Sign in on a new device without entering your password. On the new device, tap \"Quick Connect\" on the login screen to get a 6-character code, then enter it here."
-msgstr ""
+msgstr "无需输入密码即可在新设备上登录。在新设备的登录界面点击“快速连接”获取 6 位验证码，然后在此处输入。"
+
+#: src/pages/SettingsPage.tsx
+msgid "Sign in on a new device without entering your password. Show a QR code for the Tome app, or enter the 6-character code a new device displays when you tap \"Quick Connect\" on its login screen."
+msgstr "无需输入密码即可在新设备上登录。可为 Tome 应用显示二维码，或者在应用登录界面点击“快速连接”后，输入新设备上显示的 6 位验证码。"
 
 #: src/pages/LoginPage.tsx
 msgid "Sign in to your library"
@@ -6338,7 +6412,7 @@ msgstr "正在登录…"
 
 #: src/pages/AdminPage.tsx
 msgid "Similar Title"
-msgstr ""
+msgstr "相似标题"
 
 #: src/pages/ReaderPage.tsx
 msgid "Single page (S)"
@@ -6351,7 +6425,7 @@ msgstr "单点登录"
 #: src/components/CoverAudit.tsx
 #: src/pages/BinderyPage.tsx
 msgid "Size"
-msgstr ""
+msgstr "大小"
 
 #: src/components/MetadataManager.tsx
 #: src/pages/BinderyPage.tsx
@@ -6364,15 +6438,15 @@ msgstr "最慢"
 
 #: src/pages/AdminPage.tsx
 msgid "SMTP Status"
-msgstr ""
+msgstr "SMTP 状态"
 
 #: src/components/CoverAudit.tsx
 msgid "Some books had no usable candidate or failed to apply — open them and use the cover picker."
-msgstr ""
+msgstr "部分图书没有可用候选项或应用失败——请打开它们并使用封面选择器。"
 
 #: src/components/MetadataManager.tsx
 msgid "Some changes failed to apply."
-msgstr ""
+msgstr "部分更改应用失败。"
 
 #: src/pages/AdminPage.tsx
 msgid "Sort Order"
@@ -6380,7 +6454,7 @@ msgstr "排序顺序"
 
 #: src/pages/StatsPage.tsx
 msgid "Sortable table of every book"
-msgstr ""
+msgstr "包含所有图书的可排序表格"
 
 #: src/pages/AdminPage.tsx
 msgid "Source"
@@ -6388,11 +6462,11 @@ msgstr "来源"
 
 #: src/pages/StatsPage.tsx
 msgid "Speed by book format"
-msgstr ""
+msgstr "按图书格式统计的阅读速度"
 
 #: src/pages/LoginPage.tsx
 msgid "SSO is misconfigured on the server (redirect URL). Contact your admin."
-msgstr ""
+msgstr "服务器上的 SSO 配置有误（重定向 URL）。请联系你的管理员。"
 
 #: src/pages/LoginPage.tsx
 msgid "SSO is not enabled."
@@ -6404,11 +6478,11 @@ msgstr "SSO 登录未完成。请重试。"
 
 #: src/pages/LoginPage.tsx
 msgid "SSO sign-in did not complete. Please try again."
-msgstr ""
+msgstr "SSO 登录未完成。请重试。"
 
 #: src/pages/LoginPage.tsx
 msgid "SSO sign-in failed: no identity information was returned."
-msgstr ""
+msgstr "SSO 登录失败：未返回身份信息。"
 
 #: src/pages/LoginPage.tsx
 msgid "SSO sign-in failed. Please try again."
@@ -6416,7 +6490,7 @@ msgstr "SSO 登录失败。请重试。"
 
 #: src/pages/SettingsPage.tsx
 msgid "SSO sign-in linked to your account."
-msgstr ""
+msgstr "SSO 登录已关联到你的账户。"
 
 #: src/components/InstanceBackup.tsx
 msgid "Stage restore"
@@ -6432,7 +6506,7 @@ msgstr "标准化标题"
 
 #: src/pages/BookDetailPage.tsx
 msgid "start"
-msgstr ""
+msgstr "开始"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "Start"
@@ -6440,19 +6514,19 @@ msgstr "开始"
 
 #: src/pages/DashboardPage.tsx
 msgid "Start {volLabel}"
-msgstr ""
+msgstr "开始 {volLabel}"
 
 #: src/components/home/FocusMode.tsx
 msgid "Start a book and Focus mode will pick up where you left off"
-msgstr ""
+msgstr "打开一本书，聚焦模式会从你上次停下的位置继续"
 
 #: src/pages/StatsPage.tsx
 msgid "Start from default"
-msgstr ""
+msgstr "从默认值开始"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Start matching this book again"
-msgstr ""
+msgstr "重新开始匹配这本书"
 
 #: src/components/home/FocusMode.tsx
 msgid "Start reading"
@@ -6460,15 +6534,15 @@ msgstr "开始阅读"
 
 #: src/pages/DashboardPage.tsx
 msgid "Start reading and your progress will show up here"
-msgstr ""
+msgstr "开始阅读，你的进度将显示在这里"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Start reading one and it'll show up here"
-msgstr ""
+msgstr "开始阅读其中一本，它就会显示在这里"
 
 #: src/components/MetadataManager.tsx
 msgid "Start typing to search..."
-msgstr ""
+msgstr "开始输入以搜索…"
 
 #: src/pages/StatsPage.tsx
 msgid "Started vs finished ratio"
@@ -6493,7 +6567,7 @@ msgstr "停止"
 
 #: src/components/SeriesFollowButton.tsx
 msgid "Stop following this series"
-msgstr ""
+msgstr "停止关注此系列"
 
 #: src/pages/StatsPage.tsx
 msgid "Streak"
@@ -6517,7 +6591,7 @@ msgstr "副标题（可选）"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Suggested: {dur}"
-msgstr ""
+msgstr "建议: {dur}"
 
 #: src/components/stats/HourDowHeatmap.tsx
 #: src/components/stats/widgets/habits.tsx
@@ -6555,7 +6629,7 @@ msgstr "立即同步"
 
 #: src/pages/SettingsPage.tsx
 msgid "Sync reading position between KOReader and Tome."
-msgstr ""
+msgstr "在 KOReader 和 Tome 之间同步阅读位置。"
 
 #: src/pages/HardcoverPage.tsx
 msgid "Sync started"
@@ -6576,11 +6650,11 @@ msgstr "已同步"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Synced document"
-msgstr ""
+msgstr "同步文档"
 
 #: src/components/home/FocusMode.tsx
 msgid "Synced from {device}"
-msgstr ""
+msgstr "从 {device} 同步"
 
 #: src/components/home/FocusMode.tsx
 msgid "Synced from Kindle"
@@ -6607,6 +6681,10 @@ msgstr "正在同步…"
 #: src/pages/BinderyPage.tsx
 msgid "Synopsis or description"
 msgstr "简介或描述"
+
+#: src/pages/SettingsPage.tsx
+msgid "System"
+msgstr "系统"
 
 #: src/pages/ReaderPage.tsx
 msgid "Table of contents"
@@ -6647,11 +6725,11 @@ msgstr "目标"
 
 #: src/pages/StatsPage.tsx
 msgid "Taste"
-msgstr ""
+msgstr "偏好"
 
 #: src/pages/StatsPage.tsx
 msgid "Taste by Genre"
-msgstr ""
+msgstr "偏好由类型"
 
 #: src/components/ForcePasswordChange.tsx
 msgid "Temporary password"
@@ -6659,11 +6737,11 @@ msgstr "临时密码"
 
 #: src/pages/AdminPage.tsx
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: src/pages/AdminPage.tsx
 msgid "Test email sent successfully."
-msgstr ""
+msgstr "测试邮件发送成功。"
 
 #: src/pages/StatsPage.tsx
 msgid "Th"
@@ -6671,27 +6749,27 @@ msgstr "周四"
 
 #: src/pages/StatsPage.tsx
 msgid "That file is not a Tome board export."
-msgstr ""
+msgstr "该文件不是 Tome 面板导出文件。"
 
 #: src/components/InstanceBackup.tsx
 msgid "That file was rejected"
-msgstr ""
+msgstr "该文件已被拒绝"
 
 #: src/pages/SettingsPage.tsx
 msgid "That SSO identity is already linked to another account."
-msgstr ""
+msgstr "该 SSO 身份已关联到另一个账户。"
 
 #: src/pages/BinderyPage.tsx
 msgid "The book type's own library is always added automatically."
-msgstr ""
+msgstr "该图书类型自身的图书馆始终会自动添加。"
 
 #: src/pages/SettingsPage.tsx
 msgid "the sync password set above"
-msgstr ""
+msgstr "上方设置的同步密码"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "The triangle marks an implausibly long session. Scissors shorten a session, the bin deletes it."
-msgstr ""
+msgstr "三角形标记了异常偏长的会话。剪刀图标可缩短会话，垃圾桶图标可删除会话。"
 
 #: src/components/Sidebar.tsx
 #: src/components/ThemeToggle.tsx
@@ -6708,15 +6786,19 @@ msgstr "主题名称为必填项"
 
 #: src/pages/StatsPage.tsx
 msgid "This board is empty."
-msgstr ""
+msgstr "此面板为空。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "This code has expired."
+msgstr "此验证码已过期。"
 
 #: src/pages/AdminPage.tsx
 msgid "This is a whole-series wish — it stays open as volumes arrive."
-msgstr ""
+msgstr "这是一个针对整个系列的愿望——随着卷册陆续上架，它会一直保持开放。"
 
 #: src/pages/SettingsPage.tsx
 msgid "This is the only time you will see this token. Store it somewhere safe — it cannot be recovered."
-msgstr ""
+msgstr "这是你唯一一次看到此令牌的机会。请妥善保存——它无法找回。"
 
 #: src/pages/StatsPage.tsx
 msgid "This Month"
@@ -6728,35 +6810,35 @@ msgstr "本月已阅读的天数"
 
 #: src/pages/StatsPage.tsx
 msgid "This page is yours — every tile can be moved, resized, swapped or removed, per board. Hit <0>Edit</0> to start. Reset always brings the defaults back."
-msgstr ""
+msgstr "这是你的页面——每个面板中的磁贴都可以移动、调整大小、交换或移除。点击 <0>编辑</0> 开始操作。重置始终会恢复默认布局。"
 
 #: src/pages/StatsPage.tsx
 msgid "This period vs the last"
-msgstr ""
+msgstr "本周期与上一周期对比"
 
 #: src/components/stats/widgets/habits.tsx
 msgid "This period: <0>{cur}</0>"
-msgstr ""
+msgstr "本周期：<0>{cur}</0>"
 
 #: src/pages/DashboardPage.tsx
 msgid "This permanently removes the selected books and their files from disk. This cannot be undone."
-msgstr ""
+msgstr "这会从磁盘永久删除所选图书及其文件，且无法撤销。"
 
 #: src/components/InstanceBackup.tsx
 msgid "This replaces <0>the entire database</0> at the next restart. Type <1>RESTORE</1> to arm it."
-msgstr ""
+msgstr "这将在下次重启时替换<0>整个数据库</0>。输入 <1>RESTORE</1> 以启用。"
 
 #: src/components/ManageSeriesModal.tsx
 msgid "This series has no volumes with a numeric index yet. Add volumes before defining arcs."
-msgstr ""
+msgstr "此系列尚无带数字索引的卷册。请先添加卷册，再定义篇章。"
 
 #: src/pages/StatsPage.tsx
 msgid "This tile uses a fixed window and ignores the range picker"
-msgstr ""
+msgstr "此磁贴使用固定的时间段，不受范围选择器影响"
 
 #: src/components/WishlistModal.tsx
 msgid "This volume"
-msgstr ""
+msgstr "此卷"
 
 #: src/lib/goals.ts
 msgid "this week"
@@ -6764,7 +6846,7 @@ msgstr "本周"
 
 #: src/components/WishlistModal.tsx
 msgid "This wish covers the whole series and stays open as new volumes arrive."
-msgstr ""
+msgstr "此愿望涵盖整个系列，并会随着新卷册上架而保持开放。"
 
 #: src/components/stats/HourDowHeatmap.tsx
 #: src/components/stats/widgets/habits.tsx
@@ -6786,11 +6868,11 @@ msgstr "按格式统计时间"
 
 #: src/pages/StatsPage.tsx
 msgid "Time left on books in progress"
-msgstr ""
+msgstr "进行中图书的剩余时间"
 
 #: src/pages/StatsPage.tsx
 msgid "Time of Day Split"
-msgstr ""
+msgstr "一天内时间分布"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Time per chapter"
@@ -6798,7 +6880,7 @@ msgstr "每章时间"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Time per chapter, line view"
-msgstr ""
+msgstr "每章用时，折线图视图"
 
 #: src/components/SeriesReadingStats.tsx
 msgid "Time per volume"
@@ -6806,7 +6888,7 @@ msgstr "每卷时间"
 
 #: src/pages/StatsPage.tsx
 msgid "Time split across categories"
-msgstr ""
+msgstr "跨分类的时间分布"
 
 #: src/pages/StatsPage.tsx
 msgid "Timeframe"
@@ -6847,7 +6929,7 @@ msgstr "标题为必填项。"
 
 #: src/components/WordCount.tsx
 msgid "To count"
-msgstr ""
+msgstr "计入"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/DashboardPage.tsx
@@ -6861,15 +6943,15 @@ msgstr "切换元数据编辑"
 
 #: src/components/KeyboardShortcutsModal.tsx
 msgid "Toggle only-notes filter"
-msgstr ""
+msgstr "切换“仅笔记”筛选"
 
 #: src/pages/ReaderPage.tsx
 msgid "Toggle RTL (manga) mode"
-msgstr ""
+msgstr "切换 RTL (manga) mode"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Toggle sort order"
-msgstr ""
+msgstr "切换排序顺序"
 
 #: src/components/ThemeToggle.tsx
 msgid "Toggle theme"
@@ -6884,6 +6966,10 @@ msgstr "令牌名称"
 msgid "Tome · Your personal library"
 msgstr "Tome · 你的个人图书馆"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
+msgstr "Tome Reader 面向 iPhone 的免费测试版持续到 2026 年 12 月 31 日。"
+
 #: src/pages/SettingsPage.tsx
 msgid "TomeSync and KOSync can both be active. TomeSync tracks full reading sessions; KOSync only stores your last position."
 msgstr "TomeSync 和 KOSync 可以同时启用。TomeSync 记录完整阅读会话；KOSync 只保存最后阅读位置。"
@@ -6894,7 +6980,7 @@ msgstr "TomeSync 插件"
 
 #: src/components/WordCount.tsx
 msgid "Took {dur}"
-msgstr ""
+msgstr "耗时 {dur}"
 
 #: src/pages/StatsPage.tsx
 msgid "Top Authors by Reading Time"
@@ -6926,11 +7012,11 @@ msgstr "总时间"
 
 #: src/pages/StatsPage.tsx
 msgid "Total time read + avg session"
-msgstr ""
+msgstr "总阅读时间 + 平均会话时长"
 
 #: src/components/stats/LibraryGrowthChart.tsx
 msgid "Total: {total}"
-msgstr ""
+msgstr "总计: {total}"
 
 #: src/pages/SettingsPage.tsx
 msgid "Translations are community-maintained. Anything not yet translated is shown in English."
@@ -6946,19 +7032,20 @@ msgstr "修剪会话"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Trimming only shortens this session's length and end time — page turns, progress and every other session stay untouched, and the previous duration is kept in the audit log. The suggestion re-prices this session's page turns at your usual reading pace."
-msgstr ""
+msgstr "修剪只会缩短本次会话的时长和结束时间——翻页记录、进度以及其他会话都不会受到影响，之前的时长会保留在审计日志中。建议值会按照你通常的阅读速度重新估算本次会话的翻页情况。"
 
 #: src/pages/DashboardPage.tsx
 msgid "Try adjusting your filters"
-msgstr ""
+msgstr "尝试调整你的筛选条件"
 
+#: src/components/ConnectPhoneModal.tsx
 #: src/pages/LoginPage.tsx
 msgid "Try again"
-msgstr ""
+msgstr "请重试"
 
 #: src/pages/BinderyPage.tsx
 msgid "Try editing the title or series fields"
-msgstr ""
+msgstr "尝试编辑标题或系列字段"
 
 #: src/pages/StatsPage.tsx
 msgid "Tu"
@@ -6993,7 +7080,7 @@ msgstr "未分配"
 
 #: src/lib/backlog.ts
 msgid "under a day"
-msgstr ""
+msgstr "不足一天"
 
 #: src/pages/BookDetailPage.tsx
 #: src/pages/StatsPage.tsx
@@ -7006,7 +7093,7 @@ msgstr "取消关注"
 
 #: src/pages/WishlistPage.tsx
 msgid "Unfollow {name}"
-msgstr ""
+msgstr "取消关注 {name}"
 
 #: src/pages/BinderyPage.tsx
 msgid "Ungrouped files"
@@ -7056,7 +7143,7 @@ msgstr "未序列化"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Unusually long session"
-msgstr ""
+msgstr "异常偏长的会话"
 
 #: src/pages/SettingsPage.tsx
 msgid "Unzip the file and copy via SSH (or USB). Remove the old plugin first to ensure a clean install."
@@ -7064,11 +7151,11 @@ msgstr "解压文件并通过 SSH（或 USB）复制。请先移除旧插件，�
 
 #: src/components/home/FocusMode.tsx
 msgid "Up next"
-msgstr ""
+msgstr "接下来"
 
 #: src/components/UpcomingReleases.tsx
 msgid "Upcoming releases"
-msgstr ""
+msgstr "即将发布"
 
 #: src/pages/SettingsPage.tsx
 msgid "Update"
@@ -7129,15 +7216,15 @@ msgstr "URL"
 
 #: src/pages/StatsPage.tsx
 msgid "Use “Add tile” to build your {name} board."
-msgstr ""
+msgstr "使用“添加磁贴”来构建你的 {name} 面板。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Use a <0>Google App Password</0>, not your regular password."
-msgstr ""
+msgstr "请使用<0>Google 应用专用密码</0>，而不是你的常规密码。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Use this as the OPDS password in KOReader (username stays the same)."
-msgstr ""
+msgstr "将此作为 KOReader 中的 OPDS 密码（用户名保持不变）。"
 
 #: src/pages/SettingsPage.tsx
 msgid "used {d}"
@@ -7149,7 +7236,7 @@ msgstr "用户"
 
 #: src/components/Sidebar.tsx
 msgid "User menu"
-msgstr ""
+msgstr "用户菜单"
 
 #: src/pages/AdminPage.tsx
 #: src/pages/SettingsPage.tsx
@@ -7177,11 +7264,11 @@ msgstr "查看图书"
 
 #: src/components/ImpersonationBanner.tsx
 msgid "Viewing as <0>{impersonatedUsername}</0>"
-msgstr ""
+msgstr "正在以 <0>{impersonatedUsername}</0> 的身份查看"
 
 #: src/components/SeriesReadingStats.tsx
 msgid "Vol {firstIdx}"
-msgstr ""
+msgstr "卷 {firstIdx}"
 
 #: src/components/SeriesReadingStats.tsx
 #: src/pages/BinderyPage.tsx
@@ -7194,7 +7281,7 @@ msgstr "第 {idx} 卷 · {dur}"
 
 #: src/components/SeriesReadingStats.tsx
 msgid "Vol {lastIdx}"
-msgstr ""
+msgstr "卷 {lastIdx}"
 
 #: src/components/UpcomingReleases.tsx
 msgid "Vol {v} · "
@@ -7224,11 +7311,11 @@ msgstr "卷"
 
 #: src/components/SeriesCoverageStrip.tsx
 msgid "Volume {n} — not in the library"
-msgstr ""
+msgstr "卷 {n}——不在图书馆中"
 
 #: src/components/home/FocusMode.tsx
 msgid "Volume <0>{v}</0>"
-msgstr ""
+msgstr "卷 <0>{v}</0>"
 
 #: src/pages/DashboardPage.tsx
 msgid "Volumes"
@@ -7236,11 +7323,11 @@ msgstr "卷册"
 
 #: src/pages/LoginPage.tsx
 msgid "Waiting for authorization…"
-msgstr ""
+msgstr "等待授权…"
 
 #: src/pages/AdminPage.tsx
 msgid "Walk the library directory and add any new book files found."
-msgstr ""
+msgstr "遍历图书馆目录并添加发现的新图书文件。"
 
 #: src/pages/AdminPage.tsx
 msgid "want to read"
@@ -7254,7 +7341,7 @@ msgstr "想读"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Want to Read — queue this book up next"
-msgstr ""
+msgstr "想读——将这本书排在接下来阅读"
 
 #: src/pages/SettingsPage.tsx
 msgid "Warm"
@@ -7299,7 +7386,7 @@ msgstr "你的想法？（可选，会自动保存）"
 
 #: src/pages/StatsPage.tsx
 msgid "What do these mean? — read the stats docs"
-msgstr ""
+msgstr "这些是什么意思？——阅读统计文档"
 
 #: src/components/InfoHint.tsx
 msgid "What is this?"
@@ -7307,7 +7394,7 @@ msgstr "这是什么？"
 
 #: src/pages/HardcoverPage.tsx
 msgid "What your books sync to on Hardcover — audit matches, fix wrong ones, exclude books."
-msgstr ""
+msgstr "你的图书在 Hardcover 上的同步情况——审计匹配项、修正错误项、排除图书。"
 
 #: src/components/WhatsNewPanel.tsx
 msgid "What's new in Tome {version}"
@@ -7315,11 +7402,11 @@ msgstr "Tome {version} 有什么新内容"
 
 #: src/pages/StatsPage.tsx
 msgid "When you read — hour × weekday"
-msgstr ""
+msgstr "你何时阅读——小时 × 星期几"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Where in the book your time went — taller means more time spent on those pages."
-msgstr ""
+msgstr "你在书的哪个位置花费了时间——更高表示在这些页面上花费了更多时间。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "Where you read"
@@ -7333,7 +7420,7 @@ msgstr "你最常阅读的星期"
 #: src/pages/AdminPage.tsx
 #: src/pages/WishlistPage.tsx
 msgid "Whole series"
-msgstr ""
+msgstr "整个系列"
 
 #: src/pages/WishlistPage.tsx
 msgid "Wish"
@@ -7356,15 +7443,15 @@ msgstr "愿望单"
 
 #: src/pages/AdminPage.tsx
 msgid "Without a type, new books are only visible to admins until assigned."
-msgstr ""
+msgstr "没有类型时，新图书在分配前仅对管理员可见。"
 
 #: src/lib/backlog.ts
 msgid "Word count at a default {wpm} wpm (no finished books to measure your pace yet)"
-msgstr ""
+msgstr "按默认 {wpm} 字/分钟计算的字数（尚无读完的图书来测算你的阅读速度）"
 
 #: src/lib/backlog.ts
 msgid "Word count at your measured {wpm} wpm"
-msgstr ""
+msgstr "按你实测的 {wpm} 字/分钟计算的字数"
 
 #: src/components/WordCount.tsx
 msgid "Word count complete"
@@ -7427,35 +7514,35 @@ msgstr "你"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "You already have this goal — edit it from its tile instead."
-msgstr ""
+msgstr "你已经有这个目标了——请改为在其磁贴上编辑。"
 
 #: src/pages/BookDetailPage.tsx
 msgid "You rated this {rating}/5"
-msgstr ""
+msgstr "你给这本书评了 {rating}/5"
 
 #: src/components/stats/BacklogEstimate.tsx
 msgid "you read ~{mpd} min a day (last {win} days)"
-msgstr ""
+msgstr "你平均每天阅读约 {mpd} 分钟（最近 {win} 天）"
 
 #: src/pages/SettingsPage.tsx
 msgid "You're signed in via SSO. Manage your credentials at your identity provider — there's no Tome password to change."
-msgstr ""
+msgstr "你已通过 SSO 登录。请在身份提供商处管理你的凭据——Tome 没有可供修改的密码。"
 
 #: src/pages/SettingsPage.tsx
 msgid "Your account is linked to SSO — you can sign in with your identity provider."
-msgstr ""
+msgstr "你的账户已关联 SSO——你可以使用你的身份提供商登录。"
 
 #: src/pages/LoginPage.tsx
 msgid "Your account is not permitted to sign in to Tome."
-msgstr ""
+msgstr "你的账户无权登录 Tome。"
 
 #: src/lib/backlog.ts
 msgid "Your average time per finished book of this type (no word count)"
-msgstr ""
+msgstr "你每读完一本此类型图书的平均用时（不计字数）"
 
 #: src/components/HardcoverSync.tsx
 msgid "Your Hardcover token expired (they reset every January 1). Paste a fresh one to resume syncing."
-msgstr ""
+msgstr "你的 Hardcover 令牌已过期（每年 1 月 1 日会重置）。请粘贴新令牌以恢复同步。"
 
 #: src/pages/StatsPage.tsx
 msgid "Your highest & lowest rated books"
@@ -7476,39 +7563,39 @@ msgstr "你的图书馆为空"
 #: src/pages/BookDetailPage.tsx
 #: src/pages/HighlightsPage.tsx
 msgid "Your note — syncs back to KOReader on the next sync"
-msgstr ""
+msgstr "你的笔记——将在下次同步时传回 KOReader"
 
 #: src/components/stats/widgets/overview.tsx
 msgid "Your page turns at your usual reading pace"
-msgstr ""
+msgstr "你的翻页速度与你平时的阅读节奏一致"
 
 #: src/pages/StatsPage.tsx
 msgid "Your ratings over time"
-msgstr ""
+msgstr "你的评分随时间变化"
 
 #: src/pages/StatsPage.tsx
 msgid "Your reading life — every book a bar in time"
-msgstr ""
+msgstr "你的阅读生活——每本书都对应时间轴上的一段"
 
 #: src/pages/StatsPage.tsx
 msgid "Your real reading speed — words ÷ time"
-msgstr ""
+msgstr "你的 real 阅读速度 — 字 ÷ 时间"
 
 #: src/pages/SettingsPage.tsx
 msgid "Your server admin needs to set SMTP environment variables:"
-msgstr ""
+msgstr "你的服务器管理员需要设置以下 SMTP 环境变量："
 
 #: src/pages/LoginPage.tsx
 msgid "Your Tome account is disabled."
-msgstr ""
+msgstr "你的 Tome 账户已被禁用。"
 
 #: src/pages/SettingsPage.tsx
 msgid "your Tome password"
-msgstr ""
+msgstr "你的 Tome 密码"
 
 #: src/components/SeriesRating.tsx
 msgid "Your volumes average {avg} ({rated} rated)"
-msgstr ""
+msgstr "你的卷册平均为 {avg}（已评分 {rated} 本）"
 
 #: src/pages/WishlistPage.tsx
 msgid "Your wishlist is empty"
@@ -7516,7 +7603,7 @@ msgstr "你的愿望单为空"
 
 #: src/pages/StatsPage.tsx
 msgid "Your year, at a glance (1y/All)"
-msgstr ""
+msgstr "你的年度概览（1y/全部）"
 
 #: src/components/stats/TimelineRibbon.tsx
 msgid "Zoom in"
