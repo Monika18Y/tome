@@ -2144,6 +2144,15 @@ msgstr "连接手机"
 msgid "Connected devices"
 msgstr "已连接的设备"
 
+#: src/components/ConnectPhoneModal.tsx
+#: src/pages/SettingsPage.tsx
+msgid "Connect a phone"
+msgstr ""
+
+#: src/pages/SettingsPage.tsx
+msgid "Connected devices"
+msgstr ""
+
 #: src/pages/BookDetailPage.tsx
 msgid "Content"
 msgstr "内容"
@@ -2205,6 +2214,10 @@ msgstr "核心"
 #: src/components/ConnectPhoneModal.tsx
 msgid "Could not create a code"
 msgstr "无法生成验证码"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Could not create a code"
+msgstr ""
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Could not create the goal — it may already exist."
@@ -2602,6 +2615,10 @@ msgstr "文档"
 #: src/components/ConnectPhoneModal.tsx
 #~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
 #~ msgstr "还没获取吗？Tome Reader 的 iPhone 版现已开放测试"
+
+#: src/components/ConnectPhoneModal.tsx
+#~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
+#~ msgstr ""
 
 #: src/components/WordCount.tsx
 #: src/pages/DashboardPage.tsx
@@ -3664,6 +3681,10 @@ msgstr "将在下次服务器重启时生效。"
 msgid "Join the beta"
 msgstr "加入测试版"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Join the beta"
+msgstr ""
+
 #: src/components/CommandPalette.tsx
 msgid "Jump to a book, series, author, or page…"
 msgstr "跳转到图书、系列、作者或页面…"
@@ -3757,6 +3778,10 @@ msgstr "上次阅读"
 #: src/pages/SettingsPage.tsx
 msgid "Last seen"
 msgstr "上次在线"
+
+#: src/pages/SettingsPage.tsx
+msgid "Last seen"
+msgstr ""
 
 #: src/pages/SettingsPage.tsx
 msgid "Last sync: {d}"
@@ -4226,6 +4251,11 @@ msgstr "永不过期"
 #: src/pages/HardcoverPage.tsx
 msgid "Never sync this book. Nothing is removed from Hardcover."
 msgstr "永不同步这本图书。不会从 Hardcover 移除任何内容。"
+#~ msgstr ""
+
+#: src/pages/HardcoverPage.tsx
+msgid "Never sync this book. Nothing is removed from Hardcover."
+msgstr ""
 
 #: src/pages/SettingsPage.tsx
 msgid "never used"
@@ -4238,6 +4268,10 @@ msgstr "新建面板"
 #: src/components/ConnectPhoneModal.tsx
 msgid "New code"
 msgstr "新验证码"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "New code"
+msgstr ""
 
 #: src/components/MetadataFetchModal.tsx
 msgid "New cover"
@@ -4425,6 +4459,10 @@ msgstr "尚未配置设备"
 #: src/pages/SettingsPage.tsx
 msgid "No devices connected yet. Use \"Connect a phone\" above to sign the Tome app in."
 msgstr "尚未连接任何设备。请使用上面的“连接手机”登录 Tome 应用。"
+
+#: src/pages/SettingsPage.tsx
+msgid "No devices connected yet. Use \"Connect a phone\" above to sign the Tome app in."
+msgstr ""
 
 #: src/pages/SettingsPage.tsx
 msgid "No devices yet. Add one to start sending books."
@@ -4909,6 +4947,10 @@ msgstr "打开图书（选择封面）"
 msgid "Open in the Tome app"
 msgstr "在 Tome 应用中打开"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Open in the Tome app"
+msgstr ""
+
 #: src/components/AppHeader.tsx
 msgid "Open navigation"
 msgstr "打开导航"
@@ -5104,6 +5146,14 @@ msgstr "手机已连接"
 #: src/pages/SettingsPage.tsx
 msgid "Phones signed in with the Tome app. Revoking a device signs it out immediately; it can connect again with a new code."
 msgstr "已用 Tome 应用登录的手机。撤销设备后它会立即退出登录，之后可用新验证码重新连接。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Phone connected"
+msgstr ""
+
+#: src/pages/SettingsPage.tsx
+msgid "Phones signed in with the Tome app. Revoking a device signs it out immediately; it can connect again with a new code."
+msgstr ""
 
 #: src/pages/HardcoverPage.tsx
 msgid "Pick"
@@ -5769,6 +5819,15 @@ msgstr "撤销"
 msgid "Revoke \"{name}\"? It is signed out immediately and has to connect again."
 msgstr "撤销“{name}”？它会立即退出登录，之后需要重新连接。"
 
+#. placeholder {0}: d.name
+#: src/pages/SettingsPage.tsx
+#~ msgid "Revoke \"{0}\"? It is signed out immediately and has to connect again."
+#~ msgstr ""
+
+#: src/pages/SettingsPage.tsx
+msgid "Revoke \"{name}\"? It is signed out immediately and has to connect again."
+msgstr ""
+
 #: src/components/ShareLinksOverview.tsx
 #: src/components/ShareShelfModal.tsx
 msgid "Revoke link"
@@ -5909,6 +5968,10 @@ msgstr "立即扫描"
 #: src/components/ConnectPhoneModal.tsx
 msgid "Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window."
 msgstr "用 Tome 应用扫描此二维码即可将手机登录为你的身份。验证码只能使用一次，五分钟后失效，关闭此窗口后立即失效。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window."
+msgstr ""
 
 #: src/pages/AdminPage.tsx
 msgid "Scanner"
@@ -6402,6 +6465,10 @@ msgstr "无需输入密码即可在新设备上登录。在新设备的登录界
 msgid "Sign in on a new device without entering your password. Show a QR code for the Tome app, or enter the 6-character code a new device displays when you tap \"Quick Connect\" on its login screen."
 msgstr "无需输入密码即可在新设备上登录。可为 Tome 应用显示二维码，或者在应用登录界面点击“快速连接”后，输入新设备上显示的 6 位验证码。"
 
+#: src/pages/SettingsPage.tsx
+msgid "Sign in on a new device without entering your password. Show a QR code for the Tome app, or enter the 6-character code a new device displays when you tap \"Quick Connect\" on its login screen."
+msgstr ""
+
 #: src/pages/LoginPage.tsx
 msgid "Sign in to your library"
 msgstr "登录你的图书馆"
@@ -6686,6 +6753,10 @@ msgstr "简介或描述"
 msgid "System"
 msgstr "系统"
 
+#: src/pages/SettingsPage.tsx
+msgid "System"
+msgstr ""
+
 #: src/pages/ReaderPage.tsx
 msgid "Table of contents"
 msgstr "目录"
@@ -6791,6 +6862,10 @@ msgstr "此面板为空。"
 #: src/components/ConnectPhoneModal.tsx
 msgid "This code has expired."
 msgstr "此验证码已过期。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "This code has expired."
+msgstr ""
 
 #: src/pages/AdminPage.tsx
 msgid "This is a whole-series wish — it stays open as volumes arrive."
@@ -6969,6 +7044,10 @@ msgstr "Tome · 你的个人图书馆"
 #: src/components/ConnectPhoneModal.tsx
 msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
 msgstr "Tome Reader 面向 iPhone 的免费测试版持续到 2026 年 12 月 31 日。"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
+msgstr ""
 
 #: src/pages/SettingsPage.tsx
 msgid "TomeSync and KOSync can both be active. TomeSync tracks full reading sessions; KOSync only stores your last position."

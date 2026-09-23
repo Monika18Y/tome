@@ -19,7 +19,7 @@ Built with FastAPI, React, and SQLite. Ships as a single Docker image.
 
 ## Highlights
 
-- **TomeSync** -- custom KOReader plugin records reading sessions, syncs positions bidirectionally (device to web, web to device), and works fully offline. This is what makes Tome different. [Details](docs/koreader-plugin.md)
+- **TomeSync** -- custom KOReader plugin records reading sessions, syncs positions bidirectionally (device to web, web to device), and works fully offline. This is what makes Tome different. Use a current KOReader release (v2024.07 or newer for all features). [Details](docs/koreader-plugin.md)
 - **Reading stats** -- session tracking, streaks, time-of-day heatmaps, reading pace, completion estimates, genre trends, monthly comparisons, and per-book breakdowns -- all powered by real session data from your e-reader
 - **Hardcover sync** -- push your ratings (half-stars included), progress, and finish dates to your [Hardcover](https://hardcover.app) profile. One-way, opt-in, per-user; nothing is ever deleted on Hardcover. If you don't know Hardcover yet: it's the indie, ad-free Goodreads alternative with a public API -- well worth a look even without Tome. [Details](https://tome.bndct.sh/docs/hardcover)
 - **Metadata from 3 sources** -- fetch and compare metadata from [Hardcover](https://hardcover.app), Google Books, and OpenLibrary with a side-by-side diff UI
@@ -76,6 +76,20 @@ Tome works as a PWA on mobile. Pin it to your home screen for a native app feel.
 | | | | | |
 |---|---|---|---|---|
 | ![Home](docs/screenshots/mobile-home.png) | ![Stats](docs/screenshots/mobile-stats.png) | ![Sidebar](docs/screenshots/mobile-sidebar.png) | ![Series](docs/screenshots/mobile-series.png) | ![Reader](docs/screenshots/mobile-reader.png) |
+
+### iPhone
+
+Tome Reader is a native iPhone app for your Tome: pair with a QR code from
+Settings → Quick Connect, browse the library and series, read EPUB and comics
+offline, and keep progress and stats in sync. It is in **free beta until
+31 December 2026** — [join it on TestFlight](https://testflight.apple.com/join/JrHyntNU).
+
+The app is closed source and entirely optional. Tome never requires it, and
+everything it does goes through the same public API any other client can use.
+
+| | | | | |
+|---|---|---|---|---|
+| ![Home](docs/screenshots/ios-home.png) | ![Library](docs/screenshots/ios-library.png) | ![Book](docs/screenshots/ios-book.png) | ![Reader](docs/screenshots/ios-reader.png) | ![Stats](docs/screenshots/ios-stats.png) |
 
 ## Quick Start
 
@@ -150,7 +164,7 @@ Did click? **Don't run it on your laptop long-term.** Move `~/Tome` to an always
 
 ## Development
 
-Requirements: Python 3.12+, Node.js 18+
+Requirements: Python 3.12+, Node.js 22.19+
 
 ```bash
 ./dev.sh   # starts backend :8080 + frontend :5173
@@ -166,6 +180,17 @@ Requirements: Python 3.12+, Node.js 18+
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for project conventions and PR guidelines.
 
+## Translating
+
+The web UI is translatable. English is the source and lives in the code;
+every other language is a community-maintained catalog under
+`frontend/src/locales/<code>/messages.po`, editable with any text editor or
+[Poedit](https://poedit.net/). Anything not yet translated falls back to
+English, so partial catalogs are fine to ship. To improve a language, fill in
+the empty `msgstr` entries and open a pull request; to add one, see
+[docs/translating.md](docs/translating.md) for the two-line setup. The
+KOReader plugin and this website stay English for now.
+
 ## Documentation
 
 - [Reader](docs/reader.md) -- EPUB, comic/manga reader, keyboard shortcuts, ComicInfo.xml
@@ -174,6 +199,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for project conventions and PR guidelines
 - [Scribe](docs/scribe.md) -- Claude Code Skill for batch ingest, metadata refresh, and series audits
 - [Import Script](docs/import.md) -- bulk importing an existing collection from filenames
 - [Features](docs/features.md) -- Quick Connect, OPDS PINs, permissions, themes, API tokens, and more
+- [Translating](docs/translating.md) -- improving or adding a UI language
 
 ## Acknowledgements
 

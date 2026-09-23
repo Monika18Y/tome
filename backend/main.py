@@ -13,6 +13,7 @@ from backend.services.safe_fetch import fetch_safe_image, UnsafeURLError
 logger = logging.getLogger(__name__)
 
 from backend.api import health, auth, books, libraries, book_types
+from backend.api import devices as devices_api
 from backend.api import users  # noqa: F401
 from backend.api import downloads
 from backend.api import opds
@@ -325,6 +326,13 @@ async def lifespan(app: FastAPI):
             conn.execute(text("ALTER TABLE user_book_status ADD COLUMN hardcover_synced_at DATETIME"))
             conn.execute(text("ALTER TABLE user_book_status ADD COLUMN hardcover_error VARCHAR(255)"))
             conn.execute(text("ALTER TABLE user_book_status ADD COLUMN hardcover_fail_count INTEGER NOT NULL DEFAULT 0"))
+            conn.commit()
+        # Ownership of the Hardcover entry (#227). Existing rows default to 0 =
+        # "not ours": their origin cannot be recovered, and treating an unknown
+        # entry as the user's own is the safe direction — Tome never deletes it.
+        if ubs_cols and "hardcover_created" not in ubs_cols:
+            conn.execute(text(
+                "ALTER TABLE user_book_status ADD COLUMN hardcover_created BOOLEAN NOT NULL DEFAULT 0"))
             conn.commit()
         # Hardcover Want-to-Read pull resolves shelf entries by matched book id
         # every cycle — create_all only builds indexes for brand-new tables, and
@@ -808,6 +816,7 @@ def create_app() -> FastAPI:
     # API routes
     app.include_router(health.router, prefix="/api")
     app.include_router(auth.router, prefix="/api")
+    app.include_router(devices_api.router, prefix="/api")
     app.include_router(home.router, prefix="/api")
     app.include_router(books.router, prefix="/api")
     app.include_router(libraries.router, prefix="/api")

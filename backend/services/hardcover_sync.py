@@ -116,6 +116,7 @@ Q_READS = """
 query Reads($ubId: Int!) {
     user_book_reads(where: {user_book_id: {_eq: $ubId}}, order_by: {id: desc}, limit: 1) {
         id
+        finished_at
     }
 }
 """
@@ -172,7 +173,7 @@ query UserBook($uid: Int!, $bid: Int!) {
     user_books(where: {user_id: {_eq: $uid}, book_id: {_eq: $bid}}, limit: 1) {
         id
         status_id
-        user_book_reads(order_by: {id: desc}, limit: 1) { id }
+        user_book_reads(order_by: {id: desc}, limit: 1) { id finished_at }
     }
 }
 """
@@ -660,7 +661,10 @@ def needs_sync(row: UserBookStatus) -> bool:
     Tome internally tracks positions last-write-wins (downward included, a
     deliberate re-read affordance), but mirroring a regression to a public
     profile has no upside — and it would let a stale device's wake-push
-    rewind the user's Hardcover progress too.
+    rewind the user's Hardcover progress too. Forward-only holds within one
+    read-through: leaving "read" clears the snapshot and the read pointer
+    (book_progress.reset_hardcover_read_state) so a re-read starts from
+    zero on a fresh Hardcover read entry.
     """
     if row.rating is not None and row.rating != row.hardcover_synced_rating:
         return True
@@ -684,6 +688,34 @@ def _progress_pages(row: UserBookStatus, pages: Optional[int]) -> Optional[int]:
     return max(0, min(pages, round(pct * pages)))
 
 
+def _read_target(reads: list, row: UserBookStatus, *, own_entry: bool) -> tuple[str, Optional[int]]:
+    """Where a push may write its read data: ("update", id), ("insert", None)
+    or ("skip", None).
+
+    ``reads`` is newest-first. Hardcover auto-creates a read entry when a
+    user_book is inserted (a finished one, dated today, for status "read"),
+    so a "read" row on an entry we created adopts whatever is newest rather
+    than inserting a duplicate. A row that is being *read* must never adopt a
+    completed entry: that is a previous read-through (an earlier finish on
+    Tome's side, or the user's own Hardcover history) and writing progress
+    onto it would rewrite that record. Hardcover opens a new entry itself
+    when the status flips back to "reading"; if it did not, we insert one.
+
+    ``own_entry`` is False for an entry that was already on the user's profile
+    (#227). A finished read there is their own history: Tome neither rewrites
+    it nor inserts a second read beside it, which would claim a read-through
+    that never happened. It simply leaves the reads alone."""
+    if not reads:
+        return ("insert", None)
+    newest = reads[0]
+    if newest.get("finished_at"):
+        if row.status != "read":
+            return ("insert", None)
+        if not own_entry:
+            return ("skip", None)
+    return ("update", int(newest["id"]))
+
+
 def _mutation_result(data: dict, key: str) -> dict:
     """Pull {id, error} out of a mutation response, tolerating shape drift."""
     result = data.get(key)
@@ -700,28 +732,40 @@ async def _push_row(client: httpx.AsyncClient, token: str, user: User,
     status_id = STATUS_ID.get(row.status)
 
     # Ensure the Hardcover user_book row exists and we hold its id.
+    created_now = False
+    known_reads: Optional[list] = None   # reads already returned by Q_USER_BOOK
     if row.hardcover_user_book_id is None:
         data = await _gql(client, token, Q_USER_BOOK,
                           {"uid": user.hardcover_user_id, "bid": book.hardcover_book_id})
         existing = data.get("user_books") or []
         if existing:
+            # Adopted, not created: the entry is the user's own record (#227).
             row.hardcover_user_book_id = existing[0]["id"]
-            reads = existing[0].get("user_book_reads") or []
-            if reads:
-                row.hardcover_read_id = reads[0]["id"]
+            row.hardcover_created = False
+            known_reads = existing[0].get("user_book_reads") or []
+            action, read_id = _read_target(known_reads, row, own_entry=False)
+            row.hardcover_read_id = read_id if action == "update" else None
         else:
             obj: dict = {"book_id": book.hardcover_book_id}
             if status_id is not None:
                 obj["status_id"] = status_id
             if book.hardcover_edition_id:
                 obj["edition_id"] = book.hardcover_edition_id
+            # Hardcover would otherwise stamp the entry with today; the book
+            # joined the Tome library on added_at, so mirror that (#218).
+            # Insert-only: an entry we merely adopted is the user's own
+            # Hardcover history and keeps its date.
+            if book.added_at:
+                obj["date_added"] = book.added_at.strftime("%Y-%m-%d")
             data = await _gql(client, token, M_INSERT_USER_BOOK, {"object": obj})
             result = _mutation_result(data, "insert_user_book")
             new_id = result.get("id") or (result.get("user_book") or {}).get("id")
             if new_id is None:
                 raise HardcoverAPIError("insert_user_book returned no id")
             row.hardcover_user_book_id = int(new_id)
+            row.hardcover_created = True
             row.hardcover_synced_status = row.status if status_id else None
+            created_now = True
 
     # Rating and/or status in one mutation.
     update_obj: dict = {}
@@ -744,20 +788,47 @@ async def _push_row(client: httpx.AsyncClient, token: str, user: User,
     if status_id is not None and row.status != "want_to_read":
         pages = _progress_pages(row, book.hardcover_pages)
         pct = 1.0 if row.status == "read" else (row.progress_pct or 0.0)
-        if pages is not None and pct - (row.hardcover_synced_pct or 0.0) >= 0.01:
-            read_obj: dict = {"progress_pages": pages}
+        push_progress = pages is not None and pct - (row.hardcover_synced_pct or 0.0) >= 0.01
+        # A "read" book with no finish date in Tome (CSV import with an empty
+        # Date Read) must not show the sync day on Hardcover: the read entry
+        # insert_user_book auto-created carries finished_at=today, and a patch
+        # that omits the field keeps it, so send an explicit null (#217). Only
+        # for an entry we created this push — clearing the date on an adopted
+        # entry would erase the user's real Hardcover history.
+        clear_finish = created_now and row.status == "read" and row.finished_at is None
+        if push_progress or clear_finish:
+            read_obj: dict = {}
+            if push_progress:
+                read_obj["progress_pages"] = pages
             if book.hardcover_edition_id:
                 read_obj["edition_id"] = book.hardcover_edition_id
-            if row.status == "read" and row.finished_at:
-                read_obj["finished_at"] = row.finished_at.strftime("%Y-%m-%d")
+            if row.status == "read":
+                if row.finished_at:
+                    read_obj["finished_at"] = row.finished_at.strftime("%Y-%m-%d")
+                elif clear_finish:
+                    read_obj["finished_at"] = None
             if row.hardcover_read_id is None:
                 # insert_user_book auto-creates an initial read row (observed
-                # live) — adopt it rather than inserting a duplicate.
-                data = await _gql(client, token, Q_READS,
-                                  {"ubId": row.hardcover_user_book_id})
-                reads = data.get("user_book_reads") or []
-                if reads:
-                    row.hardcover_read_id = int(reads[0]["id"])
+                # live) — adopt it rather than inserting a duplicate. A row in
+                # progress only adopts an *open* entry, and a finished read on
+                # an entry we did not create is left untouched (see
+                # _read_target).
+                if known_reads is None:
+                    data = await _gql(client, token, Q_READS,
+                                      {"ubId": row.hardcover_user_book_id})
+                    known_reads = data.get("user_book_reads") or []
+                action, read_id = _read_target(
+                    known_reads, row, own_entry=bool(row.hardcover_created))
+                if action == "skip":
+                    # The user's own finished read already records this book.
+                    # Snapshot the pct so the reconciler stops retrying.
+                    if push_progress:
+                        row.hardcover_synced_pct = pct
+                    row.hardcover_synced_at = datetime.utcnow()
+                    row.hardcover_error = None
+                    row.hardcover_fail_count = 0
+                    return
+                row.hardcover_read_id = read_id
             if row.hardcover_read_id is None:
                 data = await _gql(client, token, M_INSERT_READ,
                                   {"ubId": row.hardcover_user_book_id, "read": read_obj})
@@ -768,8 +839,9 @@ async def _push_row(client: httpx.AsyncClient, token: str, user: User,
                 data = await _gql(client, token, M_UPDATE_READ,
                                   {"id": row.hardcover_read_id, "object": read_obj})
                 _mutation_result(data, "update_user_book_read")
-            row.hardcover_synced_pct = pct
-        elif pages is None:
+            if push_progress:
+                row.hardcover_synced_pct = pct
+        if pages is None:
             # Status-only book (no page data): status went out above; snapshot
             # the pct anyway so needs_sync stops firing on progress churn.
             row.hardcover_synced_pct = pct
@@ -1019,6 +1091,7 @@ async def pull_want_to_read(db: Session, client: httpx.AsyncClient, user: User,
                 row.status = "want_to_read"
                 row.hardcover_synced_status = "want_to_read"
                 row.hardcover_user_book_id = shelf[book.hardcover_book_id]
+                row.hardcover_created = False   # the user's own shelf entry
                 stats["pulled"] += 1
 
     # 3. Convergence: previously-agreed rows whose entry left the shelf.
@@ -1171,6 +1244,7 @@ async def _wishes_from_shelf(db: Session, client: httpx.AsyncClient, token: str,
                     row.status = "want_to_read"
                     row.hardcover_synced_status = "want_to_read"
                     row.hardcover_user_book_id = shelf.get(int(b["id"]))
+                    row.hardcover_created = False   # the user's own shelf entry
                 stats["adopted"] += 1
             else:
                 logger.info(

@@ -223,5 +223,17 @@ def test_build_bumped_for_rebake():
     # out of a moved server), credentials arrive via "Sign in with code"
     # (Quick Connect pairing mints a fresh plugin API key; username derived
     # from /auth/me, never typed).
-    assert TOMESYNC_PLUGIN_BUILD >= 41
-    assert TOMESYNC_PLUGIN_SEMVER == "1.14.0"
+    # 1.15.0 / build 42 adds metadata sync (issue #210): Tome's title, author,
+    # series, tags, description and cover are written into KOReader's own
+    # custom-metadata sidecar for books on the device (opt-in, hash-verified
+    # per file, the book files themselves never modified).
+    # 1.15.1 / build 43 runs metadata sync as one-file-per-tick scheduled
+    # steps with a progress notification: the first run on a Kindle froze
+    # the home screen ~30 s (35 covers + document opens in three bursts).
+    # 1.15.2 / build 44 updates the cover-browser cache row in place instead
+    # of deleting it (bookshelf series views lost the books whose rows were
+    # gone) and queues a background re-extraction for rows already missing.
+    # 1.15.3 / build 45 broadcasts BookMetadataChanged after the self-heal
+    # rebuilt cache rows (bookshelf's series list stayed stale otherwise).
+    assert TOMESYNC_PLUGIN_BUILD >= 45
+    assert TOMESYNC_PLUGIN_SEMVER == "1.15.3"

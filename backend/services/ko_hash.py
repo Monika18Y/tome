@@ -68,13 +68,27 @@ def record_ko_hash(db: Session, book_id: int, md5: str | None, kind: str = "raw"
     )
     if existing:
         return
+    # The server session runs autoflush=False, so a query cannot see a row that
+    # is still pending here (e.g. the same hash recorded twice earlier in one
+    # scan transaction). Guard against queuing a duplicate INSERT.
+    for pending in db.new:
+        if (
+            isinstance(pending, KoHash)
+            and pending.book_id == book_id
+            and pending.ko_partial_md5 == md5
+        ):
+            return
     db.add(KoHash(book_id=book_id, ko_partial_md5=md5, kind=kind))
     if kind == "baked":
+        # The server session is autoflush=False: flush explicitly so the prune
+        # query below counts the row just added as the newest one, or the cap
+        # silently becomes BAKED_HASHES_KEPT + 1.
+        db.flush()
         stale = (
             db.query(KoHash.id)
             .filter(KoHash.book_id == book_id, KoHash.kind == "baked")
             .order_by(KoHash.created_at.desc(), KoHash.id.desc())
-            .offset(BAKED_HASHES_KEPT)  # autoflush ranks the pending row newest
+            .offset(BAKED_HASHES_KEPT)
             .all()
         )
         if stale:

@@ -1280,6 +1280,7 @@ msgid "Add your SMTP sender address to Amazon's <0>Approved Personal Document E-
 msgstr "Add your SMTP sender address to Amazon's <0>Approved Personal Document E-mail List</0>, or emails will be silently dropped."
 
 #: src/pages/AdminPage.tsx
+#: src/pages/SettingsPage.tsx
 msgid "Added"
 msgstr "Added"
 
@@ -2018,6 +2019,7 @@ msgid "Click for details"
 msgstr "Click for details"
 
 #: src/components/BulkMetadataReviewModal.tsx
+#: src/components/ConnectPhoneModal.tsx
 #: src/components/ManageSeriesModal.tsx
 #: src/components/PositionHistoryModal.tsx
 #: src/components/ShareShelfModal.tsx
@@ -2133,6 +2135,15 @@ msgstr "Confirm new password"
 msgid "Confirm password"
 msgstr "Confirm password"
 
+#: src/components/ConnectPhoneModal.tsx
+#: src/pages/SettingsPage.tsx
+msgid "Connect a phone"
+msgstr "Connect a phone"
+
+#: src/pages/SettingsPage.tsx
+msgid "Connected devices"
+msgstr "Connected devices"
+
 #: src/pages/BookDetailPage.tsx
 msgid "Content"
 msgstr "Content"
@@ -2190,6 +2201,10 @@ msgstr "Copy token"
 #: src/pages/SettingsPage.tsx
 msgid "Core"
 msgstr "Core"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Could not create a code"
+msgstr "Could not create a code"
 
 #: src/components/stats/GoalWidget.tsx
 msgid "Could not create the goal — it may already exist."
@@ -2535,6 +2550,7 @@ msgstr "Details:"
 #: src/components/SendToDeviceModal.tsx
 #: src/components/stats/widgets/overview.tsx
 #: src/pages/AdminPage.tsx
+#: src/pages/SettingsPage.tsx
 msgid "Device"
 msgstr "Device"
 
@@ -2582,6 +2598,10 @@ msgstr "Do you rate books you spend longer on higher?"
 #: src/components/Sidebar.tsx
 msgid "Docs"
 msgstr "Docs"
+
+#: src/components/ConnectPhoneModal.tsx
+#~ msgid "Don't have it yet? Tome Reader is in open beta for iPhone."
+#~ msgstr "Don't have it yet? Tome Reader is in open beta for iPhone."
 
 #: src/components/WordCount.tsx
 #: src/pages/DashboardPage.tsx
@@ -3640,6 +3660,10 @@ msgstr "ISBN"
 msgid "It applies at the next server restart."
 msgstr "It applies at the next server restart."
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Join the beta"
+msgstr "Join the beta"
+
 #: src/components/CommandPalette.tsx
 msgid "Jump to a book, series, author, or page…"
 msgstr "Jump to a book, series, author, or page…"
@@ -3729,6 +3753,10 @@ msgstr "Language: {filterLanguageLabel}"
 #: src/pages/BookDetailPage.tsx
 msgid "Last read"
 msgstr "Last read"
+
+#: src/pages/SettingsPage.tsx
+msgid "Last seen"
+msgstr "Last seen"
 
 #: src/pages/SettingsPage.tsx
 msgid "Last sync: {d}"
@@ -3894,6 +3922,7 @@ msgstr "Loading your reading life…"
 #~ msgid "Loading..."
 #~ msgstr "Loading..."
 
+#: src/components/ConnectPhoneModal.tsx
 #: src/components/HardcoverSync.tsx
 #: src/components/PositionHistoryModal.tsx
 #: src/components/ShareLinksOverview.tsx
@@ -4191,8 +4220,12 @@ msgid "Never expires"
 msgstr "Never expires"
 
 #: src/pages/HardcoverPage.tsx
-msgid "Never sync this book"
-msgstr "Never sync this book"
+#~ msgid "Never sync this book"
+#~ msgstr "Never sync this book"
+
+#: src/pages/HardcoverPage.tsx
+msgid "Never sync this book. Nothing is removed from Hardcover."
+msgstr "Never sync this book. Nothing is removed from Hardcover."
 
 #: src/pages/SettingsPage.tsx
 msgid "never used"
@@ -4201,6 +4234,10 @@ msgstr "never used"
 #: src/pages/StatsPage.tsx
 msgid "New board"
 msgstr "New board"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "New code"
+msgstr "New code"
 
 #: src/components/MetadataFetchModal.tsx
 msgid "New cover"
@@ -4384,6 +4421,10 @@ msgstr "No description yet for this volume."
 #: src/components/SendToDeviceModal.tsx
 msgid "No devices configured"
 msgstr "No devices configured"
+
+#: src/pages/SettingsPage.tsx
+msgid "No devices connected yet. Use \"Connect a phone\" above to sign the Tome app in."
+msgstr "No devices connected yet. Use \"Connect a phone\" above to sign the Tome app in."
 
 #: src/pages/SettingsPage.tsx
 msgid "No devices yet. Add one to start sending books."
@@ -4864,6 +4905,10 @@ msgstr "Open a book downloaded via OPDS"
 msgid "Open book (pick a cover by eye)"
 msgstr "Open book (pick a cover by eye)"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Open in the Tome app"
+msgstr "Open in the Tome app"
+
 #: src/components/AppHeader.tsx
 msgid "Open navigation"
 msgstr "Open navigation"
@@ -5051,6 +5096,14 @@ msgstr "Period Comparison"
 #: src/pages/StatsPage.tsx
 msgid "Personal Records"
 msgstr "Personal Records"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Phone connected"
+msgstr "Phone connected"
+
+#: src/pages/SettingsPage.tsx
+msgid "Phones signed in with the Tome app. Revoking a device signs it out immediately; it can connect again with a new code."
+msgstr "Phones signed in with the Tome app. Revoking a device signs it out immediately; it can connect again with a new code."
 
 #: src/pages/HardcoverPage.tsx
 msgid "Pick"
@@ -5560,8 +5613,12 @@ msgid "Remove from library"
 msgstr "Remove from library"
 
 #: src/pages/HardcoverPage.tsx
-msgid "Remove our entry from Hardcover and re-match automatically"
-msgstr "Remove our entry from Hardcover and re-match automatically"
+#~ msgid "Remove our entry from Hardcover and re-match automatically"
+#~ msgstr "Remove our entry from Hardcover and re-match automatically"
+
+#: src/pages/HardcoverPage.tsx
+msgid "Remove the entry Tome created on Hardcover and re-match automatically. An entry that was already on your profile is kept."
+msgstr "Remove the entry Tome created on Hardcover and re-match automatically. An entry that was already on your profile is kept."
 
 #: src/pages/WishlistPage.tsx
 msgid "Remove wish"
@@ -5703,6 +5760,15 @@ msgstr "Reviewing {n} files"
 msgid "Revoke"
 msgstr "Revoke"
 
+#. placeholder {0}: d.name
+#: src/pages/SettingsPage.tsx
+#~ msgid "Revoke \"{0}\"? It is signed out immediately and has to connect again."
+#~ msgstr "Revoke \"{0}\"? It is signed out immediately and has to connect again."
+
+#: src/pages/SettingsPage.tsx
+msgid "Revoke \"{name}\"? It is signed out immediately and has to connect again."
+msgstr "Revoke \"{name}\"? It is signed out immediately and has to connect again."
+
 #: src/components/ShareLinksOverview.tsx
 #: src/components/ShareShelfModal.tsx
 msgid "Revoke link"
@@ -5839,6 +5905,10 @@ msgstr "Scan Library"
 #: src/pages/AdminPage.tsx
 msgid "Scan Now"
 msgstr "Scan Now"
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window."
+msgstr "Scan this with the Tome app to sign the phone in as you. The code works once, stops after five minutes, and dies the moment you close this window."
 
 #: src/pages/AdminPage.tsx
 msgid "Scanner"
@@ -6328,6 +6398,10 @@ msgstr "Sign in"
 msgid "Sign in on a new device without entering your password. On the new device, tap \"Quick Connect\" on the login screen to get a 6-character code, then enter it here."
 msgstr "Sign in on a new device without entering your password. On the new device, tap \"Quick Connect\" on the login screen to get a 6-character code, then enter it here."
 
+#: src/pages/SettingsPage.tsx
+msgid "Sign in on a new device without entering your password. Show a QR code for the Tome app, or enter the 6-character code a new device displays when you tap \"Quick Connect\" on its login screen."
+msgstr "Sign in on a new device without entering your password. Show a QR code for the Tome app, or enter the 6-character code a new device displays when you tap \"Quick Connect\" on its login screen."
+
 #: src/pages/LoginPage.tsx
 msgid "Sign in to your library"
 msgstr "Sign in to your library"
@@ -6608,6 +6682,10 @@ msgstr "Syncing…"
 msgid "Synopsis or description"
 msgstr "Synopsis or description"
 
+#: src/pages/SettingsPage.tsx
+msgid "System"
+msgstr "System"
+
 #: src/pages/ReaderPage.tsx
 msgid "Table of contents"
 msgstr "Table of contents"
@@ -6709,6 +6787,10 @@ msgstr "Theme name is required"
 #: src/pages/StatsPage.tsx
 msgid "This board is empty."
 msgstr "This board is empty."
+
+#: src/components/ConnectPhoneModal.tsx
+msgid "This code has expired."
+msgstr "This code has expired."
 
 #: src/pages/AdminPage.tsx
 msgid "This is a whole-series wish — it stays open as volumes arrive."
@@ -6884,6 +6966,10 @@ msgstr "Token name"
 msgid "Tome · Your personal library"
 msgstr "Tome · Your personal library"
 
+#: src/components/ConnectPhoneModal.tsx
+msgid "Tome Reader is in free beta for iPhone until 31 December 2026."
+msgstr "Tome Reader is in free beta for iPhone until 31 December 2026."
+
 #: src/pages/SettingsPage.tsx
 msgid "TomeSync and KOSync can both be active. TomeSync tracks full reading sessions; KOSync only stores your last position."
 msgstr "TomeSync and KOSync can both be active. TomeSync tracks full reading sessions; KOSync only stores your last position."
@@ -6952,6 +7038,7 @@ msgstr "Trimming only shortens this session's length and end time — page turns
 msgid "Try adjusting your filters"
 msgstr "Try adjusting your filters"
 
+#: src/components/ConnectPhoneModal.tsx
 #: src/pages/LoginPage.tsx
 msgid "Try again"
 msgstr "Try again"
