@@ -2,10 +2,10 @@
 
 Runs against the sandbox instance started by e2e/start.sh (SQLite in WAL mode,
 so writing from a second process while uvicorn is up is fine). Every scenario
-starts from a clean slate: all book data wiped, library dir recreated, the
-`e2e` admin ensured.
+starts from a clean slate: all book data, libraries and shelves wiped, library
+dir recreated, the `e2e` admin and one member and one guest ensured.
 
-Usage: seed.py <orphans|duplicates|many> [count]
+Usage: seed.py <orphans|duplicates|many|race|shelves|reset> [count]
 """
 import sys
 from pathlib import Path
@@ -28,16 +28,26 @@ from sqlalchemy import text  # noqa: E402
 from backend.core.database import SessionLocal  # noqa: E402
 from backend.core.security import hash_password  # noqa: E402
 from backend.models.book import Book, BookFile  # noqa: E402
+from backend.models.library import Library, SavedFilter  # noqa: E402
 from backend.models.user import User  # noqa: E402
 
 LIBRARY = E2E_DATA / "library"
 
 ADMIN_USER = "e2e"
 ADMIN_PASSWORD = "e2e-password-1"
+MEMBER_USER = "e2e-member"
+MEMBER_PASSWORD = "e2e-password-1"
+GUEST_USER = "e2e-guest"
+GUEST_PASSWORD = "e2e-password-1"
 
 
 def reset(db) -> int:
     for table in (
+        "share_links",
+        "book_library",
+        "library_users",
+        "libraries",
+        "saved_filters",
         "user_book_status",
         "book_tags",
         "book_files",
@@ -50,20 +60,27 @@ def reset(db) -> int:
     shutil.rmtree(LIBRARY, ignore_errors=True)
     LIBRARY.mkdir(parents=True)
 
-    admin = db.query(User).filter(User.username == ADMIN_USER).first()
-    if admin is None:
-        admin = User(
-            username=ADMIN_USER,
-            email="e2e@example.com",
-            hashed_password=hash_password(ADMIN_PASSWORD),
+    admin = _ensure_user(db, ADMIN_USER, ADMIN_PASSWORD, "admin")
+    _ensure_user(db, MEMBER_USER, MEMBER_PASSWORD, "member")
+    _ensure_user(db, GUEST_USER, GUEST_PASSWORD, "guest")
+    return admin.id
+
+
+def _ensure_user(db, username: str, password: str, role: str) -> User:
+    user = db.query(User).filter(User.username == username).first()
+    if user is None:
+        user = User(
+            username=username,
+            email=f"{username}@example.com",
+            hashed_password=hash_password(password),
             is_active=True,
-            is_admin=True,
-            role="admin",
+            is_admin=role == "admin",
+            role=role,
             must_change_password=False,
         )
-        db.add(admin)
+        db.add(user)
         db.flush()
-    return admin.id
+    return user
 
 
 def _write_file(rel_path: str, content: bytes) -> Path:
@@ -173,6 +190,12 @@ def scenario_many(db, admin_id, count):
                   content=f"seeded {i}".encode(), fmt="epub")
 
 
+def scenario_shelves(db, admin_id):
+    """One library and one shelf, for the sidebar sections."""
+    db.add(Library(name="Seeded Library", owner_id=admin_id))
+    db.add(SavedFilter(name="Seeded Shelf", owner_id=admin_id, params="{}"))
+
+
 def main():
     scenario = sys.argv[1] if len(sys.argv) > 1 else "orphans"
     db = SessionLocal()
@@ -186,6 +209,8 @@ def main():
             scenario_race(db, admin_id)
         elif scenario == "many":
             scenario_many(db, admin_id, int(sys.argv[2]) if len(sys.argv) > 2 else 134)
+        elif scenario == "shelves":
+            scenario_shelves(db, admin_id)
         elif scenario == "reset":
             pass
         else:
