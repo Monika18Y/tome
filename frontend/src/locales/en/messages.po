@@ -3232,6 +3232,17 @@ msgstr "finished"
 #: src/components/ManageSeriesModal.tsx
 #: src/pages/BookDetailPage.tsx
 #: src/pages/StatsPage.tsx
+#~ msgid "Finished"
+#~ msgstr "Finished"
+
+#: src/pages/BookDetailPage.tsx
+#: src/pages/StatsPage.tsx
+msgctxt "reading"
+msgid "Finished"
+msgstr "Finished"
+
+#: src/components/ManageSeriesModal.tsx
+msgctxt "series"
 msgid "Finished"
 msgstr "Finished"
 
@@ -5375,6 +5386,19 @@ msgstr "read"
 #: src/pages/BookDetailPage.tsx
 #: src/pages/DashboardPage.tsx
 #: src/pages/SharePage.tsx
+#~ msgid "Read"
+#~ msgstr "Read"
+
+#: src/components/BookCard.tsx
+#: src/pages/BookDetailPage.tsx
+#: src/pages/DashboardPage.tsx
+msgctxt "action"
+msgid "Read"
+msgstr "Read"
+
+#: src/pages/DashboardPage.tsx
+#: src/pages/SharePage.tsx
+msgctxt "status"
 msgid "Read"
 msgstr "Read"
 
