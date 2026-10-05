@@ -556,7 +556,7 @@ export function BookDetailPage() {
       className="mt-4 flex items-center justify-center gap-2 w-full px-3 py-2.5 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
     >
       <BookMarked className="w-4 h-4" />
-      <Trans>Read</Trans>
+      <Trans context="action">Read</Trans>
     </button>
   ) : null
 
@@ -2086,7 +2086,7 @@ function StatsLayoutHero({ own, aggregate, bookId, onChange }: StatsLayoutProps)
     bottomStats.push({ label: t`Last read`, value: formatDate(own.last_read.slice(0, 10)) })
   }
   if (own.finished_at) {
-    bottomStats.push({ label: t`Finished`, value: formatDate(own.finished_at.slice(0, 10)) })
+    bottomStats.push({ label: t({ message: 'Finished', context: 'reading' }), value: formatDate(own.finished_at.slice(0, 10)) })
   }
   // Reading days from distinct session days
   if (own.session_timeline.length > 0) {
